@@ -1,0 +1,31 @@
+<testsuite errors="0" failures="2" name="calc.Soma" skipped="0" tests="2" time="0.0"><testcase classname="calc.Soma" name="adicao basica" status="failed" time="0"><failure message="None" type="NoneType">
+<![CDATA[
+Failing step: Quando somar 2 com 2 ... undefined in 0.000s
+Location: features/calc.feature:8
+None]]>
+</failure><system-out>
+<![CDATA[
+@scenario.begin
+  Cenario: adicao basica
+    Quando somar 2 com 2 ... undefined in 0.000s
+    Então o resultado deve ser 4 ... undefined in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="calc.Soma" name="adicao do ponto flutuante" status="failed" time="0"><failure message="None" type="NoneType">
+<![CDATA[
+Failing step: Quando somar 2.0 com 2.0 ... undefined in 0.000s
+Location: features/calc.feature:12
+None]]>
+</failure><system-out>
+<![CDATA[
+@scenario.begin
+  Cenario: adicao do ponto flutuante
+    Quando somar 2.0 com 2.0 ... undefined in 0.000s
+    Então o resultado deve ser 4.0 ... undefined in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

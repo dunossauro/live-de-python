@@ -1,0 +1,11 @@
+<testsuite errors="0" failures="0" name="pagina.index" skipped="0" tests="1" time="0.458489"><testcase classname="pagina.index" name="Texto da página de index" status="passed" time="0.458489"><system-out>
+<![CDATA[
+@scenario.begin
+  Cenario: Texto da página de index
+    Quando acessar a pagina "http://127.0.0.1:8080/" ... passed in 0.417s
+    Entao deve aparecer na pagina a string "olá pessoas" ... passed in 0.042s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
