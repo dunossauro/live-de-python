@@ -1,9 +1,8 @@
 from unittest import TestCase, main
 
 
-class Calc:
-    def soma(self, x, y):
-        pass
+def soma(x, y):
+    return 4
 
 
 class Testes(TestCase):
