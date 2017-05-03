@@ -1,7 +1,4 @@
 machine:
-  pre:
-    cd /opt/circleci/.pyenv; git pull
-
   timezone:
     America/Brazil
 
@@ -10,4 +7,4 @@ machine:
 
 test:
   post:
-    - python live2/tests.py test
+    - python live2/testes.py
