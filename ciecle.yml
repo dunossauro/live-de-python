@@ -1,0 +1,10 @@
+machine:
+  timezone:
+    America/Brazil
+
+  python:
+    version: 3.6.0
+
+test:
+  post:
+    - python live2/tests.py test
