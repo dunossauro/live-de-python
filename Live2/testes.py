@@ -2,7 +2,7 @@ from unittest import TestCase, main
 
 
 class Calc:
-    def soma(self):
+    def soma(self, x, y):
         pass
 
 
