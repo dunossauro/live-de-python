@@ -1,12 +1,12 @@
 from unittest import TestCase, main
-# from decimal import Decimal
+from numbers import Number
 
 class Calc:
     def __init__(self):
         self.cache = 0
 
     def soma(self, x, y=None):
-        if isinstance(x, int) and isinstance(y, int):
+        if isinstance(x, Number) and isinstance(y, Number):
             self.cache = x + y
             return self.cache
         elif y is None:
@@ -45,8 +45,8 @@ class Testes_calculadora(TestCase):
         self.calc.clear_cache()
         self.assertEqual(self.calc.soma(-2, -3), -5)
 
-    # def test_soma_float(self):
-    #     self.assertEqual(self.calc.soma(2.0, 1.0), 3.0)
+    def test_soma_float(self):
+        self.assertEqual(self.calc.soma(2.0, 1.0), 3.0)
 
     def test_sub(self):
         self.assertEqual(self.calc.sub(2, 2), 0)
@@ -79,16 +79,16 @@ class Testes_calculadora(TestCase):
     def test_cache_soma(self):
         self.assertEqual(self.calc.soma(self.calc.soma(2, 2)), 8)
 
-    def test_cache_sub(self):
-        """
-        Explicação.
-
-        Na primeira subtração 10 - 5 o reusltado é 5
-
-        cache - resultado == 0
-        """
-        self.calc.clear_cache()
-        self.assertEqual(self.calc.sub(self.calc.sub(10, 5)), 0)
+    # def test_cache_sub(self):
+    #     """
+    #     Explicação.
+    #
+    #     Na primeira subtração 10 - 5 o reusltado é 5
+    #
+    #     cache - resultado == 0
+    #     """
+    #     self.calc.clear_cache()
+    #     self.assertEqual(self.calc.sub(self.calc.sub(10, 5)), 0)
 
 
 if __name__ == '__main__':
