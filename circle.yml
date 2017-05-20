@@ -4,4 +4,4 @@ machine:
 
 test:
   post:
-    - python Live2/testes.py
+    - python Live4/testes.py

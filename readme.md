@@ -5,5 +5,4 @@
 
 - Live 1 - Overview
 - Live 2 - Testes unitários
-- Live 3 - CI
-- Live 4 - ???
+- Live 4 - Continuação dos testes unitários
