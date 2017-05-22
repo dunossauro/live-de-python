@@ -4,17 +4,23 @@ from numbers import Number
 
 def validate_cache(func, cache={}):
     def validate_apply_cache(self, x, y=None):
+
+        chave = False
+
         if y == None:
             y = cache['value']
+            chave = True
 
         if isinstance(x, Number) and isinstance(y, Number):
-            if y == cache['value']:
+            if chave:
                 cache['value'] = func(self, y, x)
             else:
                 cache['value'] = func(self, x, y)
             return cache['value']
+
         else:
             raise Exception('insira somente números')
+
     return validate_apply_cache
 
 
