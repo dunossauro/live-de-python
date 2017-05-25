@@ -6,3 +6,4 @@
 - Live 1 - Overview
 - Live 2 - Testes unitários
 - Live 4 - Continuação dos testes unitários
+- Live 5 - Debugger (pdb)
