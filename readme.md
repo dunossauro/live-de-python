@@ -2,10 +2,11 @@
 
 
 ## Repositório das lives de quarta
-
+- [thumbs](./thumbs) - Gimp xcf para geração das thumbs
 - [Live 1](./Live1) - Overview
 - [Live 2](./Live2) - Testes unitários p1
 - Live 3 - Introdução a Django p1
 - [Live 4](./Live4) - Testes unitários p2
 - [Live 5](./Live5) - Debugger (pdb)
 - [Live 6](./Live6) - Funções, closures e decoradores
+- [Live 7](./Live7) - Classes e tipos

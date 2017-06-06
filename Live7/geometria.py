@@ -1,0 +1,3 @@
+"""
+Pontos, Quadrados e ...
+"""
