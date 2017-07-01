@@ -15,3 +15,5 @@
 - [Live 7](./Live7) - Classes e tipos
 - [Live 8](./Live8) - Sqlite3 - Uma introdução
 - [Live 9](./Live9) - Bottle - Micro-framework web
+- [Live 10](./Live10) - Behave - Testes de comportamento com BDD
+- [Live 11](./Live11) - SQLAlchemy - Definitivamente o melhor ORM pythonico
