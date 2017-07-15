@@ -1,30 +1,18 @@
-from core import users_table, engine
+from core import user_table, engine
 
 conn = engine.connect()
 
-"""
-Inserir um único registro.
+ins = user_table.insert()
 
-users_table: Exatamente a tabela que criamos
-"""
-ins = users_table.insert()
-
-new_user = ins.values(nome="Fábio",
-                      idade=35,
-                      senha="huuhsp")
+new_user = ins.values(nome='Juacy',
+                      idade=28,
+                      senha='souzapereira')
 
 conn.execute(new_user)
 
-"""
-Criando uma conexão com o banco.
-
-conn: conexão
-execute: executa uma série de ações. Caso seja passado um array
-    ele funciona como um functor
-"""
-
-conn.execute(users_table.insert(), [
-    {"nome": "Juacy", "idade": 30, "senha": "dink"},
-    {"nome": "Pedro", "idade": 25, "senha": "nippon"},
-    {"nome": "Paulo", "idade": 40, "senha": "macaca"}
-])
+# conn.execute(user_table.insert(), [
+#     {'nome': 'Marivaldo', 'idade': 35, 'senha': 'gatinho_123'},
+#     {'nome': 'Jean', 'idade': 19, 'senha': 'jeanzinho_123'},
+#     {'nome': 'Juancy', 'idade': 27, 'senha': 'souzapereira'},
+#     {'nome': 'Luciana', 'idade': 25, 'senha': 'gatinha_luluzinha'}
+# ])

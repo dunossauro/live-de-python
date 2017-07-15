@@ -1,8 +1,8 @@
+from pprint import pprint
 from sqlalchemy import select
-from core import users_table
+from core import user_table
 
-s = select([users_table])
-result = s.execute()
+s = select([user_table])
 
-for row in result:
-    print(row)
+for row in s.execute():
+    pprint(row)
