@@ -17,3 +17,6 @@
 - [Live 9](./Live9) - Bottle - Micro-framework web
 - [Live 10](./Live10) - Behave - Testes de comportamento com BDD
 - [Live 11](./Live11) - SQLAlchemy - Definitivamente o melhor ORM pythonico
+- [Live 12](./Live12) - API rest com bottle
+- [Live 14](./Live14) - Threads p1
+- [Live 15](./Live15) - Threads p2
