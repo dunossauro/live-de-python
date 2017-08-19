@@ -1,0 +1,17 @@
+## Sumário:
+- [Live 1](./Live1) - Overview
+- [Live 2](./Live2) - Testes unitários p1
+- Live 3 - Introdução a Django p1
+- [Live 4](./Live4) - Testes unitários p2
+- [Live 5](./Live5) - Debugger (pdb)
+- [Live 6](./Live6) - Funções, closures e decoradores
+- [Live 7](./Live7) - Classes e tipos
+- [Live 8](./Live8) - Sqlite3 - Uma introdução
+- [Live 9](./Live9) - Bottle - Micro-framework web
+- [Live 10](./Live10) - Behave - Testes de comportamento com BDD
+- [Live 11](./Live11) - SQLAlchemy - Definitivamente o melhor ORM pythonico
+- [Live 12](./Live12) - API rest com bottle
+- [Live 14](./Live14) - Threads
+- [Live 15](./Live15) - Comunicação entre Threads (Event e Queue)
+- [Live 16](./Live16) - Manipulação de arquivos e diretórios
+- Live 17 - Tipos de containers e suas funcionalidades
