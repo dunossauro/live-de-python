@@ -8,3 +8,4 @@
 - [thumbs](./thumbs) - Thumbs do youtube
 - [slides](./slides) - Slides das lives
 - [Código](./codigo) - Código das lives
+- [Link das Lives youtube](https://www.youtube.com/playlist?list=PLOQgLBuj2-3K1hb7XgkGPb4S9YNIeHsPk) 
