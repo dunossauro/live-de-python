@@ -1,4 +1,4 @@
-[![Build Status](http://circleci-badges-max.herokuapp.com/img/z4r4tu5tr4/testes-com-python/master?token=873d0bda078c70ced1869c74b673b64f3ff8049f)](https://circleci.com/gh/z4r4tu5tr4/testes-com-python/tree/master)
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/z4r4tu5tr4)
 
 
 [Telegram](https://t.me/joinchat/AAAAAEQeHVfP5DcUlMNM-A)
