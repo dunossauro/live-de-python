@@ -5,6 +5,7 @@
 
 
 ## Repositório das Lives
+- [Sumário](./codigo/README.md) - Histórico das lives anteriores
 - [thumbs](./thumbs) - Thumbs do youtube
 - [slides](./slides) - Slides das lives
 - [Código](./codigo) - Código das lives
