@@ -18,5 +18,5 @@
 - [Live 18](./Live18) - Compreesão de containers e geradores
 - [Live 19](./Live19) - Expressões regulares
 - [Live 20](./Live20) - Selenium / **Web scraping #1**
-- [Live 21](./Live21) - Beautifulsoup /**Web scraping #2**
-- [Live 22](./Live22) - Manipulação de arquivos e diretórios
+- [Live 21](./Live21) - Beautifulsoup / **Web scraping #2**
+- [Live 22](./Live22) - Requests / **Web scraping #3**
