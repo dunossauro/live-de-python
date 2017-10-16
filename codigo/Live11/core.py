@@ -7,7 +7,7 @@ engine = create_engine('sqlite:///teste.db',
 
 metadata = MetaData(bind=engine)
 
-user_table = Table('usuarios', metadata,
+words_table = Table('usuarios', metadata,
                    Column('id', Integer, primary_key=True),
                    Column('nome', String(40), index=True),
                    Column('idade', Integer, nullable=False),
