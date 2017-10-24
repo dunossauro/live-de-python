@@ -5,17 +5,6 @@ from pdfminer.layout import LAParams, LTTextBox, LTTextLine
 
 
 def pdf_to_string(pdf_file):
-    """
-    Converte o pdf para texto.
-
-    Vars:
-        - laparams: 0.3 foi o melhor para pegar os negritos e o texto
-            não negrito em melhor tempo
-
-    NOTE:
-        - LTTextLine: Retira o número das varas
-        - LTTextBox: Pega o texto padrão
-    """
     fp = open(pdf_file, 'rb')
 
     parser = PDFParser(fp)
@@ -37,10 +26,7 @@ def pdf_to_string(pdf_file):
         interpreter.process_page(page)
         layout = device.get_result()
         for lt_obj in layout:
-            # montar uma função para essa validação
-            if isinstance(lt_obj, LTTextBox) or isinstance(lt_obj, LTTextLine):
-                line_text = lt_obj.get_text()
-                print(line_text)
+            print(lt_obj)
 
 
 pdf_to_string('Lista_samurai_X.pdf')
