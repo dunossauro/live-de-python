@@ -1,0 +1,4 @@
+docx
+pdfminner3k
+ezodf
+openpyxl
