@@ -1,7 +1,7 @@
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/z4r4tu5tr4)
 
 
-[Slack](livedepython.slack.com)
+[Slack](https://livedepython.slack.com)
 
 
 ## Repositório das Lives
