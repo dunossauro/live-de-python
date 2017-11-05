@@ -20,6 +20,7 @@
 - [Live 20](./Live20) - Selenium / **Web scraping #1**
 - [Live 21](./Live21) - Beautifulsoup / **Web scraping #2**
 - [Live 22](./Live22) - Requests / **Web scraping #3**
-- [Live 22](./Live23) - Deep web / Anômidade / **Web scraping #4**
-- [Live 22](./Live24) - Tabelas e persistência / **Web scraping #5**
-- [Live 22](./Live25) - Raspando arquivos não HTML / **Web scraping #6**
+- [Live 23](./Live23) - Deep web / Anômidade / **Web scraping #4**
+- [Live 24](./Live24) - Tabelas e persistência / **Web scraping #5**
+- [Live 25](./Live25) - Raspando arquivos não HTML / **Web scraping #6**
+- Live 26 - Scrapy (Artur Gaspar) / **Web scraping #7**
