@@ -1,0 +1,8 @@
+JS:
+javascript:popup('/cdje/downloadCaderno.do?dtDiario='+$('dtDiarioCad').value+'&cdCaderno='+$('cadernosCad').value + '&tpDownload=D','cadernoDownload');
+
+URL:
+http://www.tjms.jus.br/cdje/downloadCaderno.do?dtDiario=08/08/2017&cdCaderno=-1&tpDownload=D
+
+Mato grosso do sul feriados:
+http://www.feriadosmunicipais.com.br/mato-grosso-do-sul/
