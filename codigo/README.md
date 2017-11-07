@@ -24,3 +24,4 @@
 - [Live 24](./Live24) - Tabelas e persistência / **Web scraping #5**
 - [Live 25](./Live25) - Raspando arquivos não HTML / **Web scraping #6**
 - Live 26 - Scrapy (Artur Gaspar) / **Web scraping #7**
+- [Live 27](./Live27) - Baixando arquivos e manipulando datas / **Web scraping #8**
