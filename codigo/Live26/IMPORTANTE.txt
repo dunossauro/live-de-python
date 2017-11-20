@@ -1,0 +1,1 @@
+para rodar esse arquivo digite: scrapy runspider  NOME-DO-ARQUIVO.py
