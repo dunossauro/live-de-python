@@ -1,4 +1,4 @@
-## Sumário:
+# Sumário:
 - [Live 1](./Live1) - Overview
 - [Live 2](./Live2) - Testes unitários p1
 - Live 3 - Introdução a Django p1
@@ -17,11 +17,18 @@
 - Live 17 - Tipos de containers e suas funcionalidades
 - [Live 18](./Live18) - Compreesão de containers e geradores
 - [Live 19](./Live19) - Expressões regulares
+
+## Web Scraping
 - [Live 20](./Live20) - Selenium / **Web scraping #1**
 - [Live 21](./Live21) - Beautifulsoup / **Web scraping #2**
 - [Live 22](./Live22) - Requests / **Web scraping #3**
 - [Live 23](./Live23) - Deep web / Anômidade / **Web scraping #4**
 - [Live 24](./Live24) - Tabelas e persistência / **Web scraping #5**
 - [Live 25](./Live25) - Raspando arquivos não HTML / **Web scraping #6**
-- Live 26 - Scrapy (Artur Gaspar) / **Web scraping #7**
+- [Live 26](./Live26) - Scrapy (Artur Gaspar) / **Web scraping #7**
 - [Live 27](./Live27) - Baixando arquivos e manipulando datas / **Web scraping #8**
+
+## Collections
+- [Live 28](./Live28) - Deque e Namedtuple / **Collections #1**
+- [Live 29](./Live29) - Counter, defaultdict e OrderedDict / **Collections #2**
+- [Live 30](./Live30) - ChainMap / **Collections #3**

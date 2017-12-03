@@ -1,11 +1,8 @@
 from scrapy import Request, Spider
 
-'''
-para rodar esse arquivo digite: scrapy runspider .\pyjobs.py
-'''
-class PyJobsSpider(Spider):
 
-    name="pyjobs"
+class PyJobsSpider(Spider):
+    name = "pyjobs"
 
     def start_requests(self):
         yield Request("http://pyjobs.com.br/jobs/")
@@ -18,13 +15,12 @@ class PyJobsSpider(Spider):
             date = row.xpath(".//p[contains(text(), 'Data de adição:')]/text()").extract_first()
             location = row.xpath(".//p[contains(text(), 'Local do job:')]/text()").extract_first()
             yield {
-                "title" : title,
-                "company" : company,
-                "type" : type_,
-                "location" : location
+                "title": title,
+                "company": company,
+                "type": type_,
+                "date": date,
+                "location": location
             }
 
         for page_url in response.css("body > div.container > .pagination a::attr(href)").extract():
             yield Request(response.urljoin(page_url))
-
-
