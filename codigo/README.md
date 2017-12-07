@@ -32,3 +32,4 @@
 - [Live 28](./Live28) - Deque e Namedtuple / **Collections #1**
 - Live 29 - Counter, defaultdict e OrderedDict / **Collections #2**
 - [Live 30](./Live30) - ChainMap / **Collections #3**
+- [Live 31](./Live31) - User(Dict|List|String) e collections.abc / **Collections #4**
