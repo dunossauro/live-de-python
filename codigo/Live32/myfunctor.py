@@ -12,7 +12,10 @@ class MyFunctor(Functor):
         return len(self._d)
 
     def fmap(self, function):
-        return [function(x) for x in self._d]
+        return MyFunctor([function(x) for x in self._d])
+
+    def __repr__(self):
+        return '{}'.format(self._d)
 
     def __mul__(self, functor):
         """ver em oslash ou pymonad."""
