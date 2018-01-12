@@ -1,5 +1,4 @@
-from pdfminer.pdfparser import PDFParser
-from pdfminer.pdfdocument import PDFDocument
+from pdfminer.pdfparser import PDFParser, PDFDocument
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.converter import PDFPageAggregator
 from pdfminer.layout import LAParams, LTTextBox, LTTextLine
