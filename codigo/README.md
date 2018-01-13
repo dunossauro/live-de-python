@@ -33,3 +33,6 @@
 - Live 29 - Counter, defaultdict e OrderedDict / **Collections #2**
 - [Live 30](./Live30) - ChainMap / **Collections #3**
 - [Live 31](./Live31) - User(Dict|List|String) e collections.abc / **Collections #4**
+- [Live 32](./Live32) - collections.abc / **Collections #5**
+
+- Live 33 - Python para arquitetos, designers e artistas visuais (Com Alexandre Villares)
