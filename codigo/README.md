@@ -36,3 +36,5 @@
 - [Live 32](./Live32) - collections.abc / **Collections #5**
 
 - Live 33 - Python para arquitetos, designers e artistas visuais (Com Alexandre Villares)
+- [Live 34](./Live34) - Trabalhando com arquivos de texto
+- [Live 35](./Live35) - Redes neurais usando a biblioteca padrão (com Felipe Corrêa)
