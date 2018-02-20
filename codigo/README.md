@@ -34,8 +34,12 @@
 - [Live 30](./Live30) - ChainMap / **Collections #3**
 - [Live 31](./Live31) - User(Dict|List|String) e collections.abc / **Collections #4**
 - [Live 32](./Live32) - collections.abc / **Collections #5**
-
+---------------------------------------------
 - Live 33 - Python para arquitetos, designers e artistas visuais (Com Alexandre Villares)
 - [Live 34](./Live34) - Trabalhando com arquivos de texto
 - [Live 35](./Live35) - Redes neurais usando a biblioteca padrão (com Felipe Corrêa)
 - [Live 36](./Live36) - Parametrizando execução com ArgParser
+
+
+## Qualidade de código
+- Live 38 - Introdução à Qualidade de Código
