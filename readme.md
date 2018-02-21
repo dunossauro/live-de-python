@@ -9,3 +9,7 @@
 - [thumbs](./thumbs) - Thumbs do youtube
 - [Lives anteriores](./codigo/README.md)
 - [Playlist no youtube](https://www.youtube.com/playlist?list=PLOQgLBuj2-3K1hb7XgkGPb4S9YNIeHsPk)
+
+## Como sugerir temas para proximas lives?
+
+Abra uma issue
