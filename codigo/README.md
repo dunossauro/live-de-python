@@ -45,3 +45,4 @@
 
 ## Qualidade de código
 - Live 38 - Introdução à Qualidade de Código
+- Live 39 - Padronização de código e guias de estilo (PEPs)
