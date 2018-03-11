@@ -41,8 +41,10 @@
 - [Live 34](./Live34) - Trabalhando com arquivos de texto
 - [Live 35](./Live35) - Redes neurais usando a biblioteca padrão (com Felipe Corrêa)
 - [Live 36](./Live36) - Parametrizando execução com ArgParser
+- [Live 37](./Live37) - Arquivos de configuração com ConfigParser
 
 
 ## Qualidade de código
 - Live 38 - Introdução à Qualidade de Código
-- Live 39 - Padronização de código e guias de estilo (PEPs)
+- [Live 39](/Live39) - Padronização de código e guias de estilo (PEPs)
+- Live 40 - Análise estática de código (linters)
