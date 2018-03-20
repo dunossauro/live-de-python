@@ -49,3 +49,4 @@
 - [Live 39](/Live39) - Padronização de código e guias de estilo (PEPs)
 - Live 40 - Análise estática de código (linters)
 - [Live 41](/Live41) - Cobertura e test runners
+- [Live 42](/Live42) - Testes de mutação
