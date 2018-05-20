@@ -46,17 +46,17 @@
 
 ## Qualidade de código
 - Live 38 - Introdução à Qualidade de Código
-- [Live 39](/Live39) - Padronização de código e guias de estilo (PEPs)
+- [Live 39](./Live39) - Padronização de código e guias de estilo (PEPs)
 - Live 40 - Análise estática de código (linters)
-- [Live 41](/Live41) - Cobertura e test runners
-- [Live 42](/Live42) - Testes de mutação
+- [Live 41](./Live41) - Cobertura e test runners
+- [Live 42](./Live42) - Testes de mutação
 
 ---------------------------------------------
-- [Live 43](/Live43) - Gerenciadores de contexto
+- [Live 43](./Live43) - Gerenciadores de contexto
 - Live 44 - Criando um bot para telegram (Com Rafael Galleani)
 - [Live 45](turicas.info/slides/brasil.io/capiconf2018/) - Rows (Com Turicas)
 - Live 46 - O que aprendi ensinando Python (Especial de aniverário)
 - [Live 47](https://github.com/danilobellini/notebooks/blob/master/2018-04-23_DadosViciados/2018-04-23_LiveDePython.ipynb) - Esses dados são viciados? estrelando pandas e scipy.stats (Com Danilo Bellini)
-- [Live 48](/Live48) - Criando logs de aplicações
-- [Live 49](/Live49) - Serialização com Pickle
-- [Live 50](/Live49) - Agendando tarefas com Sched
+- [Live 48](./Live48) - Criando logs de aplicações
+- [Live 49](./Live49) - Serialização com Pickle
+- [Live 50](./Live49) - Agendando tarefas com Sched
