@@ -59,4 +59,7 @@
 - [Live 47](https://github.com/danilobellini/notebooks/blob/master/2018-04-23_DadosViciados/2018-04-23_LiveDePython.ipynb) - Esses dados são viciados? estrelando pandas e scipy.stats (Com Danilo Bellini)
 - [Live 48](./Live48) - Criando logs de aplicações
 - [Live 49](./Live49) - Serialização com Pickle
-- [Live 50](./Live49) - Agendando tarefas com Sched
+- [Live 50](./Live50) - Agendando tarefas com Sched
+
+## Multiprocessamento com Python
+- [Live 51](./Live51) - Introdução a multiprocessamento
