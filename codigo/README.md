@@ -62,4 +62,5 @@
 - [Live 50](./Live50) - Agendando tarefas com Sched
 
 ## Multiprocessamento com Python
-- [Live 51](./Live51) - Introdução a multiprocessamento
+- [Live 51](./Live51) - Introdução a multiprocessamento - Multiprocessamento #1
+- [Live 52](./Live52) - Usando Threads - Multiprocessamento #2
