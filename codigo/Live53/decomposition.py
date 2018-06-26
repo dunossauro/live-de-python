@@ -15,6 +15,5 @@ with timeit():
     poke = get_urls()
     with Pool(15) as workers:
         result = workers.map(target, poke)
-        result2 = workers.map(target, poke)
     print(result)
     print(result2)
