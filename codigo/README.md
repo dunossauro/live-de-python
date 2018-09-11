@@ -64,3 +64,19 @@
 ## Multiprocessamento com Python
 - [Live 51](./Live51) - Introdução a multiprocessamento - Multiprocessamento #1
 - [Live 52](./Live52) - Usando Threads - Multiprocessamento #2
+- [Live 53](./Live53) - Usando Processos - Multiprocessamento #3
+- [Live 54](./Live54) - Concorrência com futures - Multiprocessamento #4
+- [Live 55](./Live55) - Concorrência com asyncio - Multiprocessamento #5
+- [Live 58](./Live58) - Requests assincronos - Multiprocessamento #6
+
+--------------------------------------------
+
+- [Live 59](./Live59) - Objetos assíncronos
+- [Live 60](./Live60) - Exceções
+- [Live 63](./Live63) - Análise de sentimento aplicado no futebol - Cássio Botaro
+
+## Orientação a objetos
+- [Live 61](./Live61) - Programação orientada a objetos #1 - Introdução
+- [Live 62](./Live62) - Programação orientada a objetos #2 - Herança e polimorfismo
+- [Live 64](./Live64) - Programação orientada a objetos #3 - Composição e métodos mágicos
+- [Live 65](./Live65) - Programação orientada a objetos #4 - Sobrecarga de operadores
