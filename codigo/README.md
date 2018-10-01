@@ -80,3 +80,6 @@
 - [Live 62](./Live62) - Programação orientada a objetos #2 - Herança e polimorfismo
 - [Live 64](./Live64) - Programação orientada a objetos #3 - Composição e métodos mágicos
 - [Live 65](./Live65) - Programação orientada a objetos #4 - Sobrecarga de operadores
+
+## Fabricação digital
+- [Live 67](./Live67) - Fabricação Digital #1 - Corte e gravação a laser
