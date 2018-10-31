@@ -83,3 +83,6 @@
 
 ## Fabricação digital
 - [Live 67](./Live67) - Fabricação Digital #1 - Corte e gravação a laser
+
+## Resolução de Exercícios
+- [Live 71](./Live71) - Resolvendo Problemas do Project Euler com Hélio Meira Lins
