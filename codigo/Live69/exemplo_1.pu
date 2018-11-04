@@ -1,0 +1,7 @@
+@startuml
+Class ABC{
+  - method1()
+  - method2()
+  - method3()
+}
+@enduml
