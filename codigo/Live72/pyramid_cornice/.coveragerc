@@ -1,0 +1,3 @@
+[run]
+source = pyramid_cornice
+omit = pyramid_cornice/test*
