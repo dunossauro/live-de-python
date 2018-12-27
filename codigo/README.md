@@ -1,5 +1,5 @@
 # Sumário:
-- [Live 1](./Live01) - Overview
+- [Live 1](./Live01) | [Assistir](https://www.youtube.com/watch?v=5hL9T3jintE) - Overview 
 - [Live 2](./Live02) - Testes unitários p1
 - Live 3 - Introdução a Django p1 (com Andre Machado)
 - [Live 4](./Live04) - Testes unitários p2
