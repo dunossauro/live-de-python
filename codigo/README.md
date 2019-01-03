@@ -7,7 +7,7 @@
 - [Live 6](./Live06) - Funções, closures e decoradores
 - [Live 7](./Live07) - Classes e tipos
 - [Live 8](./Live08) - Sqlite3 - Uma introdução
-- [Live 9](./Live09) - Bottle - Micro-framework web
+- [Live 9](./Live09) | [Assistir](https://www.youtube.com/watch?v=WZjOOlrbjUA) - Bottle - Micro-framework web
 - [Live 10](./Live10) - Behave - Testes de comportamento com BDD
 - [Live 11](./Live11) - SQLAlchemy - Definitivamente o melhor ORM pythonico
 - [Live 12](./Live12) - API rest com bottle
