@@ -10,7 +10,7 @@
 - [Live 9](./Live09) | [Assistir](https://www.youtube.com/watch?v=WZjOOlrbjUA) - Bottle - Micro-framework web
 - [Live 10](./Live10) | [Assistir](https://www.youtube.com/watch?v=9EvoggLUp1E) - Behave - Testes de comportamento com BDD
 - [Live 11](./Live11) - SQLAlchemy - Definitivamente o melhor ORM pythonico
-- [Live 12](./Live12) - API rest com bottle
+- [Live 12](./Live12) | [Assistir](https://www.youtube.com/watch?v=DJLho_ZdaII) - API rest com bottle
 - [Live 14](./Live14) - Threads
 - [Live 15](./Live15) - Comunicação entre Threads (Event e Queue)
 - [Live 16](./Live16) - Manipulação de arquivos e diretórios
