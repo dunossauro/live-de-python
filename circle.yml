@@ -1,7 +1,0 @@
-machine:
-  python:
-    version: 3.6.0
-
-test:
-  post:
-    - python codigo/Live04/testes.py
