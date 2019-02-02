@@ -1,5 +1,5 @@
 # Sumário:
-- [Live 1](./Live01) | [Assistir](https://www.youtube.com/watch?v=5hL9T3jintE) - Overview 
+- [Live 1](./Live01) | [Assistir](https://www.youtube.com/watch?v=5hL9T3jintE) - Overview
 - [Live 2](./Live02) | [Assistir](https://www.youtube.com/watch?v=_Z8mUxORh0g&t=2s) - Testes unitários p1
 - Live 3 | [Assistir](https://www.youtube.com/watch?v=KZJa8rQecGc) - Introdução a Django p1 (com Andre Machado)
 - [Live 4](./Live04) | [Assistir](https://www.youtube.com/watch?v=gQyUxKxUaEw) - Testes unitários p2
@@ -74,7 +74,7 @@
 
 - [Live 59](./Live59) | [Assistir](https://www.youtube.com/watch?v=GWn2EV5CDNI) - Objetos assíncronos
 - [Live 60](./Live60) | [Assistir](https://www.youtube.com/watch?v=sJpNfZqLpoI) - Exceções
-- [Live 63](./Live63) | [Assistir](https://www.youtube.com/watch?v=ywbzwTc51y4) - Análise de sentimento aplicado no futebol - Cássio Botaro
+- Live 63 | [Assistir](https://www.youtube.com/watch?v=ywbzwTc51y4) - Análise de sentimento aplicado no futebol - Cássio Botaro
 
 ## Orientação a objetos
 - [Live 61](./Live61) | [Assistir](https://www.youtube.com/watch?v=BALM_oJcJL4) - Programação orientada a objetos #1 - Introdução
@@ -87,3 +87,11 @@
 
 ## Resolução de Exercícios
 - [Live 71](./Live71) | [Assistir](https://www.youtube.com/watch?v=cloqAaQ-6Go) - Resolvendo Problemas do Project Euler com Hélio Meira Lins
+
+- [Live 72](./Live72) - Construíndo API REST com Pyramid + Cornice - Com Marcelo Moraes
+- Live 73 - import this, tdd e exercícios em python - Com João Lugão
+- Live 74 - Comunidades - Com Letícia Silva
+
+## Testes
+- [Live 75](./Live75) - Testes de unidade
+- [Live 76](./Live76) - Testes de unidade p.II - Dublês de teste
