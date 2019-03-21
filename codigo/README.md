@@ -95,3 +95,7 @@
 ## Testes
 - [Live 75](./Live75) - Testes de unidade
 - [Live 76](./Live76) - Testes de unidade p.II - Dublês de teste
+- [Live 76](./Live79) - Testes de unidade na prática
+- [Live 80](./Live80) - Melhorando testes de unidade
+- [Live 81](https://github.com/dunossauro/crudzin) - Testando o que está pronto
+- [Live 82](https://github.com/dunossauro/crudzin) - Autenticação de uma API Flask com testes
