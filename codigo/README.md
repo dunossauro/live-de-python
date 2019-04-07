@@ -93,9 +93,18 @@
 - Live 74 - Comunidades - Com Letícia Silva
 
 ## Testes
-- [Live 75](./Live75) - Testes de unidade
-- [Live 76](./Live76) - Testes de unidade p.II - Dublês de teste
-- [Live 76](./Live79) - Testes de unidade na prática
-- [Live 80](./Live80) - Melhorando testes de unidade
-- [Live 81](https://github.com/dunossauro/crudzin) - Testando o que está pronto
-- [Live 82](https://github.com/dunossauro/crudzin) - Autenticação de uma API Flask com testes
+- [Live 75](./Live75) | [Assistir](https://www.youtube.com/watch?v=Sr9lUR1COpU) - Testes de unidade
+- [Live 76](./Live76) | [Assistir](https://www.youtube.com/watch?v=mOrsJwY2038) - Testes de unidade p.II - Dublês de teste
+- Live 77 | [Assistir](https://www.youtube.com/watch?v=OGNUq0w3j9E) - Combinação explosiva: Processo Seletivo com Just Python - Com Renzo Nuccitelli
+-------------------------------------------------------
+- Live 78 | [Assistir](https://youtu.be/5LMG4OCoEn0) - Raspando a web com Scrapy - Com Renne Rocha
+-------------------------------------------------------
+
+- [Live 79](./Live79) | [Assistir](https://www.youtube.com/watch?v=atvuOV8QWRE) - Testes de unidade na prática
+- [Live 80](./Live80) | [Assistir](https://www.youtube.com/watch?v=HuZ2Keoc9Hs) - Melhorando testes de unidade
+- [Live 81](https://github.com/dunossauro/crudzin) | [Assistir](https://www.youtube.com/watch?v=jqDxDsRJtAo) - Testando o que está pronto
+- [Live 82](https://github.com/dunossauro/crudzin) | [Assistir](https://www.youtube.com/watch?v=ieGA91ExOH0) - Autenticação de uma API Flask com testes
+- [Live 83](https://github.com/dunossauro/crudzin) | [Assistir](https://www.youtube.com/watch?v=aX0P5tsiat4) - BDD com python e flask
+
+---------------------------------------------
+- [Live 84](./Live84) | [Assistir](https://www.youtube.com/watch?v=yEighFc_bZM) - Type hints e Anotações de funções
