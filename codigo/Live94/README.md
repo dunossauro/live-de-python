@@ -12,10 +12,11 @@ Repo for Live de Python 94 - Django
 * Rode as migrações.
 
 ```
-git clone https://github.com/rg3915/live94-django.git
-cd live94-django
+git clone https://github.com/dunossauro/live-de-python.git
+cd live-de-python/codigo/Live94
 python3 -m venv .venv
 source .venv/bin/activate
+pip install -U pip
 pip install -r requirements.txt
 python contrib/env_gen.py
 python manage.py migrate
