@@ -108,3 +108,5 @@
 
 ---------------------------------------------
 - [Live 84](./Live84) | [Assistir](https://www.youtube.com/watch?v=yEighFc_bZM) - Type hints e Anotações de funções
+
+- [Live 94](./Live94) | [Assistir]() - Django básico (Regis Santos)

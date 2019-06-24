@@ -1,0 +1,85 @@
+number;title;guest
+1;Overview;
+2;Testes unitários p1;
+3;Introdução a Django p1 (com Andre Machado);Andre Machado
+4;Testes unitários p2;
+5;Debugger (pdb);
+6;Funções, closures e decoradores;
+7;Classes e tipos;
+8;Sqlite3 - Uma introdução;
+9;Bottle - Micro-framework web;
+10;Behave - Testes de comportamento com BDD;
+11;SQLAlchemy - Definitivamente o melhor ORM pythonico;
+12;API rest com bottle;
+13;Objetos e métodos especiais (dunders);
+14;Threads;
+15;Comunicação entre Threads (Event e Queue);
+16;Manipulação de arquivos e diretórios;
+17;Tipos de containers e suas funcionalidades;
+18;Compreesão de containers e geradores;
+19;Expressões regulares;
+20;Selenium / Web scraping #1;
+21;Beautifulsoup / Web scraping #2;
+22;Requests / Web scraping #3;
+23;Deep web / Anômidade / Web scraping #4;
+24;Tabelas e persistência / Web scraping #5;
+25;Raspando arquivos não HTML / Web scraping #6;
+26;Scrapy (com Artur Gaspar) / Web scraping #7;Artur Gaspar
+27;Baixando arquivos e manipulando datas / Web scraping #8;
+28;Deque e Namedtuple / Collections #1;
+29;Counter, defaultdict e OrderedDict / Collections #2;
+30;ChainMap / Collections #3;
+31;User(Dict|List|String) e collections.abc / Collections #4;
+32;collections.abc / Collections #5;
+33;Python para arquitetos, designers e artistas visuais (Com Alexandre Villares);Alexandre Villares
+34;Trabalhando com arquivos de texto;
+35;Redes neurais usando a biblioteca padrão (com Felipe Corrêa);Felipe Corrêa
+36;Parametrizando execução com ArgParser;
+37;Arquivos de configuração com ConfigParser;
+38;Introdução à Qualidade de Código;
+39;Padronização de código e guias de estilo (PEPs);
+40;Análise estática de código (linters);
+41;Cobertura e test runners;
+42;Testes de mutação;
+43;Gerenciadores de contexto;
+44;Criando um bot para telegram (Com Rafael Galleani);Rafael Galleani
+45;Rows (Com Turicas);Turicas
+46;O que aprendi ensinando Python (Especial de aniverário);
+47;Esses dados são viciados? estrelando pandas e scipy.stats (Com Danilo Bellini);Danilo Bellini
+48;Criando logs de aplicações;
+49;Serialização com Pickle;
+50;Agendando tarefas com Sched;
+51;Introdução a multiprocessamento - Multiprocessamento #1;
+52;Usando Threads - Multiprocessamento #2;
+53;Usando Processos - Multiprocessamento #3;
+54;Concorrência com futures - Multiprocessamento #4;
+55;Concorrência com asyncio - Multiprocessamento #5;
+56;Sem título;
+57;Sem título;
+58;Requests assincronos - Multiprocessamento #6;
+59;Objetos assíncronos;
+60;Exceções;
+61;Programação orientada a objetos #1 - Introdução;
+62;Programação orientada a objetos #2 - Herança e polimorfismo;
+63;Análise de sentimento aplicado no futebol - Cássio Botaro;Cássio Botaro
+64;Programação orientada a objetos #3 - Composição e métodos mágicos;
+65;Programação orientada a objetos #4 - Sobrecarga de operadores;
+66;Sem título;
+67;Fabricação Digital #1 - Corte e gravação a laser;
+68;Sem título;
+69;Sem título;
+70;Sem título;
+71;Resolvendo Problemas do Project Euler com Hélio Meira Lins;Hélio Meira Lins
+72;Construíndo API REST com Pyramid + Cornice - Com Marcelo Moraes;Marcelo Moraes
+73;import this, tdd e exercícios em python - Com João Lugão;João Lugão
+74;Comunidades - Com Letícia Silva;Letícia Silva
+75;Testes de unidade;
+76;Testes de unidade p.II - Dublês de teste;
+77;Combinação explosiva: Processo Seletivo com Just Python - Com Renzo Nuccitelli;Renzo Nuccitelli
+78;Raspando a web com Scrapy - Com Renne Rocha;Renne Rocha
+79;Testes de unidade na prática;
+80;Melhorando testes de unidade;
+81;Testando o que está pronto;
+82;Autenticação de uma API Flask com testes;
+83;BDD com python e flask;
+84;Type hints e Anotações de funções;

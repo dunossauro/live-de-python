@@ -80,8 +80,12 @@ celerybeat-schedule
 .env
 
 # virtualenv
+.venv
 venv/
 ENV/
+
+# db
+*.sqlite3
 
 # Spyder project settings
 .spyderproject
