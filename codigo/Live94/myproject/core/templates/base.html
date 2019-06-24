@@ -1,0 +1,41 @@
+<!-- https://getbootstrap.com/docs/4.0/getting-started/introduction/#starter-template -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://www.djangoproject.com/favicon.ico">
+  <!-- <link rel="shortcut icon" href="http://html5-training-in-hyderabad.blogspot.com.br/favicon.ico"> -->
+  <title>Estoque</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Font-awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    body {
+      margin-top: 60px;
+    }
+  </style>
+
+  {% block css %}{% endblock css %}
+
+  </body>
+</head>
+<body>
+
+  {% include "includes/nav.html" %}
+
+  <div class="container">
+    {% block content %}{% endblock content %}
+  </div>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  {% block js %}{% endblock js %}
+
+</body>
+</html>
