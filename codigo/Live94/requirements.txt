@@ -1,0 +1,8 @@
+dj-database-url==0.5.0
+Django==2.2.2
+django-extensions==2.1.9
+psycopg2==2.8.3
+python-decouple==3.1
+pytz==2019.1
+six==1.12.0
+sqlparse==0.3.0

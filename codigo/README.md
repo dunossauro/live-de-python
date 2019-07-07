@@ -57,7 +57,7 @@
 - Live 44 | [Assistir](https://www.youtube.com/watch?v=xljES_-IbLA) - Criando um bot para telegram (Com Rafael Galleani)
 - [Live 45](turicas.info/slides/brasil.io/capiconf2018/) | [Assistir](https://www.youtube.com/watch?v=ejLTO_J3DB4) - Rows (Com Turicas)
 - Live 46 | [Assistir](https://www.youtube.com/watch?v=PYFwz5_vdbQ) - O que aprendi ensinando Python (Especial de aniverário)
-- [Live 47](https://github.com/danilobellini/notebooks/blob/master/2018-04-23_DadosViciados/2018-04-23_LiveDePython.ipynb | [Assistir](https://www.youtube.com/watch?v=UsNH6rBibwg) - Esses dados são viciados? estrelando pandas e scipy.stats (Com Danilo Bellini)
+- [Live 47](https://github.com/danilobellini/notebooks/blob/master/2018-04-23_DadosViciados/2018-04-23_LiveDePython.ipynb) | [Assistir](https://www.youtube.com/watch?v=UsNH6rBibwg) - Esses dados são viciados? estrelando pandas e scipy.stats (Com Danilo Bellini)
 - [Live 48](./Live48) | [Assistir](https://www.youtube.com/watch?v=tZ2iJ5H99fg) - Criando logs de aplicações
 - [Live 49](./Live49) | [Assistir](https://www.youtube.com/watch?v=wuKVLbM2ins) - Serialização com Pickle
 - [Live 50](./Live50) | [Assistir](https://www.youtube.com/watch?v=FjJ1bClIa-o) - Agendando tarefas com Sched
@@ -108,3 +108,5 @@
 
 ---------------------------------------------
 - [Live 84](./Live84) | [Assistir](https://www.youtube.com/watch?v=yEighFc_bZM) - Type hints e Anotações de funções
+
+- [Live 94](./Live94) | [Assistir]() - Django básico (Regis Santos)

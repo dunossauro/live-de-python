@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+  <div class="col-sm-6">
+    <form action="." method="GET" class="form-inline">
+      <input type="text" id="search" name="search" class="form-control" placeholder="Busca">
+      <input type="submit" class="btn btn-primary" style="margin-left: 10px;" value="OK">
+    </form>
+  </div>
+</div>
+
+<div class="page-header">
+  <h2>Lives
+    <span class="pull-right">
+      <a href="{% url 'live:live_add' %}">
+        <button type="button" class="btn btn-primary">
+          <span class="fa fa-plus"></span> Adicionar
+        </button>
+      </a>
+    </span>
+  </h2>
+
+  {% if object_list %}
+    
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th class="text-center">Live</th>
+          <th>Título</th>
+          <th>Convidado</th>
+          <th><i class="fa fa-thumbs-o-up"></i></th>
+          <th><i class="fa fa-thumbs-o-down"></i></th>
+          <th>Frequência</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for object in object_list %}
+          <tr>
+            <td class="text-center">{{ object.number }}</td>
+            <td>{{ object.title }}</td>
+            <td>{{ object.guest.get_full_name|default:'---' }}</td>
+            <td>{{ object.like }}</td>
+            <td>{{ object.unlike }}</td>
+            <td>{{ object.like_frequence|floatformat:3 }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <p class="alert alert-warning">Sem itens na lista.</p>
+  {% endif %}
+
+</div>
+
+{% endblock content %}
