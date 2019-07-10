@@ -1,0 +1,54 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://httpbin.org/anything?param1=value1&param2=value2
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA1VRy07DMBC89yssHzhUidNYBaFICFWogg8IH2CSTWJwbGM7SG3Vf8ePkIbbzs7s
+        7mjnskEIM9NbXKGLrz3SzLCx9Bj/MDFBiTO0IuhCUOzb10jiljkWiKTFHRcQN850p8y4ggOwFszq
+        5KFpQLuwYFtsl3upmx9lo1ou+0D3Z64z1EInmIObcHKDMvzMHFcyyGr1BRLxkblQLLoXJR1Il9cn
+        DUHGtBa8iVPFp1U34Zuy0c3gnP7gkijTL9y7BZMfer8nKPTJn5a5ge8JrLMFJZSS3eozcW+F5CRE
+        aozgJ9ow+3qs53958z2PzumuJA+PpLzfk3KfoX9wFk9G/HmzVVGsPBZMejv+Vc8pw6cU4F0KLiGf
+        2nXzC8i/oEH2AQAA
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '297'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 09 Jul 2019 02:03:50 GMT
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+      Server:
+      - nginx
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+version: 1
