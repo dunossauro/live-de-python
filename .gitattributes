@@ -2,5 +2,5 @@
 *.py     text diff=python
 *.py3    text diff=python
 *.pyw    text diff=python
-*.ipynb  text
-*.pyx text diff=python
+*.ipynb  text diff=python
+*.pyx    text diff=python
