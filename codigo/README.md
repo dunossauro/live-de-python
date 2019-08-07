@@ -109,6 +109,12 @@
 ---------------------------------------------
 - [Live 84](./Live84) | [Assistir](https://www.youtube.com/watch?v=yEighFc_bZM) - Type hints e Anotações de funções
 
+---------------------------------------------
+- [Live 88](./Live88) | [Assistir](https://www.youtube.com/watch?v=_LnM7pSkmkM) - Click - Desenvolvendo ferramentas de modo texto
+
+- [Live 89](./Live89) | [Assistir](https://www.youtube.com/watch?v=AHGDbNaHldA) - Click p.2- Desenvolvendo CLIs bonitos e úteis
+
+---------------------------------------------
 - [Live 94](./Live94) | [Assistir](https://www.youtube.com/watch?v=YuKdwIhJysU) - Django básico (Regis Santos)
 
 - [Live 95](./Live94) | [Assistir](https://www.youtube.com/watch?v=cyxky2QJlwg) - Entendendo o ORM do Django (Regis Santos)
