@@ -1,0 +1,28 @@
+{% extends 'layouts/base.html' %}
+{% import 'components/forms.html' as forms %}
+
+{% block content %}
+
+<div class="container mt-5">
+  <div class="card">
+    <div class="card-body">
+      <form action="{{ url_for('login') }}" method="POST">
+        {{ forms.input('text', 'Insert a name', 'name') }}
+        {{ forms.input('email', 'Insert a email', 'email') }}
+        <div class="form-group">
+          <div class="col">
+            <input type="submit" class="btn btn-outline-success btn-block " value="entrar" />
+          </div>
+        </div>
+      </form>
+      <h3>
+        {{ contact }}
+      </h3>
+    </div>
+  </div>
+  <div class="mt-5 text-center">
+    {% include 'components/notifications.html' %}
+  </div>
+</div>
+
+{% endblock content %}

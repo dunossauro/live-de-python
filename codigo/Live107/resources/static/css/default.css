@@ -1,0 +1,9 @@
+:root {
+    --defaultColor: #f35f0a;
+}
+
+p.default-color {
+    color: var(--defaultColor) !important;
+    text-align: center;
+    margin-top: 10px;
+}
