@@ -1,0 +1,7 @@
+{% macro input(type='text', placeholder='',  data='') %}
+<div class="form-group">
+  <div class="col">
+    <input type="{{type}}" name={{data}} class="form-control form-control-lg" placeholder="{{ placeholder }}" />
+  </div>
+</div>
+{% endmacro %}

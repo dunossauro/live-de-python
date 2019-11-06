@@ -1,0 +1,33 @@
+{% extends 'layouts/base.html' %}
+
+{% block content %}
+{% set title ="Home Page" %}
+<div class="jumbotron">
+  <div class="container">
+    <h2 class="text-center text-muted">Live de Python - A melhor live do Youtube :)</h2>
+    <p class="default-color">um subtitulo de exemplo</p>
+  </div>
+</div>
+
+<div class="container">
+  <p class="">
+    {{ phrase|textTruncate }}
+  </p>
+  <p>
+    {% if 'Home' in title %}
+    {{ title }}
+    {% endif %}
+  </p>
+  <p>
+    <ul>
+      {% for w in word_list %}
+      <li>{{w}}</li>
+      {% endfor %}
+    </ul>
+  </p>
+  <br />
+  <p>
+    {{ show_upper(testing) }}
+  </p>
+</div>
+{% endblock content %}
