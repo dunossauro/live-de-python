@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "/Users/jlugao/Documents/desenvolvimento/live_fastapi/.venv/bin/python3",
+    "python.linting.pylintEnabled": false,
+    "python.linting.mypyEnabled": false,
+    "python.linting.prospectorEnabled": true,
+    "python.linting.enabled": true
+}

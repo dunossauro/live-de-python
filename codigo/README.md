@@ -1,4 +1,5 @@
 # Sumário:
+
 - [Live 1](./Live01) | [Assistir](https://www.youtube.com/watch?v=5hL9T3jintE) - Overview
 - [Live 2](./Live02) | [Assistir](https://www.youtube.com/watch?v=_Z8mUxORh0g&t=2s) - Testes unitários p1
 - Live 3 | [Assistir](https://www.youtube.com/watch?v=KZJa8rQecGc) - Introdução a Django p1 (com Andre Machado)
@@ -20,6 +21,7 @@
 - [Live 19](./Live19) | [Assistir](https://www.youtube.com/watch?v=AT17Ht87UKI) - Expressões regulares
 
 ## Web Scraping
+
 - [Live 20](./Live20) | [Assistir](https://www.youtube.com/watch?v=MlzCElmtrxQ) - Selenium / **Web scraping #1**
 - [Live 21](./Live21) | [Assistir](https://www.youtube.com/watch?v=kktO7IOjpgs) - Beautifulsoup / **Web scraping #2**
 - [Live 22](./Live22) | [Assistir](https://www.youtube.com/watch?v=geGjMToK5u8) - Requests / **Web scraping #3**
@@ -30,13 +32,14 @@
 - [Live 27](./Live27) | [Assistir](https://www.youtube.com/watch?v=XuWyfTAC7Qs) - Baixando arquivos e manipulando datas / **Web scraping #8**
 
 ## Collections
+
 - [Live 28](./Live28) | [Assistir](https://www.youtube.com/watch?v=ubCNqPNIx5Q) - Deque e Namedtuple / **Collections #1**
 - Live 29 |[Assistir](https://www.youtube.com/watch?v=3NYHjZwhx-M) - Counter, defaultdict e OrderedDict / **Collections #2**
 - [Live 30](./Live30) | [Assistir](https://www.youtube.com/watch?v=TF6oIYAOlag) - ChainMap / **Collections #3**
 - [Live 31](./Live31) | [Assistir](https://www.youtube.com/watch?v=gCZyrM-V2pY) - User(Dict|List|String) e collections.abc / **Collections #4**
 - [Live 32](./Live32) | [Assistir](https://www.youtube.com/watch?v=YXGrOF1KIKI) - collections.abc / **Collections #5**
 
----------------------------------------------
+---
 
 - Live 33 | [Assistir](https://www.youtube.com/watch?v=lAGWXaDcsKU) - Python para arquitetos, designers e artistas visuais (Com Alexandre Villares)
 - [Live 34](./Live34) | [Assistir](https://www.youtube.com/watch?v=sszTUlqAatc) - Trabalhando com arquivos de texto
@@ -44,15 +47,16 @@
 - [Live 36](./Live36) | [Assistir](https://www.youtube.com/watch?v=LwxVscJUapk) - Parametrizando execução com ArgParser
 - [Live 37](./Live37) | [Assistir](https://www.youtube.com/watch?v=ujs6oYAeQRc) - Arquivos de configuração com ConfigParser
 
-
 ## Qualidade de código
+
 - Live 38 | [Assistir](https://www.youtube.com/watch?v=qG-F5tordqc) - Introdução à Qualidade de Código
 - [Live 39](./Live39) | [Assistir](https://www.youtube.com/watch?v=bqxXWfCrUXs) - Padronização de código e guias de estilo (PEPs)
 - Live 40 |[Assistir](https://www.youtube.com/watch?v=7_eAQ7SeuEg) - Análise estática de código (linters)
 - [Live 41](./Live41) | [Assistir](https://www.youtube.com/watch?v=2B6eSQ7qAeQ) - Cobertura e test runners
 - [Live 42](./Live42) | [Assistir](https://www.youtube.com/watch?v=wczL0iDtmuw) - Testes de mutação
 
----------------------------------------------
+---
+
 - [Live 43](./Live43) | [Assistir](https://www.youtube.com/watch?v=fR73UVNXb04) - Gerenciadores de contexto
 - Live 44 | [Assistir](https://www.youtube.com/watch?v=xljES_-IbLA) - Criando um bot para telegram (Com Rafael Galleani)
 - [Live 45](turicas.info/slides/brasil.io/capiconf2018/) | [Assistir](https://www.youtube.com/watch?v=ejLTO_J3DB4) - Rows (Com Turicas)
@@ -63,6 +67,7 @@
 - [Live 50](./Live50) | [Assistir](https://www.youtube.com/watch?v=FjJ1bClIa-o) - Agendando tarefas com Sched
 
 ## Multiprocessamento com Python
+
 - [Live 51](./Live51) | [Assistir](https://www.youtube.com/watch?v=BJuO9nLqV2Y) - Introdução a multiprocessamento - Multiprocessamento #1
 - [Live 52](./Live52) | [Assistir](https://www.youtube.com/watch?v=o4Ad8_LjElo) - Usando Threads - Multiprocessamento #2
 - [Live 53](./Live53) | [Assistir](https://www.youtube.com/watch?v=ANGM6Tjf9zM) - Usando Processos - Multiprocessamento #3
@@ -70,22 +75,25 @@
 - [Live 55](./Live55) | [Assistir](https://www.youtube.com/watch?v=uaSuaMoYl4M) - Concorrência com asyncio - Multiprocessamento #5
 - [Live 58](./Live58) | [Assistir](https://www.youtube.com/watch?v=UignQVMdNlw&t=1627s) - Requests assincronos - Multiprocessamento #6
 
---------------------------------------------
+---
 
 - [Live 59](./Live59) | [Assistir](https://www.youtube.com/watch?v=GWn2EV5CDNI) - Objetos assíncronos
 - [Live 60](./Live60) | [Assistir](https://www.youtube.com/watch?v=sJpNfZqLpoI) - Exceções
 - Live 63 | [Assistir](https://www.youtube.com/watch?v=ywbzwTc51y4) - Análise de sentimento aplicado no futebol - Cássio Botaro
 
 ## Orientação a objetos
+
 - [Live 61](./Live61) | [Assistir](https://www.youtube.com/watch?v=BALM_oJcJL4) - Programação orientada a objetos #1 - Introdução
 - [Live 62](./Live62) | [Assistir](https://www.youtube.com/watch?v=xWTNoTtA9V8) - Programação orientada a objetos #2 - Herança e polimorfismo
 - [Live 64](./Live64) | [Assistir](https://www.youtube.com/watch?v=MYaXUrmvrho) - Programação orientada a objetos #3 - Composição e métodos mágicos
 - [Live 65](./Live65) | [Assistir](https://www.youtube.com/watch?v=XSVvXso_Ukc) - Programação orientada a objetos #4 - Sobrecarga de operadores
 
 ## Fabricação digital
+
 - [Live 67](./Live67) | [Assistir](https://www.youtube.com/watch?v=Y3APLjreGps) - Fabricação Digital #1 - Corte e gravação a laser
 
 ## Resolução de Exercícios
+
 - [Live 71](./Live71) | [Assistir](https://www.youtube.com/watch?v=cloqAaQ-6Go) - Resolvendo Problemas do Project Euler com Hélio Meira Lins
 
 - [Live 72](./Live72) - Construíndo API REST com Pyramid + Cornice - Com Marcelo Moraes
@@ -93,12 +101,16 @@
 - Live 74 - Comunidades - Com Letícia Silva
 
 ## Testes
+
 - [Live 75](./Live75) | [Assistir](https://www.youtube.com/watch?v=Sr9lUR1COpU) - Testes de unidade
 - [Live 76](./Live76) | [Assistir](https://www.youtube.com/watch?v=mOrsJwY2038) - Testes de unidade p.II - Dublês de teste
 - Live 77 | [Assistir](https://www.youtube.com/watch?v=OGNUq0w3j9E) - Combinação explosiva: Processo Seletivo com Just Python - Com Renzo Nuccitelli
--------------------------------------------------------
+
+---
+
 - Live 78 | [Assistir](https://youtu.be/5LMG4OCoEn0) - Raspando a web com Scrapy - Com Renne Rocha
--------------------------------------------------------
+
+---
 
 - [Live 79](./Live79) | [Assistir](https://www.youtube.com/watch?v=atvuOV8QWRE) - Testes de unidade na prática
 - [Live 80](./Live80) | [Assistir](https://www.youtube.com/watch?v=HuZ2Keoc9Hs) - Melhorando testes de unidade
@@ -106,16 +118,24 @@
 - [Live 82](https://github.com/dunossauro/crudzin) | [Assistir](https://www.youtube.com/watch?v=ieGA91ExOH0) - Autenticação de uma API Flask com testes
 - [Live 83](https://github.com/dunossauro/crudzin) | [Assistir](https://www.youtube.com/watch?v=aX0P5tsiat4) - BDD com python e flask
 
----------------------------------------------
+---
+
 - [Live 84](./Live84) | [Assistir](https://www.youtube.com/watch?v=yEighFc_bZM) - Type hints e Anotações de funções
 
----------------------------------------------
+---
+
 - [Live 88](./Live88) | [Assistir](https://www.youtube.com/watch?v=_LnM7pSkmkM) - Click - Desenvolvendo ferramentas de modo texto
 
 - [Live 89](./Live89) | [Assistir](https://www.youtube.com/watch?v=AHGDbNaHldA) - Click p.2- Desenvolvendo CLIs bonitos e úteis
 
----------------------------------------------
+---
+
 - [Live 94](./Live94) | [Assistir](https://www.youtube.com/watch?v=YuKdwIhJysU) - Django básico (Regis Santos)
 
 - [Live 95](./Live94) | [Assistir](https://www.youtube.com/watch?v=cyxky2QJlwg) - Entendendo o ORM do Django (Regis Santos)
 
+---
+
+## FastAPI
+
+- [Live 113](./Live113) | [Assistir](https://youtu.be/MxlS5_MI_WY) - FastAPI - Com João Lugão
