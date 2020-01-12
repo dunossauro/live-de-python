@@ -1,0 +1,25 @@
+@startuml
+title Observer Pattern
+
+class Observavel <<interface>>
+class Observador <<interface>>
+class ObservavelConcreto
+class ObservadorConcreto
+
+Observavel : registrar_observador(Observador)
+Observavel : remover_observador(Observador)
+Observavel : notificar_observadores(msg)
+
+Observador : atualizar()
+ObservadorConcreto : atualizar()
+
+ObservavelConcreto : registrar_observador(Observador) {...}
+ObservavelConcreto : remover_observador(Observador) {...}
+ObservavelConcreto : notificar_observadores(msg) {...}
+
+Observavel "1" -right-> "*" Observador : "Observadores"
+
+ObservavelConcreto <-left- ObservadorConcreto : "Observavel"
+Observavel <|-- ObservavelConcreto
+Observador <|-- ObservadorConcreto
+@enduml

@@ -139,3 +139,7 @@
 ## FastAPI
 
 - [Live 113](./Live113) | [Assistir](https://youtu.be/MxlS5_MI_WY) - FastAPI - Com João Lugão
+
+
+## Padrões de projeto
+- [Live 115](./Live113) | [Assistir](https://www.youtube.com/watch?v=fG5pYDVm8_M) - Introdução a padrões de projeto
