@@ -1,0 +1,25 @@
+@startuml
+
+class ClasseAbstrata {
+    + templateMethod()
+    # subMethod()
+}
+
+class ClasseConcreta {
+    + subMethod()
+}
+
+hide empty members
+
+ClasseAbstrata <|-- ClasseConcreta
+
+note as N1
+    <b><color:royalBlue>Template Method</color></b>
+    <b>Tipo:</b> Comportamental
+    Defina o esqueleto de um algoritmo em uma operação,
+    adiando algumas etapas para as subclasses.
+    Permite que as subclasses redefinam determinadas etapas
+    de um algoritmo sem alterar a estrutura do algoritmo.
+end note
+
+@enduml

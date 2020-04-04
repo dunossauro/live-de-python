@@ -1,0 +1,32 @@
+@startuml
+
+class Contexto
+
+interface Estratégia {
+    + execute()
+}
+
+class EstratégiaConcretaA {
+    + execute()
+}
+
+class EstratégiaConcretaB {
+    + execute()
+}
+
+hide empty members
+
+Contexto *-- Estratégia
+Estratégia <|-- EstratégiaConcretaA
+Estratégia <|-- EstratégiaConcretaB
+
+note as N1
+    <b><color:royalBlue>Strategy</color></b>
+    <b>Tipo:</b> Comportamental
+    Define uma família de algoritmos,
+    encapsula cada um individualmente
+    e os faz ficar intercambiáveis.
+    A implementação é feita desacoplada do objeto
+end note
+
+@enduml

@@ -1,0 +1,65 @@
+@startuml
+
+package Filhos <<Folder>>{
+  class ZumbiAquatico
+  class ZumbiVoador
+  class ZumbiDaPlanice
+}
+
+package Intermediarios <<Folder>>{
+  class ZumbiBafao
+  class ZumbiSuperDefesa
+  class ZumbiNaoAquatico
+}
+
+class Zumbi {
+  + atacar()
+  + defender()
+  + matar()
+
+}
+class ZumbiNaoAquatico {
+  + atacar()
+}
+
+class ZumbiBafao{
+  + atacar()
+}
+
+class ZumbiSuperDefesa{
+  + defender()
+}
+
+class ZumbiAquatico {
+  + atacar()
+  + defender()
+  + matar()
+}
+
+class ZumbiVoador{
+  + atacar()
+  + defender()
+  + matar()
+}
+
+class ZumbiDaPlanice {
+  + atacar()
+  + defender()
+  + matar()
+}
+
+ZumbiAquatico --|> ZumbiSuperDefesa
+ZumbiAquatico --|> ZumbiBafao
+
+ZumbiDaPlanice --|> ZumbiSuperDefesa
+ZumbiDaPlanice --|> ZumbiNaoAquatico
+
+ZumbiVoador --|> ZumbiNaoAquatico
+
+ZumbiVoador --|> ZumbiBafao
+
+ZumbiBafao --|> Zumbi
+ZumbiSuperDefesa --|> Zumbi
+ZumbiNaoAquatico --|> Zumbi
+
+@enduml

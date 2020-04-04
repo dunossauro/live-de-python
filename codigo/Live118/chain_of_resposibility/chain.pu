@@ -1,0 +1,36 @@
+/' CHAIN OF RESPONSIBILITY '/
+
+@startuml
+
+class Cliente
+
+interface Manipulador {
+    + manipular_pedido()
+}
+
+class ManipuladorConcreto1 {
+    + manipular_pedido()
+}
+
+class ManipuladorConcreto2 {
+    + manipular_pedido()
+}
+
+hide empty members
+
+Cliente -> Manipulador
+Manipulador <|-- ManipuladorConcreto1
+Manipulador <|-- ManipuladorConcreto2
+Manipulador -> Manipulador : successor
+
+note as N1
+    <b><color:royalBlue>Cadeia de resposabilidades</color></b>
+    <b>Type:</b> Comportamental
+    Evita acoplar o remetente de uma solicitação a
+    seu receptor, dando mais de um objeto
+    uma chance de lidar com a solicitação. Encadeie o
+    recebendo objetos e passar a solicitação
+    ao longo da cadeia até que um objeto lide com ela.
+end note
+
+@enduml

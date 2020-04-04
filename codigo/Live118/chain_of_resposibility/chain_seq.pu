@@ -1,0 +1,12 @@
+@startuml
+Remetente -> Manipulador_1: manipula_pedido
+note left: invoca o metodo do Manipulador
+
+alt consiga manipular
+  Manipulador_1 -> Remetente: resultado
+
+else chama o próximo
+  Manipulador_1 -> Manipulador_2: proximo Manipulador
+end
+
+@enduml

@@ -1,0 +1,51 @@
+@startuml
+
+class Zumbi {
+  + atacar()
+  + defender()
+  + matar()
+
+}
+
+class Atacar {
+  + atacar()
+
+}
+
+class Defender {
+  + defender()
+
+}
+
+class Matar {
+  + matar()
+}
+
+class AtacarBafao {
+
+}
+
+class SuperDefesa {
+
+}
+
+class AtaqueForaDaAgua{
+
+}
+
+package Interfacas <<Rectangle>> {
+  Zumbi *-- Atacar
+  Zumbi *-- Defender
+  Zumbi *-- Matar
+}
+
+package Aplicadas <<Rectangle>> {
+  ZumbiAquatico *-- AtacarBafao
+  ZumbiAquatico *-- SuperDefesa
+  ZumbiDaPlanice *-- SuperDefesa
+  ZumbiDaPlanice *-- AtaqueForaDaAgua
+  ZumbiVoador *-- AtaqueForaDaAgua
+  ZumbiVoador *-- AtacarBafao
+}
+
+@enduml
