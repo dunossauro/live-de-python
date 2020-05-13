@@ -8,7 +8,10 @@ def div(x: int, y: int) -> Union[int, float]:
 
 
 class TestDiv(TestCase):
-    @given(st.integers(), st.integers().filter(lambda x: x > 0))
+    @given(
+        st.integers(),
+        st.integers().filter(lambda val: val > 0)
+    )
     def test_div_test_da_explosao(self, x, y):
         print(x, y)
         # self.assertEqual(div(x, y), 0.5)

@@ -1,0 +1,6 @@
+@startuml
+
+A <|-- B: herda
+C *-- D: contem
+
+@enduml

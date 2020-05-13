@@ -1,0 +1,11 @@
+@startuml
+
+
+class Zumbi {
+  + atacar()
+  + defender()
+  + matar()
+
+}
+
+@enduml

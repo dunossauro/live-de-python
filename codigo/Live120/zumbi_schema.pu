@@ -1,0 +1,34 @@
+@startuml
+
+package Filhos <<Folder>>{
+  class ZumbiAquantico
+  class ZumbiVoador
+  class ZumbiDaPlanice
+}
+
+class Zumbi {
+  + atacar()
+  + defender()
+  + matar()
+
+}
+
+class ZumbiAquantico extends Zumbi{
+  + atacar()
+  + defender()
+  + matar()
+}
+
+class ZumbiVoador extends Zumbi{
+  + atacar()
+  + defender()
+  + matar()
+}
+
+class ZumbiDaPlanice extends Zumbi{
+  + atacar()
+  + defender()
+  + matar()
+}
+
+@enduml
