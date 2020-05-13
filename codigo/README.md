@@ -134,7 +134,8 @@
 
 - [Live 95](./Live94) | [Assistir](https://www.youtube.com/watch?v=cyxky2QJlwg) - Entendendo o ORM do Django (Regis Santos)
 
----
+
+- [Live 112](./Live112) | [Assistir](https://www.youtube.com/watch?v=bSFjmGakIPU) - Testes de perfomace com Locust (Flávio Meira)
 
 ## FastAPI
 
