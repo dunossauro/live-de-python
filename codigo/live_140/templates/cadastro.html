@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Document</title>
+  </head>
+  <body>
+    {% if form.errors %}
+    <ul>
+      {% for field_name, field_erros in form.errors|dictsort if field_erros%}
+        {% for error in field_erros%}
+           <li>{{ form[field_name].label}}: {{ error }}</li>
+        {% endfor %}
+      {% endfor %}
+    </ul>
+    {% endif %}
+    <form method="POST">
+      {{ form.csrf_token }}
+      {% for field in form %}
+      {{ field.label }}: {{field(class='batatinha') }} <br/>
+      {% endfor %}
+    </form>
+  </body>
+</html>
