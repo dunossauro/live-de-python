@@ -1,0 +1,9 @@
+{
+    "nome_projeto": "projetinho do dudu",
+    "versao": "0.1.0",
+    "test_name": "nome_do_teste",
+    "license": ["Apache-2.0", "MIT", "GPL-3.0-or-later"],
+    "db_name": "bla",
+    "db_ip": "bla",
+    "db_port": "n"
+}

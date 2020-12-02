@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "live_140"
+version = "0.1.0"
+description = ""
+authors = ["dunossauro <mendesxeduardo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^1.1.2"
+jinja2 = "^2.11.2"
+wtforms = "^2.3.3"
+flask-wtf = "^0.14.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

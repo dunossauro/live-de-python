@@ -1,0 +1,4 @@
+[tool.poetry]
+name = "{{cookiecutter.nome_projeto}}"
+version = "{{cookiecutter.versao}}"
+license = "{{cookiecutter.license}}"
