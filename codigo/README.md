@@ -97,7 +97,9 @@
 - [Live 71](./Live71) | [Assistir](https://www.youtube.com/watch?v=cloqAaQ-6Go) - Resolvendo Problemas do Project Euler com Hélio Meira Lins
 
 - [Live 72](./Live72) - Construíndo API REST com Pyramid + Cornice - Com Marcelo Moraes
+
 - Live 73 - import this, tdd e exercícios em python - Com João Lugão
+
 - Live 74 - Comunidades - Com Letícia Silva
 
 ## Testes
@@ -134,13 +136,26 @@
 
 - [Live 95](./Live94) | [Assistir](https://www.youtube.com/watch?v=cyxky2QJlwg) - Entendendo o ORM do Django (Regis Santos)
 
-
 - [Live 112](./Live112) | [Assistir](https://www.youtube.com/watch?v=bSFjmGakIPU) - Testes de perfomace com Locust (Flávio Meira)
 
 ## FastAPI
 
 - [Live 113](./Live113) | [Assistir](https://youtu.be/MxlS5_MI_WY) - FastAPI - Com João Lugão
 
-
 ## Padrões de projeto
+
 - [Live 115](./Live113) | [Assistir](https://www.youtube.com/watch?v=fG5pYDVm8_M) - Introdução a padrões de projeto
+
+---
+
+- [Live 135](./Live135) | [Assistr](https://youtu.be/e9r-6hwchCg) - Bate papo sobre testes
+- [Live 136](./Live136) | [Assistr](https://youtu.be/5cJzN0zlR5Q) - Functools
+- [Live 137](./Live137) | [Assistr](https://youtu.be/iy3fGZEK8f4) - Pendulum
+- Live 138| [Assistr](https://youtu.be/eDTczIpZj-o) - Bulindo com Flask
+- [Live 139](./Live139) | [Assistr](https://youtu.be/UgaybOYMKS0) - SQLAlchemy ORM
+- [Live 140](./Live140) | [Assistr](https://youtu.be/LU2ZsBk_UhI) - WTForms
+- Live 141 | [Assistr](https://youtu.be/s16chBNQURw) - Perungte-me o que quiser sobre Python
+- [Live 142](./Live142) | [Assistr](https://youtu.be/iSMTQc1fTdE) - Cookiecutter
+- [Live 143](./Live143) | [Assistr](https://youtu.be/sS0UI0yuLYQ) - Beeware
+- [Live 144](./Live144) | [Assistr](https://youtu.be/R1vm0RF66C8) - Appium
+- [Live 145](./Live145) | [Assistr](https://youtu.be/5ApbLrcUtlE) - Kivy

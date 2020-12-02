@@ -1,0 +1,60 @@
+<MyBoxLayout>:
+  orientation: 'vertical'
+  ActionBar:
+    ActionView:
+      ActionPrevious:
+      ActionButton:
+        text: 'X'
+        font_size: 30
+  TextInput:
+    font_size: 30
+    text: root.propriedade
+  BoxLayout:
+    Button:
+      font_size: '30'
+      text: '7'
+    Button:
+      font_size: '30'
+      text: '8'
+    Button:
+      font_size: '30'
+      text: '9'
+    Button:
+      text: 'N'
+      on_press: root.notificar()
+  BoxLayout:
+    Button:
+      font_size: '30'
+      text: '4'
+    Button:
+      font_size: '30'
+      text: '5'
+    Button:
+      font_size: '30'
+      text: '6'
+    Button:
+      text: 'Bat'
+      on_press: root.bateria()
+  BoxLayout:
+    Button:
+      font_size: '30'
+      text: '1'
+    Button:
+      font_size: '30'
+      text: '2'
+    Button:
+      font_size: '30'
+      text: '3'
+    Button:
+      text: 'V'
+      on_press: root.vibrar()
+  BoxLayout:
+    Button:
+    Button:
+      font_size: '30'
+      text: '0'
+      on_press: root.mudar()
+    Button:
+    Button:
+      text: 'REQ'
+      on_press: root.request()

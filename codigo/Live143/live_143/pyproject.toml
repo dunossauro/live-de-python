@@ -1,0 +1,33 @@
+[tool.briefcase]
+project_name = "live_143"
+bundle = "live.dunossauro"
+version = "0.0.1"
+url = "https://dunossauro.live/live_143"
+license = "GNU General Public License v3 or later (GPLv3+)"
+author = 'Eduardo Mendes'
+author_email = "eduardo@dunossauro.live"
+
+[tool.briefcase.app.live_143]
+formal_name = "live_143"
+description = "Aplicação de exemplo para live"
+icon = "src/live_143/resources/live_143"
+sources = ['src/live_143']
+requires = []
+
+
+[tool.briefcase.app.live_143.linux]
+requires = [
+    'toga-gtk>=0.3.0.dev20',
+]
+system_requires = [
+    'libgirepository1.0-dev',
+    'libcairo2-dev',
+    'libpango1.0-dev',
+    'libwebkitgtk-3.0-0',
+    'gir1.2-webkit-3.0',
+]
+
+[tool.briefcase.app.live_143.android]
+requires = [
+    'toga-android>=0.3.0.dev20',
+]
