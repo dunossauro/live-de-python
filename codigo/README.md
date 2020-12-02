@@ -144,7 +144,14 @@
 
 ## Padrões de projeto
 
-- [Live 115](./Live113) | [Assistir](https://www.youtube.com/watch?v=fG5pYDVm8_M) - Introdução a padrões de projeto
+- [Live 115](./Live115) | [Assistir](https://www.youtube.com/watch?v=fG5pYDVm8_M) - Introdução a padrões de projeto
+- Live 116 | [Assistir](https://youtu.be/sbCJucr8aJg) - Observer / PubSub / Dispatcher - Padrões de projeto #02
+- [Live 117](./Live117) | [Assistir p1](https://youtu.be/WyyKnROg3a4) | [Assistir p2](https://youtu.be/F3rhZMg_vuM) - Padrões de projeto #03
+- [Live 118](./Live118) | [Assistir](https://youtu.be/iqVOUAbeGoE) -  Chain of responsibility / Pipelines / Composição - Padrões de projeto #04
+- [Live 119](./Live119) | [Assistir](https://youtu.be/48fWEFIfX9U) - Resolvendo Problemas
+- [Live 120](./Live120) | [Assistir](https://youtu.be/-UKPFtS4-jI) - Strategy - Padrões de projeto #05
+- [Live 121](./Live121) | [Assistir](https://youtu.be/6kNXFCoQBl0) - State - Padrões de projeto #06
+
 
 ---
 
