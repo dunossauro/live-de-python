@@ -167,3 +167,4 @@
 - [Live 144](./Live144) | [Assistr](https://youtu.be/R1vm0RF66C8) - Appium
 - [Live 145](./Live145) | [Assistr](https://youtu.be/5ApbLrcUtlE) - Kivy
 - [Live 146](./Live146) | [Assistr](https://youtu.be/6a2ID5Ld6is) - Django 101
+- [Live 148](./Live148) | [Assistr](https://youtu.be/1yuv5SFR_zg) - Criando aplicações web assíncronas com Starlette
