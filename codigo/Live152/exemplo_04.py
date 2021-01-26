@@ -12,5 +12,5 @@ def média():
 coro = média()
 next(coro)  # preparação
 
-coro.next(10)  # 10.0
-coro.next(20)  # 15.0
+coro.send(10)  # 10.0
+coro.send(20)  # 15.0
