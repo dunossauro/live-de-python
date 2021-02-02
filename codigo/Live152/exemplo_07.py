@@ -20,7 +20,7 @@ def grep(target, pattern):
 def replace(search, replace, *, target):
     while True:
         target.send(
-            (search, (yield).replace(search, replace))
+            (search, replace, (yield).replace(search, replace))
         )
 
 
@@ -32,7 +32,7 @@ def dividir(*targets):
             target.send(item)
 
 
-printer = print_('Quem invocou: {} - Valor final: {}')
+printer = print_('Entrada: {} - Replace: {} - Valor final: {}')
 
 replacer_spam = replace(  # troca spam por bacon
     search='spam', replace='bacon', target=printer

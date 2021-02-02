@@ -1,5 +1,4 @@
 from collections import deque
-from threading import Thread
 from time import sleep
 
 
@@ -43,4 +42,5 @@ s.add_new(contador('A', 60))
 s.add_new(contador('B', 60))
 # s.add_new(contador('RunTime', 150))
 
+from threading import Thread
 t = Thread(target=s.run, daemon=True)
