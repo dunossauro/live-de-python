@@ -7,6 +7,8 @@ authors = ["dunossauro <mendesxeduardo@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 Faker = "^5.8.0"
+httpx = "^0.16.1"
+uvloop = "^0.14.0"
 
 [tool.poetry.dev-dependencies]
 
