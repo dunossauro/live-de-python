@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "live_156"
+version = "0.1.0"
+description = ""
+authors = ["dunossauro <mendesxeduardo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Kivy = "^2.0.0"
+kivymd = "^0.104.1"
+buildozer = "^1.2.0"
+Cython = "^0.29.22"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
