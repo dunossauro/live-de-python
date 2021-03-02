@@ -6,8 +6,8 @@ def coro():
     print('42')
 
 
-print(type(coro))
-print(type(coro()))
+print(type(coro))  # function
+print(type(coro()))  # generator
 
 loop = get_event_loop()
 loop.run_until_complete(coro())
