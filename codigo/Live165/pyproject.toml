@@ -1,19 +1,16 @@
 [tool.poetry]
-name = "live_164"
+name = "live164"
 version = "0.1.0"
 description = ""
 authors = ["dunossauro <mendesxeduardo@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-fastapi = "^0.63.0"
-uvicorn = {extras = ["standard"], version = "^0.13.4"}
-Jinja2 = "^2.11.3"
-aiofiles = "^0.6.0"
-websockets = "^8.1"
+pydantic = "^1.8.2"
+mypy = "^0.812"
+email-validator = "^1.1.2"
 
 [tool.poetry.dev-dependencies]
-httpx = "^0.17.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
