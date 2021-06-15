@@ -1,3 +1,14 @@
+---
+marp: true
+_class: lead
+paginate: true
+backgroundImage: url('https://marp.app/assets/hero-background.jpg')
+---
+
+# Eduardo Mendes
+> Um canal sobre Python e desenvolvimento de software de uma maneira geral.
+
+---
 # Sumário:
 
 - [Live 1](./Live01) | [Assistir](https://www.youtube.com/watch?v=5hL9T3jintE) - Overview
@@ -9,6 +20,7 @@
 - [Live 7](./Live07) | [Assistir](https://www.youtube.com/watch?v=UHe49ASt5kg) - Classes e tipos
 - [Live 8](./Live08) | [Assistir](https://www.youtube.com/watch?v=2WUo5tD-eIA) - Sqlite3 - Uma introdução
 - [Live 9](./Live09) | [Assistir](https://www.youtube.com/watch?v=WZjOOlrbjUA) - Bottle - Micro-framework web
+---
 - [Live 10](./Live10) | [Assistir](https://www.youtube.com/watch?v=9EvoggLUp1E) - Behave - Testes de comportamento com BDD
 - [Live 11](./Live11) | [Assistir](https://www.youtube.com/watch?v=rBIksyGY4_E) - SQLAlchemy - Definitivamente o melhor ORM pythonico
 - [Live 12](./Live12) | [Assistir](https://www.youtube.com/watch?v=DJLho_ZdaII) - API rest com bottle
@@ -19,7 +31,7 @@
 - Live 17 | [Assistir](https://www.youtube.com/watch?v=cfmV8NUzAhw&t=3382s) - Tipos de containers e suas funcionalidades
 - [Live 18](./Live18) | [Assistir](https://www.youtube.com/watch?v=Axbiz2q2iPA&t=3249s) - Compreesão de containers e geradores
 - [Live 19](./Live19) | [Assistir](https://www.youtube.com/watch?v=AT17Ht87UKI) - Expressões regulares
-
+---
 ## Web Scraping
 
 - [Live 20](./Live20) | [Assistir](https://www.youtube.com/watch?v=MlzCElmtrxQ) - Selenium / **Web scraping #1**
@@ -30,7 +42,7 @@
 - [Live 25](./Live25) | [Assistir](https://www.youtube.com/watch?v=Pa4LT83osnY) - Raspando arquivos não HTML / **Web scraping #6**
 - [Live 26](./Live26) | [Assistir](https://www.youtube.com/watch?v=rbiKXQSOWIM) - Scrapy (com Artur Gaspar) / **Web scraping #7**
 - [Live 27](./Live27) | [Assistir](https://www.youtube.com/watch?v=XuWyfTAC7Qs) - Baixando arquivos e manipulando datas / **Web scraping #8**
-
+---
 ## Collections
 
 - [Live 28](./Live28) | [Assistir](https://www.youtube.com/watch?v=ubCNqPNIx5Q) - Deque e Namedtuple / **Collections #1**
@@ -46,7 +58,7 @@
 - [Live 35](./Live35) | [Assistir](https://www.youtube.com/watch?v=GqVQRrE1axw) - Redes neurais usando a biblioteca padrão (com Felipe Corrêa)
 - [Live 36](./Live36) | [Assistir](https://www.youtube.com/watch?v=LwxVscJUapk) - Parametrizando execução com ArgParser
 - [Live 37](./Live37) | [Assistir](https://www.youtube.com/watch?v=ujs6oYAeQRc) - Arquivos de configuração com ConfigParser
-
+---
 ## Qualidade de código
 
 - Live 38 | [Assistir](https://www.youtube.com/watch?v=qG-F5tordqc) - Introdução à Qualidade de Código
@@ -65,7 +77,7 @@
 - [Live 48](./Live48) | [Assistir](https://www.youtube.com/watch?v=tZ2iJ5H99fg) - Criando logs de aplicações
 - [Live 49](./Live49) | [Assistir](https://www.youtube.com/watch?v=wuKVLbM2ins) - Serialização com Pickle
 - [Live 50](./Live50) | [Assistir](https://www.youtube.com/watch?v=FjJ1bClIa-o) - Agendando tarefas com Sched
-
+---
 ## Multiprocessamento com Python
 
 - [Live 51](./Live51) | [Assistir](https://www.youtube.com/watch?v=BJuO9nLqV2Y) - Introdução a multiprocessamento - Multiprocessamento #1
@@ -80,18 +92,18 @@
 - [Live 59](./Live59) | [Assistir](https://www.youtube.com/watch?v=GWn2EV5CDNI) - Objetos assíncronos
 - [Live 60](./Live60) | [Assistir](https://www.youtube.com/watch?v=sJpNfZqLpoI) - Exceções
 - Live 63 | [Assistir](https://www.youtube.com/watch?v=ywbzwTc51y4) - Análise de sentimento aplicado no futebol - Cássio Botaro
-
+---
 ## Orientação a objetos
 
 - [Live 61](./Live61) | [Assistir](https://www.youtube.com/watch?v=BALM_oJcJL4) - Programação orientada a objetos #1 - Introdução
 - [Live 62](./Live62) | [Assistir](https://www.youtube.com/watch?v=xWTNoTtA9V8) - Programação orientada a objetos #2 - Herança e polimorfismo
 - [Live 64](./Live64) | [Assistir](https://www.youtube.com/watch?v=MYaXUrmvrho) - Programação orientada a objetos #3 - Composição e métodos mágicos
 - [Live 65](./Live65) | [Assistir](https://www.youtube.com/watch?v=XSVvXso_Ukc) - Programação orientada a objetos #4 - Sobrecarga de operadores
-
+---
 ## Fabricação digital
 
 - [Live 67](./Live67) | [Assistir](https://www.youtube.com/watch?v=Y3APLjreGps) - Fabricação Digital #1 - Corte e gravação a laser
-
+---
 ## Resolução de Exercícios
 
 - [Live 71](./Live71) | [Assistir](https://www.youtube.com/watch?v=cloqAaQ-6Go) - Resolvendo Problemas do Project Euler com Hélio Meira Lins
@@ -101,7 +113,7 @@
 - Live 73 - import this, tdd e exercícios em python - Com João Lugão
 
 - Live 74 - Comunidades - Com Letícia Silva
-
+---
 ## Testes
 
 - [Live 75](./Live75) | [Assistir](https://www.youtube.com/watch?v=Sr9lUR1COpU) - Testes de unidade
@@ -137,11 +149,11 @@
 - [Live 95](./Live94) | [Assistir](https://www.youtube.com/watch?v=cyxky2QJlwg) - Entendendo o ORM do Django (Regis Santos)
 
 - [Live 112](./Live112) | [Assistir](https://www.youtube.com/watch?v=bSFjmGakIPU) - Testes de perfomace com Locust (Flávio Meira)
-
+---
 ## FastAPI
 
 - [Live 113](./Live113) | [Assistir](https://youtu.be/MxlS5_MI_WY) - FastAPI - Com João Lugão
-
+---
 ## Padrões de projeto
 
 - [Live 115](./Live115) | [Assistir](https://www.youtube.com/watch?v=fG5pYDVm8_M) - Introdução a padrões de projeto
