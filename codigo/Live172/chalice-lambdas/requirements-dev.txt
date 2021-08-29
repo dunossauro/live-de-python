@@ -1,0 +1,2 @@
+chalice==1.23.0
+py.test

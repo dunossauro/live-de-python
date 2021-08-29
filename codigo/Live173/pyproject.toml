@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "live_173"
+version = "0.1.0"
+description = ""
+authors = ["dunossauro <mendesxeduardo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyinstaller = "^4.4"
+pyarmor = "^6.7.4"
+pyoxidizer = "^0.16.2"
+Cython = "^0.29.24"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

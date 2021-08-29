@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "live_bin"
+version = "0.1.0"
+description = ""
+authors = ["dunossauro <mendesxeduardo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyoxidizer = "^0.16.2"
+ttkthemes = "^3.2.2"
+Kivy = "^2.0.0"
+kivymd = "^0.104.2"
+Cython = "^0.29.24"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
