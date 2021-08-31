@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "live175"
+version = "0.1.0"
+description = ""
+authors = ["dunossauro <mendesxeduardo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.0.1"
+flask-pydantic-spec = "^0.1.5"
+tinydb = "^4.5.1"
+
+[tool.poetry.dev-dependencies]
+httpie = "^2.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
