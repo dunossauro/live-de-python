@@ -1,41 +1,41 @@
 # Sumário:
 
-- [Live 1](./Live01) | [Assistir](https://www.youtube.com/watch?v=5hL9T3jintE) - Overview
-- [Live 2](./Live02) | [Assistir](https://www.youtube.com/watch?v=_Z8mUxORh0g&t=2s) - Testes unitários p1
+- [Live 1](./Live001) | [Assistir](https://www.youtube.com/watch?v=5hL9T3jintE) - Overview
+- [Live 2](./Live002) | [Assistir](https://www.youtube.com/watch?v=_Z8mUxORh0g&t=2s) - Testes unitários p1
 - Live 3 | [Assistir](https://www.youtube.com/watch?v=KZJa8rQecGc) - Introdução a Django p1 (com Andre Machado)
-- [Live 4](./Live04) | [Assistir](https://www.youtube.com/watch?v=gQyUxKxUaEw) - Testes unitários p2
-- [Live 5](./Live05) | [Assistir](https://www.youtube.com/watch?v=7GnHDfV6KQ8&t=83s) - Debugger (pdb)
-- [Live 6](./Live06) | [Assistir](https://www.youtube.com/watch?v=TaZGQXWFsf4) - Funções, closures e decoradores
-- [Live 7](./Live07) | [Assistir](https://www.youtube.com/watch?v=UHe49ASt5kg) - Classes e tipos
-- [Live 8](./Live08) | [Assistir](https://www.youtube.com/watch?v=2WUo5tD-eIA) - Sqlite3 - Uma introdução
-- [Live 9](./Live09) | [Assistir](https://www.youtube.com/watch?v=WZjOOlrbjUA) - Bottle - Micro-framework web
-- [Live 10](./Live10) | [Assistir](https://www.youtube.com/watch?v=9EvoggLUp1E) - Behave - Testes de comportamento com BDD
-- [Live 11](./Live11) | [Assistir](https://www.youtube.com/watch?v=rBIksyGY4_E) - SQLAlchemy - Definitivamente o melhor ORM pythonico
-- [Live 12](./Live12) | [Assistir](https://www.youtube.com/watch?v=DJLho_ZdaII) - API rest com bottle
-- [Live 13](./Live13) | [Assistir](https://www.youtube.com/watch?v=syctPjStwQU) - Objetos e métodos especiais (dunders)
-- [Live 14](./Live14) | [Assistir](https://www.youtube.com/watch?v=rwkIPIHwIYY) - Threads
-- [Live 15](./Live15) | [Assistir](https://www.youtube.com/watch?v=8vfU84RKbTQ) - Comunicação entre Threads (Event e Queue)
-- [Live 16](./Live16) | [Assistir](https://www.youtube.com/watch?v=8cNpLnH1dsU&t=2060s) - Manipulação de arquivos e diretórios
+- [Live 4](./Live004) | [Assistir](https://www.youtube.com/watch?v=gQyUxKxUaEw) - Testes unitários p2
+- [Live 5](./Live005) | [Assistir](https://www.youtube.com/watch?v=7GnHDfV6KQ8&t=83s) - Debugger (pdb)
+- [Live 6](./Live006) | [Assistir](https://www.youtube.com/watch?v=TaZGQXWFsf4) - Funções, closures e decoradores
+- [Live 7](./Live007) | [Assistir](https://www.youtube.com/watch?v=UHe49ASt5kg) - Classes e tipos
+- [Live 8](./Live008) | [Assistir](https://www.youtube.com/watch?v=2WUo5tD-eIA) - Sqlite3 - Uma introdução
+- [Live 9](./Live009) | [Assistir](https://www.youtube.com/watch?v=WZjOOlrbjUA) - Bottle - Micro-framework web
+- [Live 10](./Live010) | [Assistir](https://www.youtube.com/watch?v=9EvoggLUp1E) - Behave - Testes de comportamento com BDD
+- [Live 11](./Live011) | [Assistir](https://www.youtube.com/watch?v=rBIksyGY4_E) - SQLAlchemy - Definitivamente o melhor ORM pythonico
+- [Live 12](./Live012) | [Assistir](https://www.youtube.com/watch?v=DJLho_ZdaII) - API rest com bottle
+- [Live 13](./Live013) | [Assistir](https://www.youtube.com/watch?v=syctPjStwQU) - Objetos e métodos especiais (dunders)
+- [Live 14](./Live014) | [Assistir](https://www.youtube.com/watch?v=rwkIPIHwIYY) - Threads
+- [Live 15](./Live015) | [Assistir](https://www.youtube.com/watch?v=8vfU84RKbTQ) - Comunicação entre Threads (Event e Queue)
+- [Live 16](./Live016) | [Assistir](https://www.youtube.com/watch?v=8cNpLnH1dsU&t=2060s) - Manipulação de arquivos e diretórios
 - Live 17 | [Assistir](https://www.youtube.com/watch?v=cfmV8NUzAhw&t=3382s) - Tipos de containers e suas funcionalidades
-- [Live 18](./Live18) | [Assistir](https://www.youtube.com/watch?v=Axbiz2q2iPA&t=3249s) - Compreesão de containers e geradores
-- [Live 19](./Live19) | [Assistir](https://www.youtube.com/watch?v=AT17Ht87UKI) - Expressões regulares
+- [Live 18](./Live018) | [Assistir](https://www.youtube.com/watch?v=Axbiz2q2iPA&t=3249s) - Compreesão de containers e geradores
+- [Live 19](./Live019) | [Assistir](https://www.youtube.com/watch?v=AT17Ht87UKI) - Expressões regulares
 
 ## Web Scraping
 
-- [Live 20](./Live20) | [Assistir](https://www.youtube.com/watch?v=MlzCElmtrxQ) - Selenium / **Web scraping #1**
-- [Live 21](./Live21) | [Assistir](https://www.youtube.com/watch?v=kktO7IOjpgs) - Beautifulsoup / **Web scraping #2**
-- [Live 22](./Live22) | [Assistir](https://www.youtube.com/watch?v=geGjMToK5u8) - Requests / **Web scraping #3**
-- [Live 23](./Live23) | [Assistir](https://www.youtube.com/watch?v=rKcsV91YIio) - Deep web / Anômidade / **Web scraping #4**
-- [Live 24](./Live24) | [Assistir](https://www.youtube.com/watch?v=7KCBFTeIpLI) - Tabelas e persistência / **Web scraping #5**
-- [Live 25](./Live25) | [Assistir](https://www.youtube.com/watch?v=Pa4LT83osnY) - Raspando arquivos não HTML / **Web scraping #6**
-- [Live 26](./Live26) | [Assistir](https://www.youtube.com/watch?v=rbiKXQSOWIM) - Scrapy (com Artur Gaspar) / **Web scraping #7**
-- [Live 27](./Live27) | [Assistir](https://www.youtube.com/watch?v=XuWyfTAC7Qs) - Baixando arquivos e manipulando datas / **Web scraping #8**
+- [Live 20](./Live020) | [Assistir](https://www.youtube.com/watch?v=MlzCElmtrxQ) - Selenium / **Web scraping #1**
+- [Live 21](./Live021) | [Assistir](https://www.youtube.com/watch?v=kktO7IOjpgs) - Beautifulsoup / **Web scraping #2**
+- [Live 22](./Live022) | [Assistir](https://www.youtube.com/watch?v=geGjMToK5u8) - Requests / **Web scraping #3**
+- [Live 23](./Live023) | [Assistir](https://www.youtube.com/watch?v=rKcsV91YIio) - Deep web / Anômidade / **Web scraping #4**
+- [Live 24](./Live024) | [Assistir](https://www.youtube.com/watch?v=7KCBFTeIpLI) - Tabelas e persistência / **Web scraping #5**
+- [Live 25](./Live025) | [Assistir](https://www.youtube.com/watch?v=Pa4LT83osnY) - Raspando arquivos não HTML / **Web scraping #6**
+- [Live 26](./Live026) | [Assistir](https://www.youtube.com/watch?v=rbiKXQSOWIM) - Scrapy (com Artur Gaspar) / **Web scraping #7**
+- [Live 27](./Live027) | [Assistir](https://www.youtube.com/watch?v=XuWyfTAC7Qs) - Baixando arquivos e manipulando datas / **Web scraping #8**
 
 ## Collections
 
-- [Live 28](./Live28) | [Assistir](https://www.youtube.com/watch?v=ubCNqPNIx5Q) - Deque e Namedtuple / **Collections #1**
+- [Live 28](./Live028) | [Assistir](https://www.youtube.com/watch?v=ubCNqPNIx5Q) - Deque e Namedtuple / **Collections #1**
 - Live 29 |[Assistir](https://www.youtube.com/watch?v=3NYHjZwhx-M) - Counter, defaultdict e OrderedDict / **Collections #2**
-- [Live 30](./Live30) | [Assistir](https://www.youtube.com/watch?v=TF6oIYAOlag) - ChainMap / **Collections #3**
+- [Live 30](./Live030) | [Assistir](https://www.youtube.com/watch?v=TF6oIYAOlag) - ChainMap / **Collections #3**
 - [Live 31](./Live31) | [Assistir](https://www.youtube.com/watch?v=gCZyrM-V2pY) - User(Dict|List|String) e collections.abc / **Collections #4**
 - [Live 32](./Live32) | [Assistir](https://www.youtube.com/watch?v=YXGrOF1KIKI) - collections.abc / **Collections #5**
 
