@@ -160,7 +160,6 @@
 - [Live 120](./Live120) | [Assistir](https://youtu.be/-UKPFtS4-jI) - Strategy - Padrões de projeto #05
 - [Live 121](./Live121) | [Assistir](https://youtu.be/6kNXFCoQBl0) - State - Padrões de projeto #06
 
-
 ---
 
 - [Live 135](./Live135) | [Assistr](https://youtu.be/e9r-6hwchCg) - Bate papo sobre testes
