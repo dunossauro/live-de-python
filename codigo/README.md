@@ -148,6 +148,8 @@
 
 - Live 178 | [Assistir](https://www.youtube.com/watch?v=TfGHNBaK9a0) - Documentando APIs com OpenAPI
 
+---
+
 ## Padrões de projeto
 
 - [Live 115](./Live115) | [Assistir](https://www.youtube.com/watch?v=fG5pYDVm8_M) - Introdução a padrões de projeto
