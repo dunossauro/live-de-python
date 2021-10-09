@@ -98,9 +98,9 @@
 
 - [Live 72](./Live072) - Construíndo API REST com Pyramid + Cornice - Com Marcelo Moraes
 
-- Live 73 - import this, tdd e exercícios em python - Com João Lugão
+- Live 73 | [Assistir](https://www.youtube.com/watch?v=Td8Wbr4Y3bU) - import this, tdd e exercícios em python - Com João Lugão
 
-- Live 74 - Comunidades - Com Letícia Silva
+- Live 74 | [Assistir](https://www.youtube.com/watch?v=AzS7OVzji8g) - Comunidades - Com Letícia Silva
 
 ## Testes
 
@@ -141,6 +141,12 @@
 ## FastAPI
 
 - [Live 113](./Live113) | [Assistir](https://youtu.be/MxlS5_MI_WY) - FastAPI - Com João Lugão
+
+---
+
+## OpenAPI
+
+- Live 178 | [Assistir](https://www.youtube.com/watch?v=TfGHNBaK9a0) - Documentando APIs com OpenAPI
 
 ## Padrões de projeto
 
