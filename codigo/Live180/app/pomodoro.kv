@@ -1,0 +1,25 @@
+<Pomodoro>:
+    MDIconButton:
+        icon: 'timer'
+        user_font_size: 100
+        pos_hint: {'center_x': .5, 'center_y': .8}
+
+    MDLabel:
+        text: root.timer_string
+        font_style: 'H1'
+        halign: 'center'
+
+    MDRaisedButton:
+        text: root.button_string
+        size_hint_x: .8
+        pos_hint: {'center_x': .5, 'center_y': .2}
+        on_release: root.click()
+
+MDBoxLayout:
+    orientation: 'vertical'
+    
+    MDToolbar:
+        title: 'PomoDuno'
+        right_action_items: [['theme-light-dark', lambda x: app.change_color()]]
+
+    Pomodoro
