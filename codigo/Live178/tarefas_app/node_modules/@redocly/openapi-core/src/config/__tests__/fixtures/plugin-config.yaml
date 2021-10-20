@@ -1,3 +1,0 @@
-lint:
-  plugins:
-    - './plugin.js'
