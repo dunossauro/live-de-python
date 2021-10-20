@@ -1,0 +1,141 @@
+openapi: 3.0.0
+
+info:
+  title: Minha Api de tarefas a fazer
+  version: 1.0.0
+  
+servers:
+  - url: http://dunossauro.com/
+  - url: http://dunossauro.com.br
+  - url: http://dunossauro.net
+  - url: 192.168.0.1  
+
+components:
+  parameters:
+    ID:
+      in: path
+      name: id
+      required: true
+      schema:
+        type: integer
+        minimum: 1
+  schemas:
+    Tarefa:
+      type: object
+      required:
+        - todo
+      properties:
+        todo:
+          type: string
+        status:
+          type: string
+    Tarefas:
+      type: object
+      required:
+        - tarefas
+      properties:
+        tarefas: 
+          type: array
+          items:
+            $ref: '#/components/schemas/Tarefa'
+    ErrorResponse:
+      type: object
+      properties:
+        message:
+          type: string
+    NotFoundError:
+      type: object
+      properties:
+        message:
+          type: string
+
+paths:
+  /tarefa:
+    post:
+      summary: Cria uma tarefa
+      description: Cria uma tarefa usando o payload xpto, yz. O status default é a fazer
+      parameters:
+        - name: Tarefa
+          in: path
+          required: True
+          schema:
+            $ref: '#/components/schemas/Tarefa'
+      responses:
+        201:
+          description: Deu certo, criado!
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Tarefa'
+              examples:
+                user:
+                  summary: User Example
+                  externalValue: 'https://foo.bar/examples/user-example.json'
+        422:
+          description: Erro no Payload
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+    get:
+      summary: Pega todas as tarefas
+      description: Pega todos as tarefas da API
+      responses:
+        200:
+          description: Deu certo!
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Tarefas'
+  
+  /tarefa/{id}:
+    parameters:
+      - $ref: '#/components/parameters/ID'
+    get:
+      tags: ['com id']
+      description: Pega uma tarefa por ID
+      responses:
+        200:
+          description: Achou
+        404:
+          description: Não achou
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+          
+    patch:
+      tags: ['com id']
+      description: Pega uma tarefa por ID
+      parameters:
+        - name: Tarefa
+          in: path
+          required: True
+          schema:
+            $ref: '#/components/schemas/Tarefa'
+      responses:
+        201:
+          description: Alterou
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Tarefas'
+        404:
+          description: Não achou
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+          
+    delete:
+      tags: ['com id']
+      description: Remove a tarefa
+      responses:
+        201:
+          description: Achou
+        404:
+          description: Não achou
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'

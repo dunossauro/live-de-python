@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "redoc-cli": "^0.12.3"
+  }
+}

@@ -1,0 +1,111 @@
+openapi: 3.0.0
+
+info:
+  version: 0.0.1
+  title: Tarefas a fazer
+
+components:
+  parameters:
+    ID:
+      in: path
+      name: id
+      required: true
+      schema:
+        type: integer
+        minimum: 1
+      description: ID do Todo
+
+  schemas:
+    Todo:
+      type: object
+      required:
+        - todo
+      properties:
+        todo:
+          type: string
+        status:
+          type: string
+    Todos:
+      type: object
+      properties:
+        todos:
+          type: array
+          items:
+                $ref: '#/components/schemas/Todo'
+    NotFound:
+      type: object
+      properties:
+        message:
+          type: string
+
+paths:
+  /todo:
+    # Criação da tarefa
+    post:
+      summary: Cria uma nova tarefa
+      description: Cria uma nova tarefa, baseada e xpto...
+      responses:
+        201:
+          description: Tarefa criada com sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Todo'
+        422:
+          description: "Erro no payload"
+    
+    get:
+      summary: Lista as tarefas
+      responses:
+        200:
+          description: Sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Todos'
+                
+  /todo/{id}:
+    get:
+      parameters:
+        - $ref: '#/components/parameters/ID'
+      responses:
+        200:
+          description: Sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Todo'
+        404:
+          description: Não encontrado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFound'
+    delete:
+      parameters:
+        - $ref: '#/components/parameters/ID'
+
+      responses:
+        200:
+          description: Sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Todo'
+        404:
+          description: Não encontrado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFound'
+    patch:
+      parameters:
+        - $ref: '#/components/parameters/ID'
+
+      responses:
+        404:
+          description: Não encontrado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFound'
