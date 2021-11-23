@@ -1,0 +1,3 @@
+um aquivo de exemplo
+outra linha
+mais uma linha

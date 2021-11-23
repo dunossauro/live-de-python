@@ -1,0 +1,3 @@
+exemplo,de,aquivo,um
+linha,outra
+linha,uma,mais

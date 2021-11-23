@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "live184"
+version = "0.1.0"
+description = ""
+authors = ["jlugao <joaolhullier@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pytest-coverage = "^0.0"
+rich = "^10.14.0"
+black = "^21.11b1"
+mypy = "^0.910"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
