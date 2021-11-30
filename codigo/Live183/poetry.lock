@@ -1,0 +1,17 @@
+[[package]]
+name = "foxdot"
+version = "0.8.12"
+description = "Live coding music with SuperCollider"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "5ff3b74a8336e32de800d703c73f2fe88c7a08df0830b02d4a4bcb415a83dca1"
+
+[metadata.files]
+foxdot = [
+    {file = "FoxDot-0.8.12.tar.gz", hash = "sha256:528999da55ad630e540a39c0eaeacd19c58c36f49d65d24ea9704d0781e18c90"},
+]
