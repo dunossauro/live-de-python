@@ -37,7 +37,12 @@ Financiamento **recorrente** é a palavra que usamos para quando você deseja do
 ### Opções não recorrentes:
 
 - [PicPay](http://picpay.me/livedepython): Aqui você pode doar o valor que desejar uma única vez, sem se preocupar com recorrência
-- Pix - 5363bcfa-aacd-4a87-84c3-917305af4a65: Caso você tenha interesse em fazer uma transferência via PIX.
+- Pix: Caso você tenha interesse em fazer uma transferência via PIX
+    > email: pix.dunossauro@gmail.com
+
+     ou
+
+    > chave aleatória: 5363bcfa-aacd-4a87-84c3-917305af4a65
 
 ## Como sugerir temas para proximas lives?
 
