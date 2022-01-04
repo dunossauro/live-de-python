@@ -46,4 +46,4 @@ Financiamento **recorrente** é a palavra que usamos para quando você deseja do
 
 ## Como sugerir temas para proximas lives?
 
-Abra uma issue
+[Abra uma issue](https://github.com/dunossauro/live-de-python/issues)
