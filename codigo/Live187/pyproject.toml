@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "live_ofuscacao"
+version = "0.1.0"
+description = ""
+authors = ["dunossauro <mendesxeduardo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.9"
+httpx = "^0.21.1"
+decompyle3 = "^3.8.0"
+pyarmor = "^7.2.2"
+pyinstaller = "^4.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
