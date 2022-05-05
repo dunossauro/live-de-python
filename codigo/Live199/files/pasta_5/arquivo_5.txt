@@ -1,0 +1,1 @@
+files/pasta_5/arquivo_5.txt

@@ -1,0 +1,199 @@
+[[package]]
+name = "aiofile"
+version = "3.7.4"
+description = "Asynchronous file operations."
+category = "main"
+optional = false
+python-versions = ">3.4.*, <4"
+
+[package.dependencies]
+caio = ">=0.9.0,<0.10.0"
+
+[package.extras]
+develop = ["aiomisc", "asynctest", "pytest", "pytest-cov"]
+
+[[package]]
+name = "aiopath"
+version = "0.6.10"
+description = "📁 Async pathlib for Python"
+category = "main"
+optional = false
+python-versions = ">=3.10"
+
+[package.dependencies]
+aiofile = ">=3.5.0,<4"
+anyio = ">=3.2.0,<4"
+
+[[package]]
+name = "anyio"
+version = "3.5.0"
+description = "High level compatibility layer for multiple asynchronous event loop implementations"
+category = "main"
+optional = false
+python-versions = ">=3.6.2"
+
+[package.dependencies]
+idna = ">=2.8"
+sniffio = ">=1.1"
+
+[package.extras]
+doc = ["packaging", "sphinx-rtd-theme", "sphinx-autodoc-typehints (>=1.2.0)"]
+test = ["coverage[toml] (>=4.5)", "hypothesis (>=4.0)", "pytest (>=6.0)", "pytest-mock (>=3.6.1)", "trustme", "contextlib2", "uvloop (<0.15)", "mock (>=4)", "uvloop (>=0.15)"]
+trio = ["trio (>=0.16)"]
+
+[[package]]
+name = "caio"
+version = "0.9.5"
+description = "Asynchronous file IO for Linux Posix and Windows."
+category = "main"
+optional = false
+python-versions = ">=3.5.*, <4"
+
+[package.extras]
+develop = ["aiomisc", "pytest", "pytest-cov"]
+
+[[package]]
+name = "cli-exit-tools"
+version = "1.2.3"
+description = "functions to exit an cli application properly"
+category = "main"
+optional = false
+python-versions = ">=3.6.0"
+
+[package.dependencies]
+click = "*"
+lib-detect-testenv = "*"
+
+[[package]]
+name = "click"
+version = "8.1.2"
+description = "Composable command line interface toolkit"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+colorama = {version = "*", markers = "platform_system == \"Windows\""}
+
+[[package]]
+name = "colorama"
+version = "0.4.4"
+description = "Cross-platform colored terminal text."
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[[package]]
+name = "idna"
+version = "3.3"
+description = "Internationalized Domain Names in Applications (IDNA)"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[[package]]
+name = "lib-detect-testenv"
+version = "2.0.2"
+description = "detects if pytest or doctest or pyrunner on pycharm is running"
+category = "main"
+optional = false
+python-versions = ">=3.6.0"
+
+[package.dependencies]
+cli-exit-tools = "*"
+click = "*"
+
+[[package]]
+name = "pathlib3x"
+version = "1.3.9"
+description = "backport of pathlib 3.10 to python 3.6, 3.7, 3.8, 3.9 with a few extensions"
+category = "main"
+optional = false
+python-versions = ">=3.6.0"
+
+[package.dependencies]
+cli-exit-tools = "*"
+click = "*"
+
+[[package]]
+name = "sniffio"
+version = "1.2.0"
+description = "Sniff out which async library your code is running under"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "9dcbf4aef86e22c5db37d44e7e46d4c1b6811096c54a6cd01811004e6a9594dd"
+
+[metadata.files]
+aiofile = [
+    {file = "aiofile-3.7.4-py3-none-any.whl", hash = "sha256:0e2a524e4714efda47ce8964b13d4da94cf553411f9f6da813df615a4cd73d95"},
+    {file = "aiofile-3.7.4.tar.gz", hash = "sha256:0aefa1d91d000d3a20a515d153db2ebf713076c7c94edf2fca85d3d83316abc5"},
+]
+aiopath = [
+    {file = "aiopath-0.6.10-py2.py3-none-any.whl", hash = "sha256:44a5376de098b4875eefa4b4599f5ac99fd9451b88c314f237716571e16ccce2"},
+    {file = "aiopath-0.6.10.tar.gz", hash = "sha256:6ca97a864fe32478d53af6c40e1951de64ab01d6b402d88524ce72d80362eb7a"},
+]
+anyio = [
+    {file = "anyio-3.5.0-py3-none-any.whl", hash = "sha256:b5fa16c5ff93fa1046f2eeb5bbff2dad4d3514d6cda61d02816dba34fa8c3c2e"},
+    {file = "anyio-3.5.0.tar.gz", hash = "sha256:a0aeffe2fb1fdf374a8e4b471444f0f3ac4fb9f5a5b542b48824475e0042a5a6"},
+]
+caio = [
+    {file = "caio-0.9.5-cp310-cp310-macosx_10_15_x86_64.whl", hash = "sha256:cd1c20aab04c18f0534b3f0b59103a94dede3c7d7b43c9cc525df3980b4c7c54"},
+    {file = "caio-0.9.5-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:013aa374158c5074b3c65a0da6b9c6b20a987d85fb317dd077b045e84e2478e1"},
+    {file = "caio-0.9.5-cp36-cp36m-macosx_10_14_x86_64.whl", hash = "sha256:d767faf537a9ea774e8408ba15a0f1dc734f06857c2d28bdf4258a63b5885f42"},
+    {file = "caio-0.9.5-cp36-cp36m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:97d9a10522a8a25798229fc1113cfaba3832b1cd0c1a3648b009b9740ef5e054"},
+    {file = "caio-0.9.5-cp37-cp37m-macosx_10_14_x86_64.whl", hash = "sha256:4fe9eff5cf7a2d6f3f418aeeccd11ce9a38329e07527b6f52da085edb44bc2fd"},
+    {file = "caio-0.9.5-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:b8b6be369139edd678817dc0a313392d710f66fb521c275dce0a9067089b346b"},
+    {file = "caio-0.9.5-cp38-cp38-macosx_10_14_x86_64.whl", hash = "sha256:3ffc6259239e03962f9e14829e02795ca9d196eedf32fe61688ba6ed33da46c8"},
+    {file = "caio-0.9.5-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:15f70d27e1009d279e4f9ff86290aad00b0511ce82a1879c40745244f0a9ec92"},
+    {file = "caio-0.9.5-cp39-cp39-macosx_10_15_x86_64.whl", hash = "sha256:0427a58c1814a091bfbb84318d344fdb9a68f3d49adc74e5fdc7bc9478e1e4fe"},
+    {file = "caio-0.9.5-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:01061288391020f28e1ab8b0437420f7fe1e0ecc29b4107f7a8dcf7789f33b22"},
+    {file = "caio-0.9.5-py3-none-any.whl", hash = "sha256:3c74d84dff2bec5f93685cf2f32eb22e4cc5663434a9be5f4a759247229b69b3"},
+    {file = "caio-0.9.5.tar.gz", hash = "sha256:167d9342a807bae441b2e88f9ecb62da2f236b319939a8679f68f510a0194c40"},
+]
+cli-exit-tools = [
+    {file = "cli_exit_tools-1.2.3-py3-none-any.whl", hash = "sha256:47bf58549cf81e9252ecd7350b8a77df2d20b75e021d258d12bf0fbe99f478ae"},
+    {file = "cli_exit_tools-1.2.3-py3.10.egg", hash = "sha256:adb252bbaf3622caae68da4cd5efd548b32d428ef01a524677e4e75517dc965b"},
+    {file = "cli_exit_tools-1.2.3-py3.6.egg", hash = "sha256:44ce72d2b6c77878a5ddacbdd33ebb4e9fbee7016d2b93429dab16fbd2587a95"},
+    {file = "cli_exit_tools-1.2.3-py3.7.egg", hash = "sha256:01c9a37a78f4962eb223a9e2346d388fe151189b18d06a778529ac062fcf9cd7"},
+    {file = "cli_exit_tools-1.2.3-py3.8.egg", hash = "sha256:c736524f24354cdf0870b3b7b5b24560e9dfcd915387cca21560d48ce2993728"},
+    {file = "cli_exit_tools-1.2.3-py3.9.egg", hash = "sha256:1a5193cd82cf317e4223d16dbe9dd991104fcba5863b6cca14c0b001ef645cb6"},
+    {file = "cli_exit_tools-1.2.3.tar.gz", hash = "sha256:9276c5acfe662a0ab5c8e550ed1e5578f18563fa165019f344e69ec010902854"},
+]
+click = [
+    {file = "click-8.1.2-py3-none-any.whl", hash = "sha256:24e1a4a9ec5bf6299411369b208c1df2188d9eb8d916302fe6bf03faed227f1e"},
+    {file = "click-8.1.2.tar.gz", hash = "sha256:479707fe14d9ec9a0757618b7a100a0ae4c4e236fac5b7f80ca68028141a1a72"},
+]
+colorama = [
+    {file = "colorama-0.4.4-py2.py3-none-any.whl", hash = "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"},
+    {file = "colorama-0.4.4.tar.gz", hash = "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"},
+]
+idna = [
+    {file = "idna-3.3-py3-none-any.whl", hash = "sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff"},
+    {file = "idna-3.3.tar.gz", hash = "sha256:9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d"},
+]
+lib-detect-testenv = [
+    {file = "lib_detect_testenv-2.0.2-py3-none-any.whl", hash = "sha256:534f58c32b498566ec7f00b15f92d7cb8fabce60a85247ccaa6304b844c6fee3"},
+    {file = "lib_detect_testenv-2.0.2-py3.10.egg", hash = "sha256:15e679c1da0ecd6cb769c24d77c356abd742c98eb90ee3a3d042396c3232e099"},
+    {file = "lib_detect_testenv-2.0.2-py3.6.egg", hash = "sha256:9eb6eb784a5f1a1dd39e453c337c3db0eb5c9884eae4eca8af661268c573dd58"},
+    {file = "lib_detect_testenv-2.0.2-py3.7.egg", hash = "sha256:238419015db9484038bcaf0c1ffd1818fb33df4beb59815eda117ba87f4a9935"},
+    {file = "lib_detect_testenv-2.0.2-py3.8.egg", hash = "sha256:16ac9b4d7b21ed5cb2c124da181e414efb3539cc42ce918d672207ce252ff8c3"},
+    {file = "lib_detect_testenv-2.0.2-py3.9.egg", hash = "sha256:33eda2c1250147a8d7ac44ff6f394aa0e88ca2943f0ee45d1dc93f560a90316b"},
+    {file = "lib_detect_testenv-2.0.2.tar.gz", hash = "sha256:dca5a208e92a2298c691a23088fdf57e142170686398ef7569e0e25b108dba58"},
+]
+pathlib3x = [
+    {file = "pathlib3x-1.3.9-py3-none-any.whl", hash = "sha256:fb0048de6f50395c5389e41a6d7d81a8751abf61e17e5fce35c619880ea420ee"},
+    {file = "pathlib3x-1.3.9-py3.6.egg", hash = "sha256:d3cc9dca94be46335d2717d642c96f15a2ffd6fd7cb699c0dedbcdd22f2fabd2"},
+    {file = "pathlib3x-1.3.9-py3.7.egg", hash = "sha256:58e2afdd4672e709e03b4305e40f34c86807d5a7f69933be44242996e3458f0d"},
+    {file = "pathlib3x-1.3.9-py3.8.egg", hash = "sha256:42e52a5e1b3c53c93c5a1e8c1eff573ef2f438e0fdba8149ae50967f8a5d5fe3"},
+    {file = "pathlib3x-1.3.9-py3.9.egg", hash = "sha256:d4caf49f8e8b61ca3418a27bface39fcbc359d440698f02d0eb1e5b648ef101c"},
+    {file = "pathlib3x-1.3.9.tar.gz", hash = "sha256:47b186e0d9085eafe05c6e0742d45970bf1a096038e664f33123babe614f05e2"},
+]
+sniffio = [
+    {file = "sniffio-1.2.0-py3-none-any.whl", hash = "sha256:471b71698eac1c2112a40ce2752bb2f4a4814c22a54a3eed3676bc0f5ca9f663"},
+    {file = "sniffio-1.2.0.tar.gz", hash = "sha256:c4666eecec1d3f50960c6bdf61ab7bc350648da6c126e3cf6898d8cd4ddcd3de"},
+]

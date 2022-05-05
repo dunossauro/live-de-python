@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "live_189"
+version = "0.1.0"
+description = ""
+authors = ["dunossauro <mendesxeduardo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs = "^1.2.3"
+pymdown-extensions = "^9.1"
+mkdocs-windmill = "^1.0.4"
+mkdocs-material = "^8.1.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

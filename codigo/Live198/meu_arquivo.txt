@@ -1,0 +1,1 @@
+DEBUG:root:Mensagem de debug

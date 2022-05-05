@@ -1,0 +1,2 @@
+2022-04-11 15:52:58,024  root  CRITICAL: test filtro
+2022-04-11 15:52:58,024  root  CRITICAL: filtro test
