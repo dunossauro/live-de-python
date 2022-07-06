@@ -1,0 +1,3 @@
+SPLASH="/home/dunossauro/thumb/pokedex.png"
+POKE_API="http://localhost/api/v2/pokemon/"
+DATABASE="sqlite:///db.sqlite3"
