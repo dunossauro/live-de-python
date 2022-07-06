@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "live_pyside"
+version = "0.1.0"
+description = ""
+authors = ["dunossauro <mendesxeduardo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10"
+PySide6 = "^6.3.1"
+pyqtdarktheme = "^1.1.0"
+httpx = "^0.23.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
