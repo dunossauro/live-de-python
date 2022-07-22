@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "live_alembic"
+version = "0.1.0"
+description = ""
+authors = ["dunossauro <mendesxeduardo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+alembic = "^1.8.1"
+SQLAlchemy = "^1.4.39"
+sqlacodegen = "3.0.0rc1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
