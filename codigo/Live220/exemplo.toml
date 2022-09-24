@@ -1,0 +1,6 @@
+# exemplo.toml
+chave1 = "valor"    # str
+chave2 = 1          # int
+chave3 = 1.0        # float
+chave4 = true       # bool
+chave5 = [1, 2, 3]  # array

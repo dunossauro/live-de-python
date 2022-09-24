@@ -1,0 +1,20 @@
+chave1 = "valor"    # str
+chave2 = 1          # int
+chave3 = 1.0        # float
+chave4 = true       # bool
+chave5 = [1, 2, 3]  # array
+
+name = { first = "Tom", last = "Preston-Werner" }
+  
+[database]
+host = 'postgresql://db'
+port = 5432
+  
+[database.dev]
+db_name = 'xxxxxxxxxx'
+  
+[database.prod]
+db_name = 'xxxxxxxxxx'
+
+[database.prod.env]
+senha = 'SEGURO!'
