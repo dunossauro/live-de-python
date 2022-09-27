@@ -19,7 +19,7 @@ Você pode nos encontrar por meio de vários canais, o geral onde conversamos e 
 
 Porém você pode nos encontrar em outras redes:
 
-- [YouTube](youtube.com/dunossauro)
+- [YouTube](https://www.youtube.com/dunossauro)
 - [Twitch](https://www.twitch.tv/dunossauro)
 - [Twitter](http://twitter.com/dunossauro)
 
