@@ -1,6 +1,6 @@
 # Boas vindas a Live de python
 
-Live de python é um projeto criado por [@dunossauro](http://twitter.com/dunossauro) para difundir o conhecimento na linguagem Python de maneira aberta e gratuita. As lives acontecem todas as segundas feiras às 22:00 horas em nosso [canal no youtube](youtube.com/dunossauro).
+Live de python é um projeto criado por [@dunossauro](http://twitter.com/dunossauro) para difundir o conhecimento na linguagem Python de maneira aberta e gratuita. As lives acontecem todas as segundas feiras às 22:00 horas em nosso [canal no youtube](https://www.youtube.com/dunossauro).
 
 Esse projeto é mantido por vonluntários em uma campanha de [financiamento coletivo](https://apoia.se/livedepython).
 
@@ -19,7 +19,7 @@ Você pode nos encontrar por meio de vários canais, o geral onde conversamos e 
 
 Porém você pode nos encontrar em outras redes:
 
-- [YouTube](youtube.com/dunossauro)
+- [YouTube](https://www.youtube.com/dunossauro)
 - [Twitch](https://www.twitch.tv/dunossauro)
 - [Twitter](http://twitter.com/dunossauro)
 
