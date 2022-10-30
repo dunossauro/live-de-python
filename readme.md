@@ -1,8 +1,8 @@
 # Boas vindas a Live de python
 
-Live de python é um projeto criado por [@dunossauro](http://twitter.com/dunossauro) para difundir o conhecimento na linguagem Python de maneira aberta e gratuita. As lives acontecem todas as segundas feiras às 22:00 horas em nosso [canal no youtube](https://www.youtube.com/dunossauro).
+Live de python é um projeto criado por [@dunossauro](http://twitter.com/dunossauro) para difundir o conhecimento na linguagem Python de maneira aberta e gratuita. As lives acontecem todas as segundas feiras às 22:00 horas em nosso [canal no YouTube](https://www.youtube.com/dunossauro).
 
-Esse projeto é mantido por vonluntários em uma campanha de [financiamento coletivo](https://apoia.se/livedepython).
+Esse projeto é mantido por voluntários em uma campanha de [financiamento coletivo](https://apoia.se/livedepython).
 
 ## Sobre este repositório
 
@@ -26,13 +26,13 @@ Porém você pode nos encontrar em outras redes:
 
 ## Como posso ajudar a financiar o projeto?
 
-Temos várias iniciativas para o financimento coletivo do projeto
+Temos várias iniciativas para o financiamento coletivo do projeto
 
 - [Apoia.se](https://apoia.se/livedepython): Financiamento recorrente que usamos a mais tempo, 13% do valor fica com a plataforma
-- [PicPay](https://app.picpay.com/user/dunossauro): Financiamento recorrente que estamos valorizando recetemente, 2% do valor fica com a plataforma
+- [PicPay](https://app.picpay.com/user/dunossauro): Financiamento recorrente que estamos valorizando recentemente, 2% do valor fica com a plataforma
 - [Patreon](http://patreon.com/dunossauro): Financiamento recorrente para pessoas fora do Brasil
 
-Financiamento **recorrente** é a palavra que usamos para quando você deseja doar mensamelte umna quantia fixa. Por exemplo, você pode doar 5 reais todos os meses, isso garante que o projeto continue vivo e ativo por mais tempo. Assim, tenho o planejamento financeiro.
+Financiamento **recorrente** é a palavra que usamos para quando você deseja doar mensalmente uma quantia fixa. Por exemplo, você pode doar 5 reais todos os meses, isso garante que o projeto continue vivo e ativo por mais tempo. Assim, tenho o planejamento financeiro.
 
 ### Opções não recorrentes:
 
@@ -44,6 +44,6 @@ Financiamento **recorrente** é a palavra que usamos para quando você deseja do
 
     > chave aleatória: 5363bcfa-aacd-4a87-84c3-917305af4a65
 
-## Como sugerir temas para proximas lives?
+## Como sugerir temas para próximas lives?
 
 [Abra uma issue](https://github.com/dunossauro/live-de-python/issues)
