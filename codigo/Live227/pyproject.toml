@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "live-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["dunossauro <mendesxeduardo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "live_streamlit"}]
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+spacy = "^3.4.3"
+pillow = "^9.3.0"
+streamlit = "^1.15.1"
+streamlit-ace = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
