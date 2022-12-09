@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "live-pyinst"
+version = "0.1.0"
+description = ""
+authors = ["dunossauro <mendesxeduardo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "live_pyinst"}]
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+pyinstaller = "^5.7.0"
+googletrans = "3.1.0a0"
+ttkthemes = "^3.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
