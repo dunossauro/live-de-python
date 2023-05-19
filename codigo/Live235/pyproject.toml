@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "live235"
+version = "0.1.0"
+description = ""
+authors = ["dunossauro <mendesxeduardo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlmodel = "^0.0.8"
+fastapi = {extras = ["all"], version = "^0.95.1"}
+factory-boy = "^3.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
