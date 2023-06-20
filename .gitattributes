@@ -4,4 +4,4 @@
 *.pyw    linguist-language=python
 *.ipynb  linguist-language=python
 *.pyx    text diff=python
-*.html linguist-vendored=false
+*.html linguist-vendored
