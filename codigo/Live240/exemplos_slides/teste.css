@@ -1,0 +1,27 @@
+Sceen {
+    align: center middle;
+}
+
+.buttons {
+    layout: horizontal;
+    margin: 2 15;
+    align: center middle;
+    height: 30%;
+    align: center middle;
+    max-width: 80%;
+}
+
+Button {
+    margin: 0 5;
+    text-align: center;
+}
+
+Input {
+    margin: 3 10 0 10;
+}
+
+.label {
+    height: 10%;
+    align: center middle;
+    width: 100%;
+}
