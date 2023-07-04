@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "live242"
+version = "0.1.0"
+description = ""
+authors = ["dunossauro <mendesxeduardo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+trio = "^0.22.1"
+pytest-trio = "^0.8.0"
+httpx = "^0.24.1"
+trio-typing = {extras = ["mypy"], version = "^0.8.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
