@@ -10,4 +10,4 @@ eq_bass = eq(
 )[5_000:10_000]
 
 
-play(eq_bass)
+play(bass[5_000:10_000] + (eq_bass + 18))

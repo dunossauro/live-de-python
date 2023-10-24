@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "live248"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+pydub = "^0.25.1"
+scipy = "^1.11.3"
+matplotlib = "3.7.2"
+librosa = "^0.10.1"
+typer = "^0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

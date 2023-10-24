@@ -11,4 +11,6 @@ music = bass.overlay(pads).overlay(drums - 3)
 
 music_bass = low_pass_filter(music, 500)[5_000:12_000]
 
-play(music_bass.append(voz[:5_000], crossfade=3_000))
+play(
+    music_bass.append(voz[:5_000], crossfade=3_000)
+)
