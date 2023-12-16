@@ -29,7 +29,6 @@ Porém você pode nos encontrar em outras redes:
 Temos várias iniciativas para o financiamento coletivo do projeto
 
 - [Apoia.se](https://apoia.se/livedepython): Financiamento recorrente que usamos a mais tempo, 13% do valor fica com a plataforma
-- [PicPay](https://app.picpay.com/user/dunossauro): Financiamento recorrente que estamos valorizando recentemente, 2% do valor fica com a plataforma
 - [Patreon](http://patreon.com/dunossauro): Financiamento recorrente para pessoas fora do Brasil
 
 Financiamento **recorrente** é a palavra que usamos para quando você deseja doar mensalmente uma quantia fixa. Por exemplo, você pode doar 5 reais todos os meses, isso garante que o projeto continue vivo e ativo por mais tempo. Assim, tenho o planejamento financeiro.
