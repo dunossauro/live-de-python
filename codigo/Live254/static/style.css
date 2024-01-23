@@ -1,0 +1,63 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f5f5f5;
+}
+
+p {
+    color: #bdbdbd;
+}
+
+a {
+    color: #dabaff; /* Lighter color */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+a:hover {
+    color: #bb86fc; /* Original color on hover */
+}
+
+button {
+    background-color: #03dac6;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #018786;
+    color: #f5f5f5;
+}
+
+.json-container {
+    border: 1px solid #a9b7c6;
+    background-color: #282828;
+    border-radius: 5px;
+    overflow: hidden; /* To make sure the border radius applies to all child elements */
+}
+
+.json-title {
+    padding: 10px 10px 0 10px;
+    font-weight: bold;
+}
+
+pre {
+    color: #a9b7c6;
+    padding: 0 10px 10px 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: 'Courier New', Courier, monospace;
+}

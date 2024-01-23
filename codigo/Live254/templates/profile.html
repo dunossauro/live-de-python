@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Pagina do BB</title>
+    <link href="{{ url_for('static', path='style.css') }}" rel="stylesheet"/>
+  </head>
+  <body>
+    <div>
+      <h2>BB</h2>
+      <div>
+	<p> Olar {{ request.session['userinfo'].nickname }}!</p>
+      </div>
+      <div>
+	<p class="json-title">Aqui está a informação do BB:</p>
+	<div class="json-container">
+	  <pre>{{ request.session['userinfo'] | to_pretty_json }}</pre>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>
