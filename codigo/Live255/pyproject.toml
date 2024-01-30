@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "memento-live"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pillow = "^10.2.0"
+pysimplegui = "^4.60.5"
+rich = "^13.7.0"
+
+
+[tool.poetry.group.dev.dependencies]
+memory-profiler = "^0.61.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
