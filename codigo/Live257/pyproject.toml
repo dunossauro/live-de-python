@@ -1,0 +1,8 @@
+[project]
+name = 'backend'
+version = '0.0.1'
+
+[build-system]
+requires = []
+build-backend = "backend.back"
+backend-path = ["."]

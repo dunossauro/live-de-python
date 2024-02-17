@@ -1,0 +1,26 @@
+[project]
+name = 'spam'
+version = '0.1.0'
+dependencies = [
+    'typer',
+    'rich-pixels<3.0.0',
+    'inquirerpy',
+    'pillow',
+]
+
+[project.optional-dependencies]
+dev = ['blue', 'isort', 'ipython', 'build']
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[project.scripts]
+spam-cli = "spam.cli:app"
+
+[project.gui-scripts]
+spam-gui = "spam.gui:app"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
