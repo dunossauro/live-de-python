@@ -1,0 +1,14 @@
+[project]
+name = 'live_sqlalchemy'
+version = '0.0.1'
+dependencies = ['sqlalchemy', 'alembic', 'aiosqlite', 'psycopg-binary']
+
+[project.optional-dependencies]
+dev = ['mypy', 'blue', 'isort', 'ruff', 'taskipy']
+
+[tool.taskipy.tasks]
+lint = 'blue . --check && isort . --check & ruff .'
+
+[tool.isort]
+profile = 'black'
+line_length = 79
