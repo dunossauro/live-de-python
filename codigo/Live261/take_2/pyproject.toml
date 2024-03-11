@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "take3"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+taskipy = "^1.12.2"
+locust = "^2.24.0"
+blue = "^0.9.1"
+isort = "^5.13.2"
+
+[tool.isort]
+profile = 'black'
+line_length = 79
+
+[tool.taskipy.variables]
+server = "root@137.184.189.141"
+
+[tool.taskipy.tasks]
+sync = { cmd = "rsync -a -v --progress . {server}:take3 --filter=':- .gitignore'", use_vars = true}
+pre_deploy = 'task sync'
+deploy = { cmd = "ssh {server} 'cd take3;docker compose down; docker compose up --build -d'", use_vars = true }
+down = { cmd = "ssh {server} 'cd take3;docker compose down'", use_vars = true }
+connect = {cmd = "ssh {server};", user_vars = true}
+rs = true }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

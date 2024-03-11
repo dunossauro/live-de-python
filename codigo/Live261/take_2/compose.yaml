@@ -1,0 +1,28 @@
+services:
+  nginx:
+    image: nginx
+    volumes:
+      - './etc/nginx.conf:/etc/nginx/nginx.conf'
+    ports:
+      - 80:80
+    depends_on:
+      - spam
+
+  sausage:
+    image: postgres
+    environment:
+      POSTGRES_DB: app_db
+      POSTGRES_USER: app_user
+      POSTGRES_PASSWORD: app_password
+
+  spam:
+    build: "spam/."
+    ports:
+      - 8001:8001
+
+  eggs:
+    build: "eggs/."
+    depends_on:
+      - sausage
+    ports:
+      - 8002:8002
