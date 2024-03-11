@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "live-fastui"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.*"
+fastui = "^0.5.2"
+fastapi = "^0.109.2"
+sqlmodel = "^0.0.16"
+uvicorn = "^0.27.1"
+python-multipart = "^0.0.9"
+brython = "3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

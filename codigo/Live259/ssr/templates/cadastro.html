@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.4/dist/terminal.min.css" />
+    <style>
+      :root {
+	  padding: 50px 50px 50px 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Cadastro!</h1>
+    <form method='POST' action='/cadastro'>
+      <label for="nome"> Nome:</label>
+      <input name="nome" type="text" value=""/><br/>
+      <label for="telefone"> Telefone:</label>
+      <input name="telefone" type="text" value=""/><br/>
+      <br/>
+      <button type="submit" class='btn btn-default'>
+	Enviar!
+      </button>
+    </form>
+  </body>
+</html>

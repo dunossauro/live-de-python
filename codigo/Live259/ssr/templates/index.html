@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.4/dist/terminal.min.css" />
+    <style>
+      :root {
+	  padding: 50px 50px 50px 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Minha Página SSR!</h1>
+    <table>
+        <tr>
+	  <th>ID</th>
+	  <th>Nome</th>
+	  <th>Telefone</th>
+	</tr>
+      {% for items in data %}
+	<tr>
+	  <td>{{items.id}}</td>
+	  <td>{{items.nome}}</td>
+	  <td>{{items.telefone}}</td>
+	</tr>
+      {% endfor %}
+    </table>
+    <a href="/cadastro">
+      <button class='btn btn-default'>
+	Ir para cadastro!
+      </button>
+    </a>
+    </form>
+  </body>
+</html>
