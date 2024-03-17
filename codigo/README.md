@@ -1,177 +1,269 @@
 # Sumário:
 
-- [Live 1](./Live001) | [Assistir](https://www.youtube.com/watch?v=5hL9T3jintE) - Overview
-- [Live 2](./Live002) | [Assistir](https://www.youtube.com/watch?v=_Z8mUxORh0g&t=2s) - Testes unitários p1
-- Live 3 | [Assistir](https://www.youtube.com/watch?v=KZJa8rQecGc) - Introdução a Django p1 (com Andre Machado)
-- [Live 4](./Live004) | [Assistir](https://www.youtube.com/watch?v=gQyUxKxUaEw) - Testes unitários p2
-- [Live 5](./Live005) | [Assistir](https://www.youtube.com/watch?v=7GnHDfV6KQ8&t=83s) - Debugger (pdb)
-- [Live 6](./Live006) | [Assistir](https://www.youtube.com/watch?v=TaZGQXWFsf4) - Funções, closures e decoradores
-- [Live 7](./Live007) | [Assistir](https://www.youtube.com/watch?v=UHe49ASt5kg) - Classes e tipos
-- [Live 8](./Live008) | [Assistir](https://www.youtube.com/watch?v=2WUo5tD-eIA) - Sqlite3 - Uma introdução
-- [Live 9](./Live009) | [Assistir](https://www.youtube.com/watch?v=WZjOOlrbjUA) - Bottle - Micro-framework web
-- [Live 10](./Live010) | [Assistir](https://www.youtube.com/watch?v=9EvoggLUp1E) - Behave - Testes de comportamento com BDD
-- [Live 11](./Live011) | [Assistir](https://www.youtube.com/watch?v=rBIksyGY4_E) - SQLAlchemy - Definitivamente o melhor ORM pythonico
-- [Live 12](./Live012) | [Assistir](https://www.youtube.com/watch?v=DJLho_ZdaII) - API rest com bottle
-- [Live 13](./Live013) | [Assistir](https://www.youtube.com/watch?v=syctPjStwQU) - Objetos e métodos especiais (dunders)
-- [Live 14](./Live014) | [Assistir](https://www.youtube.com/watch?v=rwkIPIHwIYY) - Threads
-- [Live 15](./Live015) | [Assistir](https://www.youtube.com/watch?v=8vfU84RKbTQ) - Comunicação entre Threads (Event e Queue)
-- [Live 16](./Live016) | [Assistir](https://www.youtube.com/watch?v=8cNpLnH1dsU&t=2060s) - Manipulação de arquivos e diretórios
-- Live 17 | [Assistir](https://www.youtube.com/watch?v=cfmV8NUzAhw&t=3382s) - Tipos de containers e suas funcionalidades
-- [Live 18](./Live018) | [Assistir](https://www.youtube.com/watch?v=Axbiz2q2iPA&t=3249s) - Compreesão de containers e geradores
-- [Live 19](./Live019) | [Assistir](https://www.youtube.com/watch?v=AT17Ht87UKI) - Expressões regulares
-
-## Web Scraping
-
-- [Live 20](./Live020) | [Assistir](https://www.youtube.com/watch?v=MlzCElmtrxQ) - Selenium / **Web scraping #1**
-- [Live 21](./Live021) | [Assistir](https://www.youtube.com/watch?v=kktO7IOjpgs) - Beautifulsoup / **Web scraping #2**
-- [Live 22](./Live022) | [Assistir](https://www.youtube.com/watch?v=geGjMToK5u8) - Requests / **Web scraping #3**
-- [Live 23](./Live023) | [Assistir](https://www.youtube.com/watch?v=rKcsV91YIio) - Deep web / Anômidade / **Web scraping #4**
-- [Live 24](./Live024) | [Assistir](https://www.youtube.com/watch?v=7KCBFTeIpLI) - Tabelas e persistência / **Web scraping #5**
-- [Live 25](./Live025) | [Assistir](https://www.youtube.com/watch?v=Pa4LT83osnY) - Raspando arquivos não HTML / **Web scraping #6**
-- [Live 26](./Live026) | [Assistir](https://www.youtube.com/watch?v=rbiKXQSOWIM) - Scrapy (com Artur Gaspar) / **Web scraping #7**
-- [Live 27](./Live027) | [Assistir](https://www.youtube.com/watch?v=XuWyfTAC7Qs) - Baixando arquivos e manipulando datas / **Web scraping #8**
-
-## Collections
-
-- [Live 28](./Live028) | [Assistir](https://www.youtube.com/watch?v=ubCNqPNIx5Q) - Deque e Namedtuple / **Collections #1**
-- Live 29 |[Assistir](https://www.youtube.com/watch?v=3NYHjZwhx-M) - Counter, defaultdict e OrderedDict / **Collections #2**
-- [Live 30](./Live030) | [Assistir](https://www.youtube.com/watch?v=TF6oIYAOlag) - ChainMap / **Collections #3**
-- [Live 31](./Live031) | [Assistir](https://www.youtube.com/watch?v=gCZyrM-V2pY) - User(Dict|List|String) e collections.abc / **Collections #4**
-- [Live 32](./Live032) | [Assistir](https://www.youtube.com/watch?v=YXGrOF1KIKI) - collections.abc / **Collections #5**
-
----
-
-- Live 33 | [Assistir](https://www.youtube.com/watch?v=lAGWXaDcsKU) - Python para arquitetos, designers e artistas visuais (Com Alexandre Villares)
-- [Live 34](./Live034) | [Assistir](https://www.youtube.com/watch?v=sszTUlqAatc) - Trabalhando com arquivos de texto
-- [Live 35](./Live035) | [Assistir](https://www.youtube.com/watch?v=GqVQRrE1axw) - Redes neurais usando a biblioteca padrão (com Felipe Corrêa)
-- [Live 36](./Live036) | [Assistir](https://www.youtube.com/watch?v=LwxVscJUapk) - Parametrizando execução com ArgParser
-- [Live 37](./Live037) | [Assistir](https://www.youtube.com/watch?v=ujs6oYAeQRc) - Arquivos de configuração com ConfigParser
-
-## Qualidade de código
-
-- Live 38 | [Assistir](https://www.youtube.com/watch?v=qG-F5tordqc) - Introdução à Qualidade de Código
-- [Live 39](./Live039) | [Assistir](https://www.youtube.com/watch?v=bqxXWfCrUXs) - Padronização de código e guias de estilo (PEPs)
-- Live 40 |[Assistir](https://www.youtube.com/watch?v=7_eAQ7SeuEg) - Análise estática de código (linters)
-- [Live 41](./Live041) | [Assistir](https://www.youtube.com/watch?v=2B6eSQ7qAeQ) - Cobertura e test runners
-- [Live 42](./Live042) | [Assistir](https://www.youtube.com/watch?v=wczL0iDtmuw) - Testes de mutação
-
----
-
-- [Live 43](./Live043) | [Assistir](https://www.youtube.com/watch?v=fR73UVNXb04) - Gerenciadores de contexto
-- Live 44 | [Assistir](https://www.youtube.com/watch?v=xljES_-IbLA) - Criando um bot para telegram (Com Rafael Galleani)
-- [Live 45](turicas.info/slides/brasil.io/capiconf2018/) | [Assistir](https://www.youtube.com/watch?v=ejLTO_J3DB4) - Rows (Com Turicas)
-- Live 46 | [Assistir](https://www.youtube.com/watch?v=PYFwz5_vdbQ) - O que aprendi ensinando Python (Especial de aniverário)
-- [Live 47](https://github.com/danilobellini/notebooks/blob/master/2018-04-23_DadosViciados/2018-04-23_LiveDePython.ipynb) | [Assistir](https://www.youtube.com/watch?v=UsNH6rBibwg) - Esses dados são viciados? estrelando pandas e scipy.stats (Com Danilo Bellini)
-- [Live 48](./Live048) | [Assistir](https://www.youtube.com/watch?v=tZ2iJ5H99fg) - Criando logs de aplicações
-- [Live 49](./Live049) | [Assistir](https://www.youtube.com/watch?v=wuKVLbM2ins) - Serialização com Pickle
-- [Live 50](./Live050) | [Assistir](https://www.youtube.com/watch?v=FjJ1bClIa-o) - Agendando tarefas com Sched
-
-## Multiprocessamento com Python
-
-- [Live 51](./Live051) | [Assistir](https://www.youtube.com/watch?v=BJuO9nLqV2Y) - Introdução a multiprocessamento - Multiprocessamento #1
-- [Live 52](./Live052) | [Assistir](https://www.youtube.com/watch?v=o4Ad8_LjElo) - Usando Threads - Multiprocessamento #2
-- [Live 53](./Live053) | [Assistir](https://www.youtube.com/watch?v=ANGM6Tjf9zM) - Usando Processos - Multiprocessamento #3
-- [Live 54](./Live054) | [Assistir](https://www.youtube.com/watch?v=9-tg03KSp-s) - Concorrência com futures - Multiprocessamento #4
-- [Live 55](./Live055) | [Assistir](https://www.youtube.com/watch?v=uaSuaMoYl4M) - Concorrência com asyncio - Multiprocessamento #5
-- [Live 58](./Live058) | [Assistir](https://www.youtube.com/watch?v=UignQVMdNlw&t=1627s) - Requests assincronos - Multiprocessamento #6
-
----
-
-- [Live 59](./Live059) | [Assistir](https://www.youtube.com/watch?v=GWn2EV5CDNI) - Objetos assíncronos
-- [Live 60](./Live060) | [Assistir](https://www.youtube.com/watch?v=sJpNfZqLpoI) - Exceções
-- Live 63 | [Assistir](https://www.youtube.com/watch?v=ywbzwTc51y4) - Análise de sentimento aplicado no futebol - Cássio Botaro
-
-## Orientação a objetos
-
-- [Live 61](./Live061) | [Assistir](https://www.youtube.com/watch?v=BALM_oJcJL4) - Programação orientada a objetos #1 - Introdução
-- [Live 62](./Live062) | [Assistir](https://www.youtube.com/watch?v=xWTNoTtA9V8) - Programação orientada a objetos #2 - Herança e polimorfismo
-- [Live 64](./Live064) | [Assistir](https://www.youtube.com/watch?v=MYaXUrmvrho) - Programação orientada a objetos #3 - Composição e métodos mágicos
-- [Live 65](./Live065) | [Assistir](https://www.youtube.com/watch?v=XSVvXso_Ukc) - Programação orientada a objetos #4 - Sobrecarga de operadores
-
-## Fabricação digital
-
-- [Live 67](./Live067) | [Assistir](https://www.youtube.com/watch?v=Y3APLjreGps) - Fabricação Digital #1 - Corte e gravação a laser
-
-## Resolução de Exercícios
-
-- [Live 71](./Live071) | [Assistir](https://www.youtube.com/watch?v=cloqAaQ-6Go) - Resolvendo Problemas do Project Euler com Hélio Meira Lins
-
-- [Live 72](./Live072) - Construíndo API REST com Pyramid + Cornice - Com Marcelo Moraes
-
-- Live 73 | [Assistir](https://www.youtube.com/watch?v=Td8Wbr4Y3bU) - import this, tdd e exercícios em python - Com João Lugão
-
-- Live 74 | [Assistir](https://www.youtube.com/watch?v=AzS7OVzji8g) - Comunidades - Com Letícia Silva
-
-## Testes
-
-- [Live 75](./Live075) | [Assistir](https://www.youtube.com/watch?v=Sr9lUR1COpU) - Testes de unidade
-- [Live 76](./Live076) | [Assistir](https://www.youtube.com/watch?v=mOrsJwY2038) - Testes de unidade p.II - Dublês de teste
-- Live 77 | [Assistir](https://www.youtube.com/watch?v=OGNUq0w3j9E) - Combinação explosiva: Processo Seletivo com Just Python - Com Renzo Nuccitelli
-
----
-
-- Live 78 | [Assistir](https://youtu.be/5LMG4OCoEn0) - Raspando a web com Scrapy - Com Renne Rocha
-
----
-
-- [Live 79](./Live079) | [Assistir](https://www.youtube.com/watch?v=atvuOV8QWRE) - Testes de unidade na prática
-- [Live 80](./Live080) | [Assistir](https://www.youtube.com/watch?v=HuZ2Keoc9Hs) - Melhorando testes de unidade
-- [Live 81](https://github.com/dunossauro/crudzin) | [Assistir](https://www.youtube.com/watch?v=jqDxDsRJtAo) - Testando o que está pronto
-- [Live 82](https://github.com/dunossauro/crudzin) | [Assistir](https://www.youtube.com/watch?v=ieGA91ExOH0) - Autenticação de uma API Flask com testes
-- [Live 83](https://github.com/dunossauro/crudzin) | [Assistir](https://www.youtube.com/watch?v=aX0P5tsiat4) - BDD com python e flask
-
----
-
-- [Live 84](./Live084) | [Assistir](https://www.youtube.com/watch?v=yEighFc_bZM) - Type hints e Anotações de funções
-
----
-
-- [Live 88](./Live088) | [Assistir](https://www.youtube.com/watch?v=_LnM7pSkmkM) - Click - Desenvolvendo ferramentas de modo texto
-
-- [Live 89](./Live089) | [Assistir](https://www.youtube.com/watch?v=AHGDbNaHldA) - Click p.2- Desenvolvendo CLIs bonitos e úteis
-
----
-
-- [Live 94](./Live094) | [Assistir](https://www.youtube.com/watch?v=YuKdwIhJysU) - Django básico (Regis Santos)
-
-- [Live 95](./Live094) | [Assistir](https://www.youtube.com/watch?v=cyxky2QJlwg) - Entendendo o ORM do Django (Regis Santos)
-
-- [Live 112](./Live112) | [Assistir](https://www.youtube.com/watch?v=bSFjmGakIPU) - Testes de perfomace com Locust (Flávio Meira)
-
-## FastAPI
-
-- [Live 113](./Live113) | [Assistir](https://youtu.be/MxlS5_MI_WY) - FastAPI - Com João Lugão
-
----
-
-## OpenAPI
-
-- Live 178 | [Assistir](https://www.youtube.com/watch?v=TfGHNBaK9a0) - Documentando APIs com OpenAPI
-
----
-
-## Padrões de projeto
-
-- [Live 115](./Live115) | [Assistir](https://www.youtube.com/watch?v=fG5pYDVm8_M) - Introdução a padrões de projeto
-- Live 116 | [Assistir](https://youtu.be/sbCJucr8aJg) - Observer / PubSub / Dispatcher - Padrões de projeto #02
-- [Live 117](./Live117) | [Assistir p1](https://youtu.be/WyyKnROg3a4) | [Assistir p2](https://youtu.be/F3rhZMg_vuM) - Padrões de projeto #03
-- [Live 118](./Live118) | [Assistir](https://youtu.be/iqVOUAbeGoE) -  Chain of responsibility / Pipelines / Composição - Padrões de projeto #04
-- [Live 119](./Live119) | [Assistir](https://youtu.be/48fWEFIfX9U) - Resolvendo Problemas
-- [Live 120](./Live120) | [Assistir](https://youtu.be/-UKPFtS4-jI) - Strategy - Padrões de projeto #05
-- [Live 121](./Live121) | [Assistir](https://youtu.be/6kNXFCoQBl0) - State - Padrões de projeto #06
-
----
-
-- [Live 135](./Live135) | [Assistr](https://youtu.be/e9r-6hwchCg) - Bate papo sobre testes
-- [Live 136](./Live136) | [Assistr](https://youtu.be/5cJzN0zlR5Q) - Functools
-- [Live 137](./Live137) | [Assistr](https://youtu.be/iy3fGZEK8f4) - Pendulum
-- Live 138| [Assistr](https://youtu.be/eDTczIpZj-o) - Bulindo com Flask
-- [Live 139](./Live139) | [Assistr](https://youtu.be/UgaybOYMKS0) - SQLAlchemy ORM
-- [Live 140](./Live140) | [Assistr](https://youtu.be/LU2ZsBk_UhI) - WTForms
-- Live 141 | [Assistr](https://youtu.be/s16chBNQURw) - Perungte-me o que quiser sobre Python
-- [Live 142](./Live142) | [Assistr](https://youtu.be/iSMTQc1fTdE) - Cookiecutter
-- [Live 143](./Live143) | [Assistr](https://youtu.be/sS0UI0yuLYQ) - Beeware
-- [Live 144](./Live144) | [Assistr](https://youtu.be/R1vm0RF66C8) - Appium
-- [Live 145](./Live145) | [Assistr](https://youtu.be/5ApbLrcUtlE) - Kivy
-- [Live 146](./Live146) | [Assistr](https://youtu.be/6a2ID5Ld6is) - Django 101
-- [Live 148](./Live148) | [Assistr](https://youtu.be/1yuv5SFR_zg) - Criando aplicações web assíncronas com Starlette
+|N|Link|Código|Slides|Título|
+| --- | --- | --- | --- | --- |
+|261|[link](http://youtu.be/9mifCIFhtIQ)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live261)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23261.pdf)|Introdução a observabilidade com OpenTelemetry|
+|260|[link](http://youtu.be/dAnIWmJ-2NI)|||Criando desenhos com py5: programação criativa com @AlexandreVillares|
+|259|[link](http://youtu.be/5gpLQa_N2iA)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live259)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23259.pdf)|FastUI: Server-Driven User Interface com Pydantic e FastAPI|
+|258|[link](http://youtu.be/t4C1c62Z4Ag)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live258)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23258.pdf)|SQLAlchemy: conceitos básicos, uma introdução a versão 2|
+|257|[link](http://youtu.be/6p1HKaHrk0Y)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live257)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23257.pdf)|Entendendo o arquivo pyproject.toml|
+|256|[link](http://youtu.be/feRJ9rGH-zc)|||Monitorando spiders de Scrapy com Spidermon com Renne Rocha|
+|255|[link](http://youtu.be/96V1IuEYKxY)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live255)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23255.pdf)|Memento: Padrões de Projeto #7|
+|254|[link](http://youtu.be/DeVCIU1JERc)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live254)||FastAPI e Identidade com @jesstemporal|
+|253|[link](http://youtu.be/77gO89ywTQQ)|||Pergunte o que quiser sobre Python|
+|252|[link](http://youtu.be/jTdYBT67YCU)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23252.pdf)|Funções em Python parte 3: Funções como objetos, composição de funções e classe função|
+|251|[link](http://youtu.be/BzrmzgSxDaY)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23251.pdf)|Funções em Python parte 2: Geradores, Corrotinas e Objetos|
+|250|[link](http://youtu.be/0yXPQZvlgrk)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23250.pdf)|Funções em Python|
+|249|[link](http://youtu.be/UNw-OFqhN1c)|||Me pergunte o que quiser sobre Python|
+|248|[link](http://youtu.be/AVSMV08iQY0)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live248)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23248.pdf)|Pydub: Manipulação de Áudio em Python|
+|247|[link](http://youtu.be/yyzIPQsa98A)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live247)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23247.pdf)|Novidades na Versão 3.12 do Python|
+|246|[link](http://youtu.be/vIUeTkfW1JQ)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23246.pdf)|TinyDB o incrível e pequeno banco de dados de documentos|
+|245|[link](http://youtu.be/Psp64rR1rPU)|||Python? Pergunte o que quiser|
+|244|[link](http://youtu.be/lnMRINNJI7M)|||Python? Pergunte o que quiser|
+|243|[link](http://youtu.be/r_12JMnqcoA)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23243.pdf)|Animações com Manim|
+|242|[link](http://youtu.be/pejxUqrT7yo)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live242)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23242.pdf)|Trio: Concorrência estruturada|
+|241|[link](http://youtu.be/iSmnkL0udpg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live241)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23241.pdf)|Conhecendo itertools|
+|240|[link](http://youtu.be/4-Sj7D2cFAU)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live240)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23240.pdf)|Criando interfaces de terminal com Textual (TUIs)|
+|239|[link](http://youtu.be/lmMnpIa8Jeo)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live239)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23239.pdf)|Raspando dados com Parsel|
+|238|[link](http://youtu.be/nWmPEgTwGMM)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live238)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23238.pdf)|Escopos e Namespaces|
+|237|[link](http://youtu.be/o5y5rU-zroQ)|||Pergunte o que quiser sobre Python|
+|236|[link](http://youtu.be/x9Hf1UjxjQQ)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live236)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23236.pdf)|Criando jogos 3D com Ursina|
+|235|[link](http://youtu.be/7RbUreoXOQg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live235)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23235.pdf)|Conhecendo o SQLModel, um ORM diferente|
+|234|[link](http://youtu.be/V4hSLZRCGoE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live234)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23234.pdf)|Requests assíncronos com HTTPX|
+|233|[link](http://youtu.be/m1_48lmAX-Y)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live233)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23233.pdf)|Criando aplicações de linha de comando (CLIs) com Typer|
+|232|[link](http://youtu.be/-8H2Pyxnoek)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live232)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23232.pdf)|Uma introdução aos testes: Como fazer?|
+|231|[link](http://youtu.be/txCLMLyLA94)|||Me pergunte o que quiser sobre Python|
+|230|[link](http://youtu.be/AIzzrERANVs)|||Me pergunte o que quiser sobre Python|
+|229|[link](http://youtu.be/2GWp3ozCeRY)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live229)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23229.pdf)|Scapy: Programando protocolos de rede|
+|228|[link](http://youtu.be/oZw_mcH2Irs)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live228)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23228.pdf)|Pyinstaller: como gerar executáveis|
+|227|[link](http://youtu.be/Ie5ef_R_k6I)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live227)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23227.pdf)|Streamlit: Criando aplicações web|
+|226|[link](http://youtu.be/Vr9QXpELdrs)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live226)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23226.pdf)|spaCy: Introdução a Processamento de Linguagem Natural|
+|225|[link](http://youtu.be/Rf1GDT8wiFU)|||Ansible: Automatizando tarefas|
+|224|[link](http://youtu.be/gadMAObZ_1Y)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live224)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23224.pdf)|Rich: fazendo prints incríveis|
+|223|[link](http://youtu.be/ZJqSlzBDY-g)|||Pergunte o que quiser sobre Python|
+|222|[link](http://youtu.be/Br0cJo2YeNg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live222)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23222.pdf)|Automação de browsers com Playwright|
+|221|[link](http://youtu.be/GhKVR72eJmA)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live221)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23221.pdf)|Introdução ao Pandas|
+|220|[link](http://youtu.be/7BfiLFiqGRU)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live220)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23220.pdf)|Novidades Python 3.11|
+|219|[link](http://youtu.be/vT8iVef1GyU)|||O que você gostaria de saber sobre Python?|
+|218|[link](http://youtu.be/pxfZTAJDipY)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live218)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23218.pdf)|Como o interpretador do Python funciona?|
+|217|[link](http://youtu.be/GRfQyBpSRjg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live217)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23217.pdf)|Análises de dados da bolsa de valores - Com Inácio Medeiros|
+|216|[link](http://youtu.be/7BVoKUCVXIo)|||Pergunte o que quiser sobre Python|
+|215|[link](http://youtu.be/Wmxp0Qm0zeU)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live215)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23215.pdf)|Mercado de trabalho Python, suas ferramentas e salários|
+|214|[link](http://youtu.be/eepX8Bb2BxI)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live214)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23214.pdf)|Como fazer agendamento de tarefas com Python e Rocketry|
+|213|[link](http://youtu.be/lL9amfaaRws)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live213)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23213.pdf)|O que são decoradores?|
+|212|[link](http://youtu.be/oOo1uENjXhI)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live212)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23212.pdf)|Automatizando edição de vídeos com Moviepy|
+|211|[link](http://youtu.be/yQtqkq9UkDA)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live211)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23211.pdf)|Migrações, bancos de dados evolutivos (Alembic e SQLAlchemy)|
+|210|[link](http://youtu.be/bO-ksqJNPXg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live210)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23210.pdf)|Como fazer bots para telegram com Pyrogram|
+|209|[link](http://youtu.be/5S2paeDKTLk)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live209)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23209.pdf)|Interfaces gráficas com QT e PySide|
+|208|[link](http://youtu.be/lcf7XiWuOeo)|||Pergunte o que quiser sobre Python|
+|207|[link](http://youtu.be/DiiKff1z2Yw)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live207)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23207.pdf)|Variáveis de ambiente, dotenv, constantes e configurações|
+|206|[link](http://youtu.be/H32lpY8Jipo)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live206)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23206.pdf)|Monitorando o sistema e processos com PSUtil|
+|205|[link](http://youtu.be/CcYqwUfp6UQ)|||Plone, o CMS pythonico - Com Érico Andrei|
+|204|[link](http://youtu.be/cHraQ2I0Xgk)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live204)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23204.pdf)|Profiling, identificando problemas de performance|
+|203|[link](http://youtu.be/BImF-dZYass)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23203.pdf)|Datetime, manipulando datas e horários|
+|202|[link](http://youtu.be/1xGLzxV4qq4)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live202)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23202.pdf)|Interfaces gráficas com PySImpleGUI|
+|201|[link](http://youtu.be/bFV2-ulGy60)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live201)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23201.pdf)|Como usar arquivos temporários|
+|199|[link](http://youtu.be/E_hox7iZjOE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live199)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23199.pdf)|Manipulação de arquivos e pastas com pathlib|
+|198|[link](http://youtu.be/PGAOqAWuwC0)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live198)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23198.pdf)|Como criar logs em Python? [Logging, Loguru, Sentry]|
+|197|[link](http://youtu.be/yffiyHEiUvo)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live197)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23197.pdf)|Como debugar código Python?|
+|196|[link](http://youtu.be/K6YT2y38Zqc)|||Criando API's robustas - Com Cássio Botaro|
+|195|[link](http://youtu.be/OUyiK1kZHoM)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live195)||Machine Learning com PyTorch - Com Leon Sólon (Let's Data)|
+|194|[link](http://youtu.be/94FQUHVU39s)|||20 anos da espetacular versão 2.2 do Python - Com João JS Bueno|
+|193|[link](http://youtu.be/hB6bI4PneOk)|||Me pergunte o que quiser sobre Python!|
+|192|[link](http://youtu.be/O3bs4JtHrow)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23192.pdf)|Como organizar um projeto Python?|
+|191|[link](http://youtu.be/naGF7EIUFp0)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live191)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23191.pdf)|Ambientes virtuais e instalação de bibliotecas|
+|190|[link](http://youtu.be/HSotf1Amess)|||Dicas para aprender Python|
+|189|[link](http://youtu.be/GW6nAJ1NHUQ)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live189)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23189.pdf)|Documentado projetos com MkDocs|
+|188|[link](http://youtu.be/LIvLEmMYyX4)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live188)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23188.pdf)|Motion graphics com Blender|
+|187|[link](http://youtu.be/HT9GJKz-vYs)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live187)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23187.pdf)|Ofuscando código com pyArmor e pyMinifier|
+|186|[link](http://youtu.be/wb8Bv5VLPkg)|||Me pergunte o que quiser sobre Python|
+|185|[link](http://youtu.be/3h8K29U5_HA)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live185)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23185.pdf)|GraphQL (Strawberry e FastAPI)|
+|184|[link](http://youtu.be/Bb_TvqoUxX4)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live184)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23184.pdf)|Organizando projetos Python com GNU Make - Com João Lugão|
+|183|[link](http://youtu.be/zVnV5s07i8U)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live183)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23183.pdf)|Fazendo música com FoxDot|
+|182|[link](http://youtu.be/wfjJWf-jebI)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live182)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23182.pdf)|Introdução ao Cython|
+|181|[link](http://youtu.be/fkGFNOOmXsY)|||Formatação de strings|
+|180|[link](http://youtu.be/ncPxLt2qWM8)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live180)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23180.pdf)|Aplicativo android com kivyMD|
+|179|[link](http://youtu.be/ZOSWdktsKf0)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live179)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23179.pdf)|Gerenciando pacotes e ambientes com Poetry|
+|178|[link](http://youtu.be/TfGHNBaK9a0)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live178)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23178.pdf)|Documentando APIs com OpenAPI|
+|177|[link](http://youtu.be/vNEwbfsZ-Js)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live177)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23177.pdf)|Interfaces gráficas com Tkinter|
+|176|[link](http://youtu.be/kT85FfTE22E)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live176)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23176.pdf)|Manipulando imagens com Pillow|
+|175|[link](http://youtu.be/1_nQ5A2HcgU)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live175)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23175.pdf)|API REST|
+|174|[link](http://youtu.be/gOTMudRsf6A)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live174)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23174.pdf)|MongoDB|
+|173|[link](http://youtu.be/EoQFKtPz15Y)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live173)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23173.pdf)|Gerando executáveis|
+|172|[link](http://youtu.be/jWDUUgf7xzg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live172)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23172.pdf)|FaaS e AWS Lambdas|
+|171|[link](http://youtu.be/QqigW-yxtOw)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live171)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23171.pdf)|Pattern Matching|
+|170|[link](http://youtu.be/L1f6N6NcgPw)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live170)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23170.pdf)|Github Actions - Com Willian Lopes|
+|169|[link](http://youtu.be/BieZQkwt1UQ)|||Mercado de trabalho de Python no Brasil|
+|168|[link](http://youtu.be/sidi9Z_IkLU)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live168)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23168.pdf)|Pytest Fixtures|
+|167|[link](http://youtu.be/MjQCvJmc31A)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23167.pdf)|Pytest: Uma introdução|
+|166|[link](http://youtu.be/nwJYbbJfJpg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live166)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23166.pdf)|Novidades do SQLAlchemy (orm async, 2.0 e queries)|
+|165|[link](http://youtu.be/UdfLu1G47BU)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live165)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23165.pdf)|Pydantic|
+|164|[link](http://youtu.be/EqFzY8dBWHs)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live164)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23164.pdf)|WebSockets|
+|163|[link](http://youtu.be/cEkA9PH2oEk)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23163.pdf)|Sua aplicação NÃO está segura|
+|162|[link](http://youtu.be/fyhZ3a963wI)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23162.pdf)|Deploy de aplicação no Heroku|
+|161|[link](http://youtu.be/fKgPXUUsg1M)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live161)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23161.pdf)|Plotly Dash|
+|160|[link](http://youtu.be/fJixdxPOz-E)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live160)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23160.pdf)|Peewee ORM, simplificando banco de dados|
+|159|[link](http://youtu.be/ig9hbt-yKkM)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live159)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23159.pdf)|Celery|
+|158|[link](http://youtu.be/t5uxBACjp8Y)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live158)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23158.pdf)|Jogos com Pygame|
+|157|[link](http://youtu.be/WnV553cjbo0)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live157)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23157.pdf)|CLIs com Google Fire|
+|156|[link](http://youtu.be/TdVp1GB-8HQ)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live156)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23156.pdf)|KivyMD, aparência nativa para apps Android|
+|155|[link](http://youtu.be/VRcLJNTw8qg)|||Perguntas e Respostas|
+|154|[link](http://youtu.be/I8doc-MlQ9g)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live154)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23154.pdf)|Uma introdução histórica à corrotinas PARTE 3 (AsyncIO)|
+|153|[link](http://youtu.be/Sj9cvkWZjac)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live153)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23153.pdf)|Uma introdução histórica à corrotinas PARTE 2|
+|152|[link](http://youtu.be/b6LT6O1s3_8)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live152)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23152.pdf)|Uma introdução histórica à corrotinas|
+|151|[link](http://youtu.be/ZjwZ9nfhsk4)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23151.pdf)|Desvendando o yield e as funções geradoras|
+|150|[link](http://youtu.be/NtZY3AmsBSk)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live150)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23150.pdf)|Dataclasses e obsessão por primitivos|
+|149|[link](http://youtu.be/8ULr2J-Ymlo)|||Flask + VueJS - Criando front para APIs em Flask com Giordane Oliveira|
+|148|[link](http://youtu.be/1yuv5SFR_zg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live148)||Criando aplicações web assíncronas com Starlette com Marcus Pereira|
+|147|[link](http://youtu.be/wOOjZ4kzPus)|||Nameko e microsserviços com Flávio Pimenta|
+|146|[link](http://youtu.be/6a2ID5Ld6is)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live146)||Django 101: Saindo do zero com Renan Moura|
+|145|[link](http://youtu.be/5ApbLrcUtlE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live145)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23145.pdf)|Interfaces gráficas com Kivy|
+|144|[link](http://youtu.be/R1vm0RF66C8)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live144)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23144.pdf)|Appium, automatizando aplicativo móveis|
+|143|[link](http://youtu.be/sS0UI0yuLYQ)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live143)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23143.pdf)|BeeWare, aplicativos nativos para Android|
+|142|[link](http://youtu.be/iSMTQc1fTdE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live142)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23142.pdf)|Cookiecutter, criando templates de projetos|
+|141|[link](http://youtu.be/s16chBNQURw)|||Pergunte-me o que quiser sobre Python|
+|140|[link](http://youtu.be/LU2ZsBk_UhI)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live140)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23140.pdf)|WTForms|
+|139|[link](http://youtu.be/UgaybOYMKS0)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live139)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23139.pdf)|SQLAlchemy ORM|
+|138|[link](http://youtu.be/eDTczIpZj-o)|||Bulindo no Flask com Geraldo Castro|
+|137|[link](http://youtu.be/iy3fGZEK8f4)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live137)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23137.pdf)|Datas e horários com Pendulum|
+|136|[link](http://youtu.be/5cJzN0zlR5Q)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live136)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23136.pdf)|Functools|
+|135|[link](http://youtu.be/e9r-6hwchCg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live135)||Bate papo sobre testes|
+|134|[link](http://youtu.be/RPWQoAFZelo)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live134)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23134.pdf)|Testes em APIs REST|
+|133|[link](http://youtu.be/e-K_JK7ozFg)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23133.pdf)|Selenium + pytest|
+|132|[link](http://youtu.be/vfZKtassBcw)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23132.pdf)|Novidades no python 3.9|
+|131|[link](http://youtu.be/f-lGkux1Y0I)|||Bate papo com inscritos + Dúvidas com código|
+|130|[link](http://youtu.be/Dlnp6A3Oyk8)|||Python: A linguagem dos dados com Caroline Dantas|
+|129|[link](http://youtu.be/S5tBIbOevgw)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23129.pdf)|Python no front-end com Brython|
+|128|[link](http://youtu.be/CW7Z1AqGyJM)|||Publicando seu primeiro pacote no PyPI com Alexandre Harano|
+|127|[link](http://youtu.be/PumE2TWOozw)|||Como iniciar uma carreira em ciência de dados? com Mikaeri Ohana|
+|126|[link](http://youtu.be/22OxRcRxte8)|||Ansible e colorado com @punkdodevops|
+|125|[link](http://youtu.be/yAy_n8n6S5E)|||Balanceamento de carga com Natalia Raythz|
+|124|[link](http://youtu.be/DvF0PDF3REI)|||Trabalhando com FOSS com Ingrid Sena|
+|123|[link](http://youtu.be/LMk78Dmk0qU)|||Apache Airflow com Juan Funez|
+|122|[link](http://youtu.be/oot2mgKE00U)|||Respondendo perguntas sobre python|
+|121|[link](http://youtu.be/6kNXFCoQBl0)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live121)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23121.pdf)|State - Padrões de projeto #06|
+|120|[link](http://youtu.be/-UKPFtS4-jI)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live120)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23120.pdf)|Strategy - Padrões de projeto #05|
+|119|[link](http://youtu.be/48fWEFIfX9U)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live119)||Resolvendo problemas|
+|118|[link](http://youtu.be/iqVOUAbeGoE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live118)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23118.pdf)|Chain of responsibility / Pipelines / Composição  - Padrões de projeto #04|
+|117|[link](http://youtu.be/F3rhZMg_vuM)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live117)||Template Method / Hooks - Padrões de projeto #03 (parte 2)|
+|117|[link](http://youtu.be/WyyKnROg3a4)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live117)||Template Method / Hooks - Padrões de projeto #03 (parte 1)|
+|116|[link](http://youtu.be/sbCJucr8aJg)|||Observer / PubSub / Dispatcher - Padrões de projeto #02|
+|115|[link](http://youtu.be/neXiofJ5Eis)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live115)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23115.pdf)|Introdução a padrões de projeto (parte 2)|
+|115|[link](http://youtu.be/fG5pYDVm8_M)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live115)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23115.pdf)|Introdução a padrões de projeto (parte 1)|
+|114|[link](http://youtu.be/jufCvVV_HI0)|||Bazuca ou canivete, Django ou Flask - com Tyrone Damasceno|
+|113|[link](http://youtu.be/MxlS5_MI_WY)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live113)||FastAPI - Com João Lugão|
+|112|[link](http://youtu.be/bSFjmGakIPU)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live112)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23112.pdf)|Testes de perfomace com Locust - com Flávio Meira|
+|111|[link](http://youtu.be/Prp7S61irdI)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live111)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23111.pdf)|Testes com Django - com Renan Moura|
+|110|[link](http://youtu.be/s2XaRTg4J6U)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23110.pdf)|QGIS - com Kyle Felipe|
+|109|[link](http://youtu.be/9hk3Y9uO6wQ)|||Desenhando doideiras com Python - com Bernardo Fontes|
+|108|[link](http://youtu.be/I8IAJ3asw5w)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live108)||Montando APIs em minutos com Django Rest Framework - com Luiz Guilherme|
+|107|[link](http://youtu.be/16-O7_K3djo)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live107)||Flask templates a vera - com StatusOK|
+|106|[link](http://youtu.be/yqsGbfvbMcQ)|||CI - Integração contínua|
+|105|[link](http://youtu.be/EK42cKmIRP4)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live105)||Estruturas de decisão|
+|104|[link](http://youtu.be/DA-hOskxOxE)|||Aplicação doze-fatores 12FactorApp - com Bruno Rocha|
+|103|[link](http://youtu.be/2Ek4CzMRdsQ)|||Fazendo música com FoxDot - com Diego Dukão|
+|103|[link](http://youtu.be/HZiWyakqLWI)|||Fazendo música com FoxDot - com Diego Dukão|
+|102|[link](http://youtu.be/I_kYOh2hcY4)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live102)||TDD com Mamba e Expects|
+|101|[link](http://youtu.be/J354T4gth0s)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live101)||WSGI e Gunicorn|
+|100|[link](http://youtu.be/wReCMR8rnRI)|||Tudo ao mesmo tempo agora - Com Luciano Ramalho|
+|99|[link](http://youtu.be/XKV-C8Tba-8)|||Vamos entender a conferência Python Brasil? - Com Mário Sérgio e Ana Dulce|
+|98|[link](http://youtu.be/0w_vjcOy8nU)|||Criando uma aplicação web serverless na AWS - com Guilherme Ramos|
+|97|[link](http://youtu.be/zYJGpLw5Wv4)|||Desacoplando configurações com Decouple - com Henrique Bastos|
+|96|[link](http://youtu.be/uOj4-gY4YHg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live096)||Mockando requests com VCRpy - com Luiz Menezes|
+|95|[link](http://youtu.be/cyxky2QJlwg)|||Entendendo o ORM do Django - com Regis Santos|
+|94|[link](http://youtu.be/YuKdwIhJysU)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live094)||Django básico - com Regis Santos|
+|93|[link](http://youtu.be/KMf62oLcuSw)|||MicroPython: Python para microcontroladores - com Fabio Souza|
+|92|[link](http://youtu.be/zTEJm-Yjjjg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live092)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23092.pdf)|Análise de Dados com Pandas - com Inácio Medeiros|
+|91|[link](http://youtu.be/rX8MRsN1N-U)|||Criando documentação com MkDocs - com Allythy|
+|90|[link](http://youtu.be/hgrXprOLq6w)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live090)||Introdução ao matplotlib - Gráficos com python|
+|89|[link](http://youtu.be/AHGDbNaHldA)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live089)||Click p.2- Desenvolvendo CLIs bonitos e úteis|
+|88|[link](http://youtu.be/_LnM7pSkmkM)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live088)||Click - Desenvolvendo ferramentas de modo texto|
+|87|[link](http://youtu.be/5q-qz3GAj5U)|||Decoradores|
+|86|[link](http://youtu.be/Xj5LlCeW0m0)|||Iteradores e Geradores|
+|85|[link](http://youtu.be/AQzMk0j41S0)|||Engenharia de qualidade (QE) - Com Og Maciel|
+|84|[link](http://youtu.be/yEighFc_bZM)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live084)||Type Hints e anotações de funções|
+|83|[link](http://youtu.be/aX0P5tsiat4)|||BDD com python e flask|
+|82|[link](http://youtu.be/ieGA91ExOH0)|||Autenticação de uma API Flask|
+|81|[link](http://youtu.be/jqDxDsRJtAo)|||Testando o que está pronto|
+|80|[link](http://youtu.be/HuZ2Keoc9Hs)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live080)||Melhorando testes de unidade com Faker, Factory boy e Hypothesis|
+|79|[link](http://youtu.be/atvuOV8QWRE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live079)||Testes de unidade na prática|
+|78|[link](http://youtu.be/5LMG4OCoEn0)|||Raspando a web com Scrapy - Com Renne Rocha|
+|77|[link](http://youtu.be/OGNUq0w3j9E)|||Combinação Explosiva: Processo Seletivo com Just Python - Com Renzo Nuccitelli|
+|76|[link](http://youtu.be/mOrsJwY2038)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live076)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23076.pdf)|Testes de unidade p.II - Dublês de teste|
+|75|[link](http://youtu.be/Sr9lUR1COpU)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live075)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23075.pdf)|Testes de unidade|
+|74|[link](http://youtu.be/AzS7OVzji8g)|||Comunidades - Com Letícia Silva|
+|73|[link](http://youtu.be/Td8Wbr4Y3bU)|||import this, tdd e exercícios em python - Com João Lugão|
+|72|[link](http://youtu.be/urxB1ep4hkQ)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live072)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23072.pdf)|Construíndo API REST com Pyramid + Cornice - Com Marcelo Moraes|
+|71|[link](http://youtu.be/cloqAaQ-6Go)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live071)||Resolvendo problemas do Project Euler - com Helio Meira Lins|
+|70|[link](http://youtu.be/DlGUhJQf6_8)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live070)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23070.pdf)|Programação orientada a objetos #7 - gerenciamento de atributos|
+|69|[link](http://youtu.be/erAXvsuihPQ)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live069)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23069.pdf)|Programação orientada a objetos #6 - Interfaces e ABCs #2|
+|68|[link](http://youtu.be/yLHV1__nZZw)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live068)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23068.pdf)|Programação orientada a objetos #5 - Interfaces e ABCs|
+|67|[link](http://youtu.be/Y3APLjreGps)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live067)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23067.pdf)|Fabricação digital -  Com Luiz Lima|
+|66|[link](http://youtu.be/5fFTk5Dc1VM)|||Sockets -  Com Rafael Matsuyama|
+|65|[link](http://youtu.be/XSVvXso_Ukc)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live065)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23065.pdf)|Programação orientada a objetos #4 - Sobrecarga de operadores|
+|64|[link](http://youtu.be/MYaXUrmvrho)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live064)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23064.pdf)|Programação orientada a objetos #3 - Composição e métodos mágicos|
+|63|[link](http://youtu.be/ywbzwTc51y4)|||Análise de sentimento aplicado no futebol - Cássio Botaro|
+|62|[link](http://youtu.be/xWTNoTtA9V8)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live062)||Programação orientada a objetos #2 - Herança e polimorfismo|
+|61|[link](http://youtu.be/BALM_oJcJL4)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live061)||Programação orientada a objetos #1 - Introdução|
+|60|[link](http://youtu.be/sJpNfZqLpoI)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live060)||Exceções|
+|59|[link](http://youtu.be/GWn2EV5CDNI)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live059)||Objetos assíncronos|
+|58|[link](http://youtu.be/UignQVMdNlw)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live058)||Requests assincronos - Multiprocessamento #6|
+|57|[link](http://youtu.be/ntdJWYb0NxU)|||Novidades do Python 3.7 - Paulo Scardine|
+|56|[link](http://youtu.be/i63yIVgb-4Q)|||Desenvolvimento web com Python e Flask - Bruno Rocha|
+|55|[link](http://youtu.be/uaSuaMoYl4M)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live055)||Concorrência com asyncio - Multiprocessamento #5|
+|54|[link](http://youtu.be/9-tg03KSp-s)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live054)||Concorrência com futures - Multiprocessamento #4|
+|53|[link](http://youtu.be/ANGM6Tjf9zM)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live053)||Usando Processos - Multiprocessamento #3|
+|52|[link](http://youtu.be/o4Ad8_LjElo)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live052)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23052.pdf)|Usando Threads - Multiprocessamento #2|
+|51|[link](http://youtu.be/9HNlmjcOj6s)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live051)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23051.pdf)|Introdução a multiprocessamento - Multiprocessamento #1 (parte 2)|
+|51|[link](http://youtu.be/BJuO9nLqV2Y)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live051)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23051.pdf)|Introdução a multiprocessamento - Multiprocessamento #1 (parte 1)|
+|50|[link](http://youtu.be/FjJ1bClIa-o)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live050)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23050.pdf)|Agendando tarefas com python|
+|49|[link](http://youtu.be/wuKVLbM2ins)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live049)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23049.pdf)|Serializando objetos com pickle e shelve|
+|48|[link](http://youtu.be/tZ2iJ5H99fg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live048)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23048.pdf)|Criando logs para aplicações|
+|47|[link](http://youtu.be/UsNH6rBibwg)|||Esses dados são viciados? estrelando pandas e scipy.stats (Com Danilo Bellini)|
+|45|[link](http://youtu.be/ejLTO_J3DB4)|||Rows (Com Turicas)|
+|44|[link](http://youtu.be/xljES_-IbLA)|||Criando um bot para telegram (Com Rafael Galleani)|
+|43|[link](http://youtu.be/fR73UVNXb04)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live043)||Gerenciadores de contexto|
+|42|[link](http://youtu.be/wczL0iDtmuw)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live042)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23042.pdf)|Testes de mutação com mutpy|
+|41|[link](http://youtu.be/2B6eSQ7qAeQ)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live041)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23041.pdf)|Cobertura e testrunners|
+|40|[link](http://youtu.be/7_eAQ7SeuEg)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23040.pdf)|Análise estática de código (linters)|
+|39|[link](http://youtu.be/bqxXWfCrUXs)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live039)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23039.pdf)|Guias de estilo e padronização de código|
+|38|[link](http://youtu.be/qG-F5tordqc)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23038.pdf)|Introdução a qualidade de software (Com Flavio Meira)|
+|37|[link](http://youtu.be/ujs6oYAeQRc)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live037)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23037.pdf)|Arquivos de configuração com ConfigParser|
+|36|[link](http://youtu.be/LwxVscJUapk)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live036)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23036.pdf)|Argumentos em linha de comando (Argparse)|
+|35|[link](http://youtu.be/GqVQRrE1axw)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live035)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23035.pdf)|Redes neurais usando a biblioteca padrão (com Felipe Corrêa)|
+|34|[link](http://youtu.be/sszTUlqAatc)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live034)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23034.pdf)|Trabalhando com arquivos de texto|
+|33|[link](http://youtu.be/lAGWXaDcsKU)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23033.pdf)|Python para arquitetos, designers e artistas visuais (Com Alexandre Villares)|
+|32|[link](http://youtu.be/YXGrOF1KIKI)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live032)||collections.abc / Collections #5|
+|31|[link](http://youtu.be/gCZyrM-V2pY)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live031)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23031.pdf)|User(Dict|List|String) e collections.abc / Collections #4|
+|30|[link](http://youtu.be/TF6oIYAOlag)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live030)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23030.pdf)|ChainMap / Collections #3|
+|29|[link](http://youtu.be/3NYHjZwhx-M)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live029)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23029.pdf)|Counter, defaultdict e OrderedDict / Collections #2|
+|28|[link](http://youtu.be/ubCNqPNIx5Q)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live028)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23028.pdf)|Deque e Namedtuple / Collections #1|
+|27|[link](http://youtu.be/XuWyfTAC7Qs)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live027)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23027.pdf)|Baixando arquivos e manipulando datas / Web scraping  #8|
+|26|[link](http://youtu.be/rbiKXQSOWIM)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live026)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23026.pdf)|Scrapy / Web scraping #7 (Com artur Gaspar)|
+|25|[link](http://youtu.be/Pa4LT83osnY)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live025)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23025.pdf)|Raspando dados não HTML / Web scraping  #6|
+|24|[link](http://youtu.be/7KCBFTeIpLI)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live024)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23024.pdf)|Tabelas e persistência / Web scraping  #5|
+|23|[link](http://youtu.be/rKcsV91YIio)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live023)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23023.pdf)|Tor / DeepWeb / Anonimidade / Web scraping  #4|
+|22|[link](http://youtu.be/geGjMToK5u8)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live022)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23022.pdf)|Requests / Web scraping  #3|
+|21|[link](http://youtu.be/kktO7IOjpgs)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live021)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23021.pdf)|selenium + Beautifulsoup / Web scraping  #2|
+|20|[link](http://youtu.be/MlzCElmtrxQ)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live020)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23020.pdf)|Selenium / Web scraping  #1|
+|19|[link](http://youtu.be/AT17Ht87UKI)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live019)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23019.pdf)|Expressões regulares|
+|18|[link](http://youtu.be/Axbiz2q2iPA)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live018)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23018.pdf)|Compreesão de containers e geradores|
+|17|[link](http://youtu.be/cfmV8NUzAhw)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23017.pdf)|Tipos de containers e suas funcionalidades|
+|16|[link](http://youtu.be/8cNpLnH1dsU)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live016)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23016.pdf)|Manipulação de arquivos e diretórios|
+|15|[link](http://youtu.be/8vfU84RKbTQ)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live015)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23015.pdf)|Comunicação entre Threads (Event e Queue)|
+|14|[link](http://youtu.be/rwkIPIHwIYY)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live014)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23014.pdf)|Threads|
+|13|[link](http://youtu.be/syctPjStwQU)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23013.pdf)|Objetos e métodos especiais (dunders)|
+|12|[link](http://youtu.be/DJLho_ZdaII)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live012)||Criando uma API rest com bottle + SQLAlachemy core|
+|11|[link](http://youtu.be/rBIksyGY4_E)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live011)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23011.pdf)|Abstraindo seu banco de dados com SQLAlchemy (core)|
+|10|[link](http://youtu.be/9EvoggLUp1E)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live010)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23010.pdf)|Testando comportamento com Python + Behave Parte 2|
+|10|[link](http://youtu.be/ReELqf9B86g)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live010)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23010.pdf)|Testando comportamento com Python + Behave Parte 1|
+|9|[link](http://youtu.be/WZjOOlrbjUA)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live009)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23009.pdf)|Bottle - Microframework web|
+|8|[link](http://youtu.be/2WUo5tD-eIA)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live008)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23008.pdf)|CRUD com SQLite3|
+|7|[link](http://youtu.be/UHe49ASt5kg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live007)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23007.pdf)|Classes, tipos e objetos|
+|6|[link](http://youtu.be/TaZGQXWFsf4)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live006)||Funções, closures e decoradores em Python|
+|5|[link](http://youtu.be/7GnHDfV6KQ8)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live005)||Usando o Python debugger|
+|4|[link](http://youtu.be/gQyUxKxUaEw)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live004)||Testes com Python [Testando Unidades] parte 2|
+|3|[link](http://youtu.be/KZJa8rQecGc)|||Uma introdução ao Django com Andre Machado|
+|2|[link](http://youtu.be/_Z8mUxORh0g)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live002)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23002.pdf)|Testes com Python [Testando Unidades] parte 1|
+|1|[link](http://youtu.be/5hL9T3jintE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live001)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23001.pdf)|Testes com Python [Uma introdução geral]|
+|0|[link](http://youtu.be/mDWuZCI6AqM)|||PEI|
