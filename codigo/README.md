@@ -41,7 +41,7 @@
 |228|[link](http://youtu.be/oZw_mcH2Irs)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live228)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23228.pdf)|Pyinstaller: como gerar executáveis|
 |227|[link](http://youtu.be/Ie5ef_R_k6I)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live227)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23227.pdf)|Streamlit: Criando aplicações web|
 |226|[link](http://youtu.be/Vr9QXpELdrs)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live226)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23226.pdf)|spaCy: Introdução a Processamento de Linguagem Natural|
-|225|[link](http://youtu.be/Rf1GDT8wiFU)|||Ansible: Automatizando tarefas|
+|225|[link](http://youtu.be/Rf1GDT8wiFU)||[slide](https://ansible.dunossauro.com/)|Ansible: Automatizando tarefas|
 |224|[link](http://youtu.be/gadMAObZ_1Y)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live224)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23224.pdf)|Rich: fazendo prints incríveis|
 |223|[link](http://youtu.be/ZJqSlzBDY-g)|||Pergunte o que quiser sobre Python|
 |222|[link](http://youtu.be/Br0cJo2YeNg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live222)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23222.pdf)|Automação de browsers com Playwright|
