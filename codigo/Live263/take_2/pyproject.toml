@@ -16,9 +16,6 @@ isort = "^5.13.2"
 profile = 'black'
 line_length = 79
 
-[tool.taskipy.variables]
-server = "root@137.184.189.141"
-
 [tool.taskipy.tasks]
 sync = { cmd = "rsync -a -v --progress . {server}:take3 --filter=':- .gitignore'", use_vars = true}
 pre_deploy = 'task sync'

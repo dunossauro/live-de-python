@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "live236"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+taskipy = "^1.12.2"
+locust = "^2.24.1"
+
+[tool.taskipy.variables]
+server = "root@137.184.42.169"
+take = "take_2"
+
+[tool.taskipy.tasks]
+sync = { cmd = "rsync -a -v --progress ./{take} {server}:{take} --filter=':- .gitignore'", use_vars = true}
+pre_deploy = 'task sync'
+deploy = { cmd = "ssh {server} 'cd {take}/{take};docker compose down; docker compose up --build -d'", use_vars = true }
+down = { cmd = "ssh {server} 'cd {take}/{take};docker compose down'", use_vars = true }
+connect = {cmd = "ssh {server};", user_vars = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

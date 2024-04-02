@@ -1,0 +1,8 @@
+services:
+  olgtm:
+    image: grafana/otel-lgtm
+    ports:
+      - 3000:3000  # grafana (admin, admin)
+      - 9090:9090  # prometheus
+      - 4318:4318  # collector http
+      - 4317:4317  # collector grpc

@@ -1,0 +1,52 @@
+services:
+  nginx:
+    image: nginx
+    volumes:
+      - './etc/nginx.conf:/etc/nginx/nginx.conf'
+    ports:
+      - 80:80
+    depends_on:
+      - spam
+
+  sausage:
+    image: postgres
+    environment:
+      POSTGRES_DB: app_db
+      POSTGRES_USER: app_user
+      POSTGRES_PASSWORD: app_password
+
+  spam:
+    build: "spam/."
+    depends_on:
+      - olgtm
+    environment:
+      - OTEL_EXPORTER_OTLP_INSECURE=true
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://olgtm:4317
+      - OTEL_METRICS_EXPORTER=otlp
+      - OTEL_SERVICE_NAME=spam
+      - OTEL_METRIC_EXPORT_INTERVAL=1000
+      - COLLECTOR_OTLP_ENABLED=true
+    ports:
+      - 8001:8001
+
+  eggs:
+    build: "eggs/."
+    depends_on:
+      - olgtm
+    environment:
+      - OTEL_EXPORTER_OTLP_INSECURE=true
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://olgtm:4317
+      - OTEL_METRICS_EXPORTER=otlp
+      - OTEL_SERVICE_NAME=eggs
+      - OTEL_METRIC_EXPORT_INTERVAL=1000
+      - COLLECTOR_OTLP_ENABLED=true
+    ports:
+      - 8002:8002
+
+  olgtm:
+    image: grafana/otel-lgtm
+    ports:
+      - 3000:3000
+      - 9090:9090
+      - 4318:4318
+      - 4317:4317

@@ -1,0 +1,44 @@
+{
+  "resource_metrics": [
+    {
+      "resource": {
+        "attributes": {
+          "service.name": "meu app"
+        },
+        "schema_url": ""
+      },
+      "scope_metrics": [
+        {
+          "scope": {
+            "name": "meters",
+            "version": "",
+            "schema_url": ""
+          },
+          "metrics": [
+            {
+              "name": "contador",
+              "description": "Contagem de coisas!",
+              "unit": "",
+              "data": {
+                "data_points": [
+                  {
+                    "attributes": {
+                      "dado": "Alguma coisa!"
+                    },
+                    "start_time_unix_nano": 1710915563084088318,
+                    "time_unix_nano": 1710915563084352223,
+                    "value": 1
+                  }
+                ],
+                "aggregation_temporality": 2,
+                "is_monotonic": true
+              }
+            }
+          ],
+          "schema_url": ""
+        }
+      ],
+      "schema_url": ""
+    }
+  ]
+}
