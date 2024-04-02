@@ -166,7 +166,7 @@
 |104|[link](http://youtu.be/DA-hOskxOxE)|||Aplicação doze-fatores 12FactorApp - com Bruno Rocha|
 |103|[link](http://youtu.be/2Ek4CzMRdsQ)|||Fazendo música com FoxDot - com Diego Dukão|
 |103|[link](http://youtu.be/HZiWyakqLWI)|||Fazendo música com FoxDot - com Diego Dukão|
-|102|[link](http://youtu.be/I_kYOh2hcY4)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live102)||TDD com Mamba e Expects|
+|102|[link](http://youtu.be/I_kYOh2hcY4)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live102)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%230102.pdf)|TDD com Mamba e Expects|
 |101|[link](http://youtu.be/J354T4gth0s)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live101)||WSGI e Gunicorn|
 |100|[link](http://youtu.be/wReCMR8rnRI)|||Tudo ao mesmo tempo agora - Com Luciano Ramalho|
 |99|[link](http://youtu.be/XKV-C8Tba-8)|||Vamos entender a conferência Python Brasil? - Com Mário Sérgio e Ana Dulce|
