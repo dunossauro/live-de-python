@@ -161,7 +161,7 @@
 |109|[link](http://youtu.be/9hk3Y9uO6wQ)|||Desenhando doideiras com Python - com Bernardo Fontes|
 |108|[link](http://youtu.be/I8IAJ3asw5w)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live108)||Montando APIs em minutos com Django Rest Framework - com Luiz Guilherme|
 |107|[link](http://youtu.be/16-O7_K3djo)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live107)||Flask templates a vera - com StatusOK|
-|106|[link](http://youtu.be/yqsGbfvbMcQ)|||CI - Integração contínua|
+|106|[link](http://youtu.be/yqsGbfvbMcQ)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23106.pdf)|CI - Integração contínua|
 |105|[link](http://youtu.be/EK42cKmIRP4)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live105)||Estruturas de decisão|
 |104|[link](http://youtu.be/DA-hOskxOxE)|||Aplicação doze-fatores 12FactorApp - com Bruno Rocha|
 |103|[link](http://youtu.be/2Ek4CzMRdsQ)|||Fazendo música com FoxDot - com Diego Dukão|
