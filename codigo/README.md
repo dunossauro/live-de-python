@@ -179,8 +179,8 @@
 |92|[link](http://youtu.be/zTEJm-Yjjjg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live092)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23092.pdf)|Análise de Dados com Pandas - com Inácio Medeiros|
 |91|[link](http://youtu.be/rX8MRsN1N-U)|||Criando documentação com MkDocs - com Allythy|
 |90|[link](http://youtu.be/hgrXprOLq6w)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live090)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23090.pdf)|Introdução ao matplotlib - Gráficos com python|
-|89|[link](http://youtu.be/AHGDbNaHldA)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live089)||Click p.2- Desenvolvendo CLIs bonitos e úteis|
-|88|[link](http://youtu.be/_LnM7pSkmkM)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live088)||Click - Desenvolvendo ferramentas de modo texto|
+|89|[link](http://youtu.be/AHGDbNaHldA)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live089)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23089.pdf)|Click p.2- Desenvolvendo CLIs bonitos e úteis|
+|88|[link](http://youtu.be/_LnM7pSkmkM)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live088)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23088.pdf)|Click - Desenvolvendo ferramentas de modo texto|
 |87|[link](http://youtu.be/5q-qz3GAj5U)|||Decoradores|
 |86|[link](http://youtu.be/Xj5LlCeW0m0)|||Iteradores e Geradores|
 |85|[link](http://youtu.be/AQzMk0j41S0)|||Engenharia de qualidade (QE) - Com Og Maciel|
