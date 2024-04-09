@@ -1,0 +1,51 @@
+{
+    "name": "fazendo algo",
+    "context": {
+        "trace_id": "0xd679d965422fd3a9210830c5c28a0f9b",
+        "span_id": "0xc204091c77e34d60",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0x894c33993a0cadef",
+    "start_time": "2024-04-08T00:26:28.312716Z",
+    "end_time": "2024-04-08T00:26:28.312726Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "service.name": "blah"
+        },
+        "schema_url": ""
+    }
+}
+
+-----------------
+
+{
+    "name": "test",
+    "context": {
+        "trace_id": "0xd679d965422fd3a9210830c5c28a0f9b",
+        "span_id": "0x894c33993a0cadef",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2024-04-08T00:26:28.312675Z",
+    "end_time": "2024-04-08T00:26:28.312740Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "service.name": "blah"
+        },
+        "schema_url": ""
+    }
+}

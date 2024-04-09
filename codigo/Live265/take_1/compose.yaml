@@ -1,0 +1,6 @@
+services:
+  otel:
+    image: jaegertracing/all-in-one
+    ports:
+      - 4317:4317
+      - 16686:16686

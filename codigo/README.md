@@ -2,6 +2,7 @@
 
 |N|Link|Código|Slides|Título|
 | --- | --- | --- | --- | --- |
+|265|[link](https://youtu.be/a-0zhcBTd9w)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live265)|[slide]((https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23265.pdf)|Trace distribuído com OpenTelemetry, Tempo e Jaeger |
 |264|[link](https://youtu.be/tqjsT9L04N0)||[slide](https://lucianoratamero.github.io/talks/2024/live%20de%20python%20-%20historia%20do%20front/)|História do front-end com Luciano Ratamero|
 |263|[link](https://youtu.be/GvF8hlqaR-c)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live263)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23263.pdf)|Métricas de observabilidade com OpenTelemetry e Prometheus|
 |262|[link](https://youtube.com/live/LafGQWPR_dQ?feature=share)|||Pergunte o que quiser sobre Python!|
