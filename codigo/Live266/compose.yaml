@@ -1,0 +1,68 @@
+services:
+
+  nginx:
+    build: 'nginx/.'
+    ports:
+      - 80:80
+    volumes:
+      - ./nginx/opentelemetry_module.conf:/etc/nginx/conf.d/opentelemetry_module.conf
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - app
+      - otel
+
+  worker:
+    depends_on:
+      - coelho
+      - elefante
+      - app
+      - otel
+    build: 'dt/.'
+    command: opentelemetry-instrument celery -A dt.tasks worker
+    environment:
+      - OTEL_SERVICE_NAME=worker
+      - OTEL_PYTHON_LOGGING_AUTO_INSTRUMENTATION_ENABLED=true
+      - OTEL_TRACES_EXPORTER=otlp
+      - OTEL_LOGS_EXPORTER=otlp
+      - OTEL_EXPORTER_OTLP_INSECURE=true
+      - OTEL_EXPORTER_OTLP_ENDPOINT=otel:4317
+
+  cegonha:
+    depends_on:
+      - worker
+    image: quay.io/minio/minio
+    command: server /data --console-address ":9001"
+    ports:
+      - 9009:9000
+      - 9001:9001
+    
+  coelho:
+    image: rabbitmq
+    ports:
+      - 5672:5672
+
+  elefante:
+    image: postgres
+    environment:
+      POSTGRES_DB: app_db
+      POSTGRES_USER: app_user
+      POSTGRES_PASSWORD: app_password
+
+  app:
+    depends_on:
+      - otel
+    build: 'dt/.'
+    environment:
+      - OTEL_PYTHON_LOGGING_AUTO_INSTRUMENTATION_ENABLED=true
+      - OTEL_EXPORTER_OTLP_ENDPOINT=otel:4317
+      - OTEL_EXPORTER_OTLP_INSECURE=true
+      - OTEL_SERVICE_NAME=appzin
+      - OTEL_TRACES_EXPORTER=otlp
+      - OTEL_LOGS_EXPORTER=otlp
+
+  otel:
+    image: grafana/otel-lgtm
+    ports:
+      - 3000:3000
+      - 4317:4317
+      - 4318:4318
