@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.3"
+uvicorn = "^0.29.0"
+sqlalchemy = "^2.0.29"
+psycopg = {extras = ["binary"], version = "^3.1.18"}
+
+[tool.poetry.group.otel.dependencies]
+opentelemetry-distro = "^0.45b0"
+opentelemetry-exporter-otlp = "^1.24.0"
+
+[tool.poetry.group.dev.dependencies]
+poethepoet = "^0.26.0"
+locust = "^2.26.0"
+
+[tool.poe]
+envfile = '.env'
+
+[tool.poe.tasks.serve]
+shell = 'opentelemetry-instrument uvicorn app.app:app'
+
+[tool.poe.tasks]
+otel-install = 'opentelemetry-bootstrap -a install'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

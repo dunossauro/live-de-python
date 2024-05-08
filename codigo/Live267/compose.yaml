@@ -1,0 +1,15 @@
+services:
+  otel:
+    image: grafana/otel-lgtm
+    ports:
+      - 3000:3000
+      - 4317:4317
+
+  database:
+    image: postgres
+    ports:
+      - 5433:5432
+    environment:
+      POSTGRES_USER: app_user
+      POSTGRES_DB: app_db
+      POSTGRES_PASSWORD: app_password
