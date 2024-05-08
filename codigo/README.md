@@ -2,6 +2,8 @@
 
 |N|Link|Código|Slides|Título|
 | --- | --- | --- | --- | --- |
+|268|[link](https://youtu.be/ODzwFu2Jqkc)|||Porque e como construir um datalake para a comunidade @teomewhy|
+|267|[link](https://youtu.be/xgm1crrXDFs)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live267)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23267.pdf)|OpenTelemetry + Python na prática|
 |266|[link](https://youtu.be/MH2-QPkH2iE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live266)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23266.pdf)|Observabilidade para Logs com opentelemetry e Loki|
 |265|[link](https://youtu.be/a-0zhcBTd9w)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live265)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23265.pdf)|Trace distribuído com OpenTelemetry, Tempo e Jaeger|
 |264|[link](https://youtu.be/tqjsT9L04N0)||[slide](https://lucianoratamero.github.io/talks/2024/live%20de%20python%20-%20historia%20do%20front/)|História do front-end com Luciano Ratamero|
