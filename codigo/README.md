@@ -186,13 +186,13 @@
 |90|[link](http://youtu.be/hgrXprOLq6w)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live090)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23090.pdf)|Introdução ao matplotlib - Gráficos com python|
 |89|[link](http://youtu.be/AHGDbNaHldA)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live089)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23089.pdf)|Click p.2- Desenvolvendo CLIs bonitos e úteis|
 |88|[link](http://youtu.be/_LnM7pSkmkM)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live088)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23088.pdf)|Click - Desenvolvendo ferramentas de modo texto|
-|87|[link](http://youtu.be/5q-qz3GAj5U)|||Decoradores|
-|86|[link](http://youtu.be/Xj5LlCeW0m0)|||Iteradores e Geradores|
+|87|[link](http://youtu.be/5q-qz3GAj5U)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23087.pdf)|Decoradores|
+|86|[link](http://youtu.be/Xj5LlCeW0m0)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23086.pdf)|Iteradores e Geradores|
 |85|[link](http://youtu.be/AQzMk0j41S0)|||Engenharia de qualidade (QE) - Com Og Maciel|
 |84|[link](http://youtu.be/yEighFc_bZM)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live084)||Type Hints e anotações de funções|
-|83|[link](http://youtu.be/aX0P5tsiat4)|||BDD com python e flask|
+|83|[link](http://youtu.be/aX0P5tsiat4)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23083.pdf)|BDD com python e flask|
 |82|[link](http://youtu.be/ieGA91ExOH0)|||Autenticação de uma API Flask|
-|81|[link](http://youtu.be/jqDxDsRJtAo)|||Testando o que está pronto|
+|81|[link](http://youtu.be/jqDxDsRJtAo)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23081.pdf)|Testando o que está pronto
 |80|[link](http://youtu.be/HuZ2Keoc9Hs)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live080)||Melhorando testes de unidade com Faker, Factory boy e Hypothesis|
 |79|[link](http://youtu.be/atvuOV8QWRE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live079)||Testes de unidade na prática|
 |78|[link](http://youtu.be/5LMG4OCoEn0)|||Raspando a web com Scrapy - Com Renne Rocha|
