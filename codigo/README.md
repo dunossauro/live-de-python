@@ -193,8 +193,8 @@
 |83|[link](http://youtu.be/aX0P5tsiat4)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23083.pdf)|BDD com python e flask|
 |82|[link](http://youtu.be/ieGA91ExOH0)|||Autenticação de uma API Flask|
 |81|[link](http://youtu.be/jqDxDsRJtAo)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23081.pdf)|Testando o que está pronto
-|80|[link](http://youtu.be/HuZ2Keoc9Hs)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live080)||Melhorando testes de unidade com Faker, Factory boy e Hypothesis|
-|79|[link](http://youtu.be/atvuOV8QWRE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live079)||Testes de unidade na prática|
+|80|[link](http://youtu.be/HuZ2Keoc9Hs)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live080)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23080.pdf)|Melhorando testes de unidade com Faker, Factory boy e Hypothesis|
+|79|[link](http://youtu.be/atvuOV8QWRE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live079)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23079.pdf)|Testes de unidade na prática|
 |78|[link](http://youtu.be/5LMG4OCoEn0)|||Raspando a web com Scrapy - Com Renne Rocha|
 |77|[link](http://youtu.be/OGNUq0w3j9E)|||Combinação Explosiva: Processo Seletivo com Just Python - Com Renzo Nuccitelli|
 |76|[link](http://youtu.be/mOrsJwY2038)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live076)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23076.pdf)|Testes de unidade p.II - Dublês de teste|
@@ -211,16 +211,16 @@
 |65|[link](http://youtu.be/XSVvXso_Ukc)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live065)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23065.pdf)|Programação orientada a objetos #4 - Sobrecarga de operadores|
 |64|[link](http://youtu.be/MYaXUrmvrho)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live064)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23064.pdf)|Programação orientada a objetos #3 - Composição e métodos mágicos|
 |63|[link](http://youtu.be/ywbzwTc51y4)|||Análise de sentimento aplicado no futebol - Cássio Botaro|
-|62|[link](http://youtu.be/xWTNoTtA9V8)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live062)||Programação orientada a objetos #2 - Herança e polimorfismo|
-|61|[link](http://youtu.be/BALM_oJcJL4)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live061)||Programação orientada a objetos #1 - Introdução|
-|60|[link](http://youtu.be/sJpNfZqLpoI)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live060)||Exceções|
-|59|[link](http://youtu.be/GWn2EV5CDNI)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live059)||Objetos assíncronos|
-|58|[link](http://youtu.be/UignQVMdNlw)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live058)||Requests assincronos - Multiprocessamento #6|
+|62|[link](http://youtu.be/xWTNoTtA9V8)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live062)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23062.pdf)|Programação orientada a objetos #2 - Herança e polimorfismo|
+|61|[link](http://youtu.be/BALM_oJcJL4)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live061)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23061.pdf)|Programação orientada a objetos #1 - Introdução|
+|60|[link](http://youtu.be/sJpNfZqLpoI)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live060)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23060.pdf)|Exceções|
+|59|[link](http://youtu.be/GWn2EV5CDNI)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live059)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23059.pdf)|Objetos assíncronos|
+|58|[link](http://youtu.be/UignQVMdNlw)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live058)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23058.pdf)|Requests assincronos - Multiprocessamento #6|
 |57|[link](http://youtu.be/ntdJWYb0NxU)|||Novidades do Python 3.7 - Paulo Scardine|
 |56|[link](http://youtu.be/i63yIVgb-4Q)|||Desenvolvimento web com Python e Flask - Bruno Rocha|
-|55|[link](http://youtu.be/uaSuaMoYl4M)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live055)||Concorrência com asyncio - Multiprocessamento #5|
-|54|[link](http://youtu.be/9-tg03KSp-s)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live054)||Concorrência com futures - Multiprocessamento #4|
-|53|[link](http://youtu.be/ANGM6Tjf9zM)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live053)||Usando Processos - Multiprocessamento #3|
+|55|[link](http://youtu.be/uaSuaMoYl4M)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live055)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23055.pdf)|Concorrência com asyncio - Multiprocessamento #5|
+|54|[link](http://youtu.be/9-tg03KSp-s)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live054)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23054.pdf)|Concorrência com futures - Multiprocessamento #4|
+|53|[link](http://youtu.be/ANGM6Tjf9zM)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live053)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23053.pdf)|Usando Processos - Multiprocessamento #3|
 |52|[link](http://youtu.be/o4Ad8_LjElo)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live052)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23052.pdf)|Usando Threads - Multiprocessamento #2|
 |51|[link](http://youtu.be/9HNlmjcOj6s)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live051)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23051.pdf)|Introdução a multiprocessamento - Multiprocessamento #1 (parte 2)|
 |51|[link](http://youtu.be/BJuO9nLqV2Y)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live051)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23051.pdf)|Introdução a multiprocessamento - Multiprocessamento #1 (parte 1)|
@@ -261,7 +261,7 @@
 |15|[link](http://youtu.be/8vfU84RKbTQ)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live015)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23015.pdf)|Comunicação entre Threads (Event e Queue)|
 |14|[link](http://youtu.be/rwkIPIHwIYY)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live014)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23014.pdf)|Threads|
 |13|[link](http://youtu.be/syctPjStwQU)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23013.pdf)|Objetos e métodos especiais (dunders)|
-|12|[link](http://youtu.be/DJLho_ZdaII)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live012)||Criando uma API rest com bottle + SQLAlachemy core|
+|12|[link](http://youtu.be/DJLho_ZdaII)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live012)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23012.pdf)|Criando uma API rest com bottle + SQLAlachemy core|
 |11|[link](http://youtu.be/rBIksyGY4_E)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live011)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23011.pdf)|Abstraindo seu banco de dados com SQLAlchemy (core)|
 |10|[link](http://youtu.be/9EvoggLUp1E)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live010)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23010.pdf)|Testando comportamento com Python + Behave Parte 2|
 |10|[link](http://youtu.be/ReELqf9B86g)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live010)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23010.pdf)|Testando comportamento com Python + Behave Parte 1|
