@@ -2,6 +2,9 @@
 
 |N|Link|Código|Slides|Título|
 | --- | --- | --- | --- | --- |
+|272|[link](https://youtu.be/c8ZxdwTv8N8)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%232792.pdf)|Interpretador adaptativo especializado - Como o desempenho do Python melhorou?|
+|271|[link](https://youtu.be/AP5p8QHoVzg)|||Pergunte o que quiser sobre python |
+|270|[link](https://youtu.be/PaTwb2ytFUg)|||Subintepretadores: Paralelismo sem GIL - @jsbueno |
 |269|[link](https://youtu.be/ODzwFu2Jqkc)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live269)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23269.pdf)|Sistema de imports, como o python importa código?|
 |268|[link](https://youtu.be/ODzwFu2Jqkc)|||Porque e como construir um datalake para a comunidade @teomewhy|
 |267|[link](https://youtu.be/xgm1crrXDFs)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live267)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23267.pdf)|OpenTelemetry + Python na prática|
