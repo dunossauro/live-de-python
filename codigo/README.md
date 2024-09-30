@@ -2,7 +2,7 @@
 
 |N|Link|Código|Slides|Título|
 | --- | --- | --- | --- | --- |
-|273|[link](https://youtu.be/muNoGfEGVSE)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23273.pdf)|Singleton / Borg - Padrões de Projeto #8 | Live de Python #273 |
+|273|[link](https://youtu.be/muNoGfEGVSE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live273)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23273.pdf)|Singleton / Borg - Padrões de Projeto #8 | Live de Python #273 |
 |272|[link](https://youtu.be/c8ZxdwTv8N8)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23272.pdf)|Interpretador adaptativo especializado - Como o desempenho do Python melhorou?|
 |271|[link](https://youtu.be/AP5p8QHoVzg)|||Pergunte o que quiser sobre python |
 |270|[link](https://youtu.be/PaTwb2ytFUg)|||Subintepretadores: Paralelismo sem GIL - @jsbueno |
