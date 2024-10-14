@@ -2,6 +2,7 @@
 
 |N|Link|Código|Slides|Título|
 | --- | --- | --- | --- | --- |
+|275|[link](https://youtu.be/QYc7MeBUiHg)||[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23275.pdf)|Novidades da versão 3.13 do Python|
 |274|[link](https://youtu.be/L3hS-Zc7elA)|||Arquitetura limpa com ‪@ProgramadorLhama‬|
 |273|[link](https://youtu.be/muNoGfEGVSE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live273)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23273.pdf)|Singleton / Borg - Padrões de Projeto #8 | Live de Python #273 |
 |272|[link](https://youtu.be/c8ZxdwTv8N8)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23272.pdf)|Interpretador adaptativo especializado - Como o desempenho do Python melhorou?|
