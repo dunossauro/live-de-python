@@ -17,7 +17,7 @@ todo = api.model(
         'id': fields.Integer(
             readonly=True, description='Identificador único da tarefa'
         ),
-        'tittle': fields.String(required=True, description='Nome da Tarefa'),
+        'title': fields.String(required=True, description='Nome da Tarefa'),
         'description': fields.String(
             required=True, description='Descrição da tarefa'
         ),
