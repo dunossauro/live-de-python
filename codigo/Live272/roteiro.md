@@ -1,0 +1,43 @@
+- Bytecode (Fast N Furious)
+  - Como é feita a compilação?
+	- `def add(x, y): return x + y`
+	- `def get_global(): return str(42)`
+  - Qual a cara do bytecode?
+  - **Já fizemos uma live sobre isso!**
+
+- O que é o interpretador? (3.10)
+  - Stack frame: `init_code`
+  - code: frame->co_code
+  - ceval.c (implementação do leitor de bytecode)
+  - Três operações:
+	- `LOAD_FAST`
+	- `LOAD_GLOBAL`
+	- `BINARY_ADD`
+
+- Especialização e adaptação (3.11)
+  - hot code!
+	- `QUICKENING_INITIAL_WARMUP_VALUE`
+  - Quickening
+	- Superinstruções
+		- `LOAD_FAST__LOAD_FAST`
+  - Adaptações
+	- `BINARY_OP_ADAPTIVE`
+	- `LOAD_GLOBAL_ADAPTIVE`
+  - Especializações
+	- `BINARY_OP_ADD_INT`
+	- `LOAD_GLOBAL_BUILTIN`
+  - Cache
+	- O fallback
+	- `couter`
+
+- opcodes gerados por DSL (3.12)
+  - DSL???
+  - Quickening automático
+  - Mais adaptações/especializações
+  - `generated_cases.h.c`
+  
+- micro-op (3.13)
+  - Tiers
+	- tier 1 (quando der o valor do cache, adapta)
+	- tier 2 (novos contadores) - fonte!
+		- micro otimizações

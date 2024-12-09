@@ -1,0 +1,49 @@
+services:
+  tres_ponto_doze:
+    build:
+      context: .
+      args:
+        PYVERSION: 3.12.0
+        PYTHON_CONFIGURE_OPTS: ""
+
+  sem_jit_sem_gil:
+    build:
+      context: .
+      args:
+        PYVERSION: 3.13.0
+        PYTHON_CONFIGURE_OPTS: "--enable-experimental-jit=no --disable-gil"
+
+  sem_jit_com_gil:
+    build:
+      context: .
+      args:
+        PYVERSION: 3.13.0
+        PYTHON_CONFIGURE_OPTS: "--enable-experimental-jit=no"
+
+  com_jit_com_gil:
+    build:
+      context: .
+      args:
+        PYVERSION: 3.13.0
+        PYTHON_CONFIGURE_OPTS: "--enable-experimental-jit=yes"
+
+  com_jit_sem_gil:
+    build:
+      context: .
+      args:
+        PYVERSION: 3.13.0
+        PYTHON_CONFIGURE_OPTS: "--enable-experimental-jit=yes --disable-gil"
+
+  com_t2_com_gil:
+    build:
+      context: .
+      args:
+        PYVERSION: 3.13.0
+        PYTHON_CONFIGURE_OPTS: "--enable-experimental-jit=interpreter"
+
+  com_t2_sem_gil:
+    build:
+      context: .
+      args:
+        PYVERSION: 3.13.0
+        PYTHON_CONFIGURE_OPTS: "--enable-experimental-jit=interpreter --disable-gil"

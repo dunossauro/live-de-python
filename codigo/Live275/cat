@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/dunossauro/live_313/erros_params.py", line 5, in <module>
+    xpto(batatinhafrita=1)
+    ~~~~^^^^^^^^^^^^^^^^^^
+TypeError: xpto() got an unexpected keyword argument 'batatinhafrita'. Did you mean 'batatinha_frita'?

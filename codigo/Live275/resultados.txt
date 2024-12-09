@@ -1,0 +1,28 @@
+Attaching to com_jit_com_gil-1, com_jit_sem_gil-1, com_t2_com_gil-1, com_t2_sem_gil-1, sem_jit_com_gil-1, sem_jit_sem_gil-1, tres_ponto_doze-1
+com_t2_sem_gil-1   | {'Tier 2': True, 'JIT': False, 'GIL': False}
+com_t2_sem_gil-1   | Com threads: Tempo: 4.289854526519775
+com_t2_sem_gil-1   | Sem threads: Tempo: 13.230652809143066
+[Kcom_t2_sem_gil-1 exited with code 0
+sem_jit_sem_gil-1  | {'Tier 2': False, 'JIT': False, 'GIL': False}
+sem_jit_sem_gil-1  | Com threads: Tempo: 4.354461908340454
+sem_jit_sem_gil-1  | Sem threads: Tempo: 13.996567487716675
+[Ksem_jit_sem_gil-1 exited with code 0
+com_jit_sem_gil-1  | {'Tier 2': True, 'JIT': True, 'GIL': False}
+com_jit_sem_gil-1  | Com threads: Tempo: 4.241063356399536
+com_jit_sem_gil-1  | Sem threads: Tempo: 14.769526481628418
+[Kcom_jit_sem_gil-1 exited with code 0
+com_jit_com_gil-1  | {'Tier 2': True, 'JIT': True, 'GIL': True}
+com_jit_com_gil-1  | Com threads: Tempo: 12.770201444625854
+com_jit_com_gil-1  | Sem threads: Tempo: 10.907456874847412
+[Kcom_jit_com_gil-1 exited with code 0
+tres_ponto_doze-1  | Com threads: Tempo: 13.261535882949829
+tres_ponto_doze-1  | Sem threads: Tempo: 10.914784669876099
+[Ktres_ponto_doze-1 exited with code 0
+sem_jit_com_gil-1  | {'Tier 2': False, 'JIT': False, 'GIL': True}
+sem_jit_com_gil-1  | Com threads: Tempo: 13.706671237945557
+sem_jit_com_gil-1  | Sem threads: Tempo: 10.423959493637085
+[Ksem_jit_com_gil-1 exited with code 0
+com_t2_com_gil-1   | {'Tier 2': True, 'JIT': False, 'GIL': True}
+com_t2_com_gil-1   | Com threads: Tempo: 16.78310203552246
+com_t2_com_gil-1   | Sem threads: Tempo: 12.344522953033447
+[Kcom_t2_com_gil-1 exited with code 0
