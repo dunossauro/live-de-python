@@ -14,7 +14,7 @@ Nesse repositório se encontram slides e códigos debatidos durante as lives de 
 
 - Lives **anteriores** podem ser vistas [aqui](https://github.com/dunossauro/live-de-python/blob/main/codigo/README.md)
 
-- As lives **futuras** podem ser vistas [aqui](https://github.com/dunossauro/live-de-python/issues/359)
+- As lives **futuras** podem ser vistas [aqui](https://github.com/dunossauro/live-de-python/issues/568)
 
 ## Nossa comunidade
 
