@@ -2,6 +2,9 @@
 
 |N|Link|Código|Slides|Título|
 | --- | --- | --- | --- | --- |
+|278|[link](https://youtu.be/ATKJXpHrBfE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live278)|[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23278.pdf)| Entendendo Changelogs: O que são, seus padrões e como gerá-los com Towncrier|
+|277|[link](https://youtu.be/IW5M1Uo4qxI)|||Me pergunte o que quiser sobre python|
+|276|[link](https://youtu.be/UU5CyYyFA4c)|||Me pergunte o que quiser sobre python|
 |275|[link](https://youtu.be/QYc7MeBUiHg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live275)|[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23275.pdf)|Novidades da versão 3.13 do Python|
 |274|[link](https://youtu.be/L3hS-Zc7elA)|||Arquitetura limpa com ‪@ProgramadorLhama‬|
 |273|[link](https://youtu.be/muNoGfEGVSE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live273)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23273.pdf)|Singleton / Borg - Padrões de Projeto #8 | Live de Python #273 |

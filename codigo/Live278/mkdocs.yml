@@ -1,0 +1,8 @@
+site_name: Live 278
+
+plugins:
+  - towncrier
+
+
+markdown_extensions:
+  - pymdownx.snippets
