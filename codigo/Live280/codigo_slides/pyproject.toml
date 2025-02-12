@@ -1,0 +1,9 @@
+[tool.briefcase]
+project_name = "Exemplo"
+bundle = "com.example"
+
+[tool.briefcase.app.exemplo]
+description = "Descrição curta..."
+long_description = "Descrição longa..."
+sources = ["exemplo"]
+test_sources = ["tests"]

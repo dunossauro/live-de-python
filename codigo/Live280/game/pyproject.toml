@@ -1,0 +1,96 @@
+# This project was generated with 0.3.22 using template: https://github.com/beeware/briefcase-template@v0.3.22
+[tool.briefcase]
+project_name = "game"
+bundle = "com.example"
+version = "0.0.1"
+url = "https://example.com/game"
+license.file = "LICENSE"
+author = "Jane Developer"
+author_email = "jane@example.com"
+
+[tool.briefcase.app.game]
+formal_name = "game"
+description = "My first application"
+long_description = """More details about the app should go here.
+"""
+sources = [
+    "src/game",
+]
+test_sources = [
+    "tests",
+]
+
+requires = [
+    "pygame~=2.6",
+]
+test_requires = [
+    "pytest",
+]
+
+[tool.briefcase.app.game.macOS]
+universal_build = true
+requires = [
+    "std-nslog~=1.0.3",
+]
+
+[tool.briefcase.app.game.linux]
+requires = [
+]
+
+[tool.briefcase.app.game.linux.system.debian]
+system_requires = [
+]
+
+system_runtime_requires = [
+]
+
+[tool.briefcase.app.game.linux.system.rhel]
+system_requires = [
+]
+
+system_runtime_requires = [
+]
+
+[tool.briefcase.app.game.linux.system.suse]
+system_requires = [
+]
+
+system_runtime_requires = [
+]
+
+[tool.briefcase.app.game.linux.system.arch]
+system_requires = [
+]
+
+system_runtime_requires = [
+]
+
+[tool.briefcase.app.game.linux.appimage]
+manylinux = "manylinux_2_28"
+
+system_requires = [
+]
+
+linuxdeploy_plugins = [
+]
+
+[tool.briefcase.app.game.linux.flatpak]
+flatpak_runtime = "org.freedesktop.Platform"
+flatpak_runtime_version = "24.08"
+flatpak_sdk = "org.freedesktop.Sdk"
+
+[tool.briefcase.app.game.windows]
+requires = [
+]
+
+# Mobile deployments
+[tool.briefcase.app.game.iOS]
+supported = false
+
+[tool.briefcase.app.game.android]
+supported = false
+
+# Web deployments
+[tool.briefcase.app.game.web]
+supported = false
+
