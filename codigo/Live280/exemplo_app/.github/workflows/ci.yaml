@@ -1,0 +1,125 @@
+name: CI
+on:
+  push:
+    tags:
+      - '*'
+
+concurrency:
+  group: ${{ github.workflow}}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+env:
+  FORCE_COLOR: "1"
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  ci:
+    name: Package
+    runs-on: ${{ matrix.runs-on }}
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [ "Flatpak", "AppImage", "Archlinux", "Ubuntu", "Fedora", "Opensuse", "Windows", "MacOs" ]
+        include:
+          - target: "AppImage"
+            platform: "linux"
+            output-format: "appimage"
+            runs-on: "ubuntu-latest"
+
+          - target: "Flatpak"
+            platform: "linux"
+            output-format: "flatpak"
+            runs-on: "ubuntu-latest"
+
+          - target: "Archlinux"
+            platform: "linux"
+            output-format: "system"
+            runs-on: "ubuntu-latest"
+            briefcase-args: "--target archlinux"
+
+          - target: "Ubuntu"
+            platform: "linux"
+            output-format: "system"
+            runs-on: "ubuntu-latest"
+            briefcase-args: "--target ubuntu:24.04"
+
+          - target: "Fedora"
+            platform: "linux"
+            output-format: "system"
+            runs-on: "ubuntu-latest"
+            briefcase-args: "--target fedora:40"
+
+          - target: "Opensuse"
+            platform: "linux"
+            output-format: "system"
+            runs-on: "ubuntu-latest"
+            briefcase-args: "--target opensuse/tumbleweed"
+
+          - target: "Windows"
+            platform: "windows"
+            output-format: "app"
+            runs-on: "windows-latest"
+
+          - target: "MacOs"
+            platform: "macos"
+            output-format: "app"
+            runs-on: "macos-latest"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+
+      - name: Install flatpak
+        if: matrix.target == 'Flatpak'
+        run: sudo apt install flatpak flatpak-builder
+
+      - name: Install Briefcase
+        run: |
+          python -m pip install -U pip setuptools wheel
+          python -m pip install briefcase
+
+      - name: Build App
+        run: |
+          briefcase build \
+            ${{ matrix.platform || matrix.target }} \
+            ${{ matrix.output-format }} \
+            --test --no-input --log \
+            ${{ matrix.briefcase-args }}
+
+      - name: Package App
+        run: |
+          briefcase package \
+            ${{ matrix.platform || matrix.target }} \
+            ${{ matrix.output-format }} \
+            --update --adhoc-sign --no-input --log \
+            ${{ matrix.briefcase-args }}
+
+      - name: Upload App
+        uses: actions/upload-artifact@v4
+        with:
+          name: exemplo-${{ matrix.target }}
+          path: dist
+          if-no-files-found: error
+
+      - name: Upload Log
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Log-Failure-${{ matrix.target }}
+          path: logs/*
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          body_path: CHANGELOG
+          files: |
+            dist/*

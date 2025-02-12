@@ -1,0 +1,30 @@
+[project]
+name = "exemplo"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = 'LICENSE'}
+dependencies = [
+    "cyclopts (>=3.7.0,<4.0.0)"
+]
+
+
+[tool.briefcase]
+project_name = "Exemplo"
+bundle = "com.exemplo"
+
+
+[tool.briefcase.app.exemplo]
+description = "Descrição curta..."
+long_description = "Descrição longa..."
+sources = ['exemplo']  # ['src/exemplo']
+test_sources = ['tests']
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
