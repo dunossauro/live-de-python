@@ -2,7 +2,7 @@
 
 |N|Link|Código|Slides|Título|
 | --- | --- | --- | --- | --- |
-|290|[link](https://youtu.be/PRRoR2Z95YE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live280)|[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23280.pdf)| Empacotando APLICAÇÕES com briefcase |
+|280|[link](https://youtu.be/PRRoR2Z95YE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live280)|[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23280.pdf)| Empacotando APLICAÇÕES com briefcase |
 |279|[link](https://youtu.be/PuNzzL5K3QI)||[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23279.pptx)| Programação competitiva com xTecna |
 |278|[link](https://youtu.be/ATKJXpHrBfE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live278)|[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23278.pdf)| Entendendo Changelogs: O que são, seus padrões e como gerá-los com Towncrier|
 |277|[link](https://youtu.be/IW5M1Uo4qxI)|||Me pergunte o que quiser sobre python|
