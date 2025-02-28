@@ -1,0 +1,27 @@
+[project]
+name = "live281"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4"
+dependencies = [
+    "faker (>=36.1.1,<37.0.0)",
+    "pytest (>=8.3.4,<9.0.0)",
+    "hypothesis[cli,hypofuzz] (>=6.126.0,<7.0.0)",
+    "hypofuzz (>=25.2.4,<26.0.0)",
+    "httpx (>=0.28.1,<0.29.0)",
+    "respx (>=0.22.0,<0.23.0)",
+    "factory-boy (>=3.3.3,<4.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "polars (>=1.22.0,<2.0.0)",
+    "mimesis (>=18.0.0,<19.0.0)",
+    "faker-music (>=0.4,<0.5)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
