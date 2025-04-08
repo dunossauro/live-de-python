@@ -4,7 +4,7 @@
 | --- | --- | --- | --- | --- |
 |284|[link](https://youtu.be/mjpJsKlF2-0)||| Pergunte o que quiser sobre python |
 |283|[link](https://youtu.be/p7k63wpjqEg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live283)|[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23283.pdf)| Prototype / Copy - Padrões de Projeto #9 |
-|282|[link](https://youtu.be/_X7Xor94dJA)||| Django Ninja com ‪@RegisdoPython‬ |
+|282|[link](https://youtu.be/_X7Xor94dJA)||[slides](https://github.com/rg3915/django-ninja-live-de-python-282)| Django Ninja com ‪@RegisdoPython‬ |
 |281|[link](https://youtu.be/q_P-2h5L1cE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live281)|[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23281.pdf)| Randomização de dados em testes unitários com Faker e Factory-boy |
 |280|[link](https://youtu.be/PRRoR2Z95YE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live280)|[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23280.pdf)| Empacotando APLICAÇÕES com briefcase |
 |279|[link](https://youtu.be/PuNzzL5K3QI)||[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23279.pptx)| Programação competitiva com xTecna |
