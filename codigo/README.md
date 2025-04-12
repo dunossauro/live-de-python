@@ -2,7 +2,8 @@
 
 |N|Link|Código|Slides|Título|
 | --- | --- | --- | --- | --- |
-|285|[link](https://youtu.be/ZLmFJhwh7hE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live285)|[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23285.pdf))| Testes baseados em propriedades: uma introdução ao Hypothesis |
+|286|[link](https://youtu.be/Qt_38AKYpmM)||| RPA e BotCity - Com @bug_elseif |
+|285|[link](https://youtu.be/ZLmFJhwh7hE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live285)|[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23285.pdf)| Testes baseados em propriedades: uma introdução ao Hypothesis |
 |284|[link](https://youtu.be/mjpJsKlF2-0)||| Pergunte o que quiser sobre python |
 |283|[link](https://youtu.be/p7k63wpjqEg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live283)|[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23283.pdf)| Prototype / Copy - Padrões de Projeto #9 |
 |282|[link](https://youtu.be/_X7Xor94dJA)|[código](https://github.com/rg3915/django-ninja-live-de-python-282)|[slides](https://github.com/rg3915/django-ninja-live-de-python-282/blob/main/passo-a-passo.md)| Django Ninja com ‪@RegisdoPython‬ |
