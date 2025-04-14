@@ -11,9 +11,9 @@ Funcionalidade: Saber as tarefas que tenho a realizar
 
   Cenário: Ver tasks registradas
     Dado que exista uma tarefa
-     | nome      | descriação | estado |
+     | nome      | descrição | estado |
      | toma ping | pq é bom   | false  |
     Quando verificar minhas tarefas em "/tasks"
-    Então não devo ter nenhuma tarefa para fazer
-     | nome      | descriação | estado |
-     | toma ping | pq é bom   | false  |
+    Então devo ter a seguinte tarefa para fazer
+     | nome      | descrição | estado |
+     | toma ping | pq é bom   | False  |
