@@ -2,6 +2,7 @@
 
 |N|Link|Código|Slides|Título|
 | --- | --- | --- | --- | --- |
+|287|[link](https://youtu.be/t9Cmnn5kPi0)|[código](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live287)|[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23283.pdf)| Sistema de módulos e pacotes, como funcionam? |
 |286|[link](https://youtu.be/Qt_38AKYpmM)||| RPA e BotCity - Com @bug_elseif |
 |285|[link](https://youtu.be/ZLmFJhwh7hE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live285)|[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23285.pdf)| Testes baseados em propriedades: uma introdução ao Hypothesis |
 |284|[link](https://youtu.be/mjpJsKlF2-0)||| Pergunte o que quiser sobre python |

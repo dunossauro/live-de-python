@@ -1,0 +1,14 @@
+[project]
+name = 'pacote'
+# version = '1.0'
+dynamic = ['version']
+# pacote.__init__.__version__
+
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools.dynamic]
+version = {attr = "pacote.__version__"}
