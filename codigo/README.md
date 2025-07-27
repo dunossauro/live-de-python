@@ -2,6 +2,8 @@
 
 |N|Link|Código|Slides|Título|
 | --- | --- | --- | --- | --- |
+|289|[link](https://youtu.be/tvwwdC5uX0o)||Pergunte o que quiser sobre python|
+|288|[link](https://youtu.be/SPdTv2CY4iw)||Pergunte o que quiser sobre python|
 |287|[link](https://youtu.be/t9Cmnn5kPi0)|[código](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live287)|[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23283.pdf)| Sistema de módulos e pacotes, como funcionam? |
 |286|[link](https://youtu.be/Qt_38AKYpmM)||| RPA e BotCity - Com @bug_elseif |
 |285|[link](https://youtu.be/ZLmFJhwh7hE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live285)|[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23285.pdf)| Testes baseados em propriedades: uma introdução ao Hypothesis |
@@ -16,7 +18,7 @@
 |276|[link](https://youtu.be/UU5CyYyFA4c)|||Me pergunte o que quiser sobre python|
 |275|[link](https://youtu.be/QYc7MeBUiHg)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live275)|[slides](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23275.pdf)|Novidades da versão 3.13 do Python|
 |274|[link](https://youtu.be/L3hS-Zc7elA)|||Arquitetura limpa com ‪@ProgramadorLhama‬|
-|273|[link](https://youtu.be/muNoGfEGVSE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live273)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23273.pdf)|Singleton / Borg - Padrões de Projeto #8 | Live de Python #273 |
+|273|[link](https://youtu.be/muNoGfEGVSE)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live273)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23273.pdf)|Singleton / Borg - Padrões de Projeto #8|
 |272|[link](https://youtu.be/c8ZxdwTv8N8)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live272)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23272.pdf)|Interpretador adaptativo especializado - Como o desempenho do Python melhorou?|
 |271|[link](https://youtu.be/AP5p8QHoVzg)|||Pergunte o que quiser sobre python |
 |270|[link](https://youtu.be/PaTwb2ytFUg)|||Subintepretadores: Paralelismo sem GIL - @jsbueno |
@@ -260,7 +262,7 @@
 |34|[link](http://youtu.be/sszTUlqAatc)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live034)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23034.pdf)|Trabalhando com arquivos de texto|
 |33|[link](http://youtu.be/lAGWXaDcsKU)||[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23033.pdf)|Python para arquitetos, designers e artistas visuais (Com Alexandre Villares)|
 |32|[link](http://youtu.be/YXGrOF1KIKI)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live032)||collections.abc / Collections #5|
-|31|[link](http://youtu.be/gCZyrM-V2pY)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live031)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23031.pdf)|User(Dict|List|String) e collections.abc / Collections #4|
+|31|[link](http://youtu.be/gCZyrM-V2pY)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live031)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23031.pdf)|User(Dict,List,String) e collections.abc / Collections #4|
 |30|[link](http://youtu.be/TF6oIYAOlag)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live030)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23030.pdf)|ChainMap / Collections #3|
 |29|[link](http://youtu.be/3NYHjZwhx-M)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live029)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23029.pdf)|Counter, defaultdict e OrderedDict / Collections #2|
 |28|[link](http://youtu.be/ubCNqPNIx5Q)|[codigo](https://github.com/dunossauro/live-de-python/blob/main/codigo/Live028)|[slide](https://github.com/dunossauro/live-de-python/blob/main/slides/Live%20de%20Python%20%23028.pdf)|Deque e Namedtuple / Collections #1|
