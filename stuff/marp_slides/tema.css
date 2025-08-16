@@ -38,7 +38,8 @@ s-red
 :root {
     /* Configurações gerais dos slides*/
     width: 960px;
-    height: 720px; /* Proporção 4:3 */
+    height: 720px;
+    /* Proporção 4:3 */
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     padding: 20px;
@@ -82,7 +83,11 @@ h1 {
     margin-top: 65px;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
     padding: 0.4em;
     color: var(--font-color);
     font-family: 'Big Shoulders Text', cursive;
@@ -95,12 +100,15 @@ p {
     color: var(--font-color);
 }
 
-b, strong {
+b,
+strong {
     color: var(--font-color);
     font-variation-settings: 'wght' 700;
 }
 
-ul, li, ol {
+ul,
+li,
+ol {
     list-style-position: inside;
     line-height: 1.2;
     padding-left: 45px;
@@ -135,55 +143,72 @@ figcaption {
 .hljs-comment {
     color: var(--muted);
 }
+
 .hljs-attr {
     color: var(--foam);
 }
+
 .hljs-punctuation {
     color: var(--subtle);
 }
+
 .hljs-string {
     color: var(--strings);
 }
+
 .hljs-title {
     color: var(--title);
 }
+
 .hljs-keyword {
     color: var(--keyword);
 }
+
 .hljs-variable {
     color: var(--text);
 }
+
 .hljs-literal {
     color: var(--rose);
 }
+
 .hljs-type {
     color: var(--love);
 }
+
 .hljs-number {
     color: var(--number);
 }
+
 .hljs-built_in {
     color: var(--built-in)
 }
+
 .hljs-params {
     color: var(--iris);
 }
+
 .hljs-symbol {
     color: var(--foam);
 }
+
 .hljs-meta {
     color: var(--meta);
 }
-.hljs-tag{
+
+.hljs-tag {
     color: var(--strings);
 }
-.hljs-name{
+
+.hljs-name {
     color: var(--keyword);
 }
-.hljs-section{
+
+.hljs-section {
     color: var(--keyword);
 }
-.hljs-attr{
+
+.hljs-attr {
     color: var(--meta);
 }
 
@@ -191,7 +216,7 @@ figcaption {
 /* Slide base yellow */
 section {
     color: var(--font-color);
-    background-color:  var(--first-color);
+    background-color: var(--first-color);
     position: relative;
     box-sizing: border-box;
     margin: 0 auto;
@@ -208,7 +233,7 @@ section.nb-red,
 section.c-red,
 section.apoia,
 section.summary {
-    background-color:  var(--second-color);
+    background-color: var(--second-color);
 }
 
 /* Slides com cobra no H1 after */
@@ -222,15 +247,16 @@ section.c-red,
 section.help,
 section.apoia {
     h1::after {
-	content: "🐍"; 
-	font-size: var(--snake-size);
-	margin-left: 10px;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+        content: "🐍";
+        font-size: var(--snake-size);
+        margin-left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
     }
+
     h1::after {
-	right: 60px;
+        right: 60px;
     }
 }
 
@@ -241,18 +267,18 @@ section.nb-yellow,
 section.nb-red,
 section.summary {
     h1 {
-	position: absolute;
-	padding: 0.4em;
-	padding-left: 1em;
-	margin: 0;
-	top: 75px;
-	left: 34px;
-	right: 34px;
-	z-index: 10;
+        position: absolute;
+        padding: 0.4em;
+        padding-left: 1em;
+        margin: 0;
+        top: 75px;
+        left: 34px;
+        right: 34px;
+        z-index: 10;
     }
 
-    h1 + * {
-	padding-top: 150px;
+    h1+* {
+        padding-top: 150px;
     }
 }
 
@@ -262,8 +288,8 @@ section.d-yellow {
     position: relative;
 
     h1 {
-	color: var(--first-color);
-	background-color: var(--font-color);
+        color: var(--first-color);
+        background-color: var(--font-color);
     }
 }
 
@@ -273,90 +299,97 @@ section.d-red {
     position: relative;
 
     h1 {
-	color: var(--second-color);
-	background-color: var(--font-color);
+        color: var(--second-color);
+        background-color: var(--font-color);
     }
 }
 
 section.nb-red {
     h1 {
-	color: var(--second-color);
-	background-color: var(--font-color);
+        color: var(--second-color);
+        background-color: var(--font-color);
     }
 }
 
 section.nb-yellow {
-    background-color:  var(--first-color);
+    background-color: var(--first-color);
+
     h1 {
-	color: var(--first-color);
-	background-color: var(--font-color);
+        color: var(--first-color);
+        background-color: var(--font-color);
     }
 }
 
 section.summary {
     h1 {
-	color: var(--second-color);
-	background-color: var(--font-color);
+        color: var(--second-color);
+        background-color: var(--font-color);
     }
 
     .lados {
-	display: flex;
-	gap: 30px;
-	margin: 20px;
+        display: flex;
+        gap: 30px;
+        margin: 20px;
     }
 
-    .lado-a, .lado-b {
-	flex: 1;
-	margin: 0px;
-	padding: 20px;
-	outline: solid;
-	ol {
-	    margin: 0px;
-	    margin-top: 50px;
-	    padding: 0px;
-	}
-	li {
-	    font-family: 'Big Shoulders Text', cursive;
-	    font-variation-settings: 'wght' 500;
-	    font-size: 35px;
-	    margin: 10px;
-	    margin-bottom: 3px;
-	    padding: 0px;
-	}
-	p {
-	    font-size: 20px;
-	    margin-top: 0px;
-	    margin-left: 10px;
-	    margin-bottom: 15%;
-	    padding: 0px;
-	}
+    .lado-a,
+    .lado-b {
+        flex: 1;
+        margin: 0px;
+        padding: 20px;
+        outline: solid;
+
+        ol {
+            margin: 0px;
+            margin-top: 50px;
+            padding: 0px;
+        }
+
+        li {
+            font-family: 'Big Shoulders Text', cursive;
+            font-variation-settings: 'wght' 500;
+            font-size: 35px;
+            margin: 10px;
+            margin-bottom: 3px;
+            padding: 0px;
+        }
+
+        p {
+            font-size: 20px;
+            margin-top: 0px;
+            margin-left: 10px;
+            margin-bottom: 15%;
+            padding: 0px;
+        }
     }
 }
 
 section.title {
     outline: solid;
-    outline-offset:-35px;
+    outline-offset: -35px;
+
     p {
-	font-family: 'Big Shoulders Text', cursive;
-	font-variation-settings: 'wght' 600;
-	font-size: 45px;
-	text-align: center;
-	margin: 35px;
-	bottom: 30%;
-	position: absolute;
+        font-family: 'Big Shoulders Text', cursive;
+        font-variation-settings: 'wght' 600;
+        font-size: 45px;
+        text-align: center;
+        margin: 35px;
+        bottom: 30%;
+        position: absolute;
     }
+
     h1 {
-	color: var(--first-color);
-	background-color: var(--font-color);
-	position: absolute;
-	padding: 0.4em;
-	padding-left: 1em;
-	margin: 0;
-	top: 75%;
-	left: 34px;
-	right: 34px;
-	z-index: 10;
-	text-align: center;
+        color: var(--first-color);
+        background-color: var(--font-color);
+        position: absolute;
+        padding: 0.4em;
+        padding-left: 1em;
+        margin: 0;
+        top: 75%;
+        left: 34px;
+        right: 34px;
+        z-index: 10;
+        text-align: center;
     }
 }
 
@@ -366,12 +399,12 @@ section.c-red,
 section.help,
 section.apoia {
     h1::before {
-	content: "🐍";
+        content: "🐍";
         font-size: var(--snake-size);
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-	left: 60px;
+        left: 60px;
     }
 }
 
@@ -379,72 +412,73 @@ section.c-yellow,
 section.c-red,
 section.help,
 section.apoia {
-  outline: solid;
-  outline-offset: -35px;
-  position: relative;
-  h1 {
-    position: absolute;
-    padding: 0.4em;
-    padding-left: 1em;
-    margin: 0;
-    top: 77%;
-    left: 34px;
-    right: 34px;
-    z-index: 10;
-    text-align: center;
-  }
+    outline: solid;
+    outline-offset: -35px;
+    position: relative;
+
+    h1 {
+        position: absolute;
+        padding: 0.4em;
+        padding-left: 1em;
+        margin: 0;
+        top: 77%;
+        left: 34px;
+        right: 34px;
+        z-index: 10;
+        text-align: center;
+    }
 }
 
 
 section.c-yellow,
 section.help {
-  p {
-    color: var(--font-color);
-  }
+    p {
+        color: var(--font-color);
+    }
 
-  h1 {
-    color: var(--first-color);
-    background-color: var(--font-color);
-  }
+    h1 {
+        color: var(--first-color);
+        background-color: var(--font-color);
+    }
 }
 
 section.c-red {
-  p {
-    color: var(--font-color);
-  }
+    p {
+        color: var(--font-color);
+    }
 
-  h1 {
-    color: var(--second-color);
-    background-color: var(--font-color);
-  }
+    h1 {
+        color: var(--second-color);
+        background-color: var(--font-color);
+    }
 }
 
 section.c-yellow,
 section.c-red {
     p {
-	font-variation-settings: 'wght' 300;
-	font-size: 45px;
-	text-align: center;
-	margin: 35px;
-	top: 25%;
-	position: absolute;
+        font-variation-settings: 'wght' 300;
+        font-size: 45px;
+        text-align: center;
+        margin: 35px;
+        top: 25%;
+        position: absolute;
     }
 }
 
 section.apoia {
     p {
-	font-variation-settings: 'wght' 300;
-	font-size: 13px;
-	text-align: justify;
-	margin-left: -15px;
-	margin-top: 25px;
-	position: absolute;
-	text-justify: inter-word;
+        font-variation-settings: 'wght' 300;
+        font-size: 13px;
+        text-align: justify;
+        margin-left: -15px;
+        margin-top: 25px;
+        position: absolute;
+        text-justify: inter-word;
     }
 
     h1 {
-	color: var(--second-color);
-	background-color: var(--font-color);
+        color: var(--second-color);
+        background-color: var(--font-color);
     }
 }
 
@@ -456,16 +490,16 @@ section.help {
     gap: 15px;
 
     figure {
-	margin: 0; 
-	text-align: center;
+        margin: 0;
+        text-align: center;
     }
 
     img {
-	border-radius: 12px;
-	max-width: 280px;
-	display: block;
-	margin: 0 auto;
-	box-shadow: inset 0 0 0 12px var(--code-bg);
+        border-radius: 12px;
+        max-width: 280px;
+        display: block;
+        margin: 0 auto;
+        box-shadow: inset 0 0 0 12px var(--code-bg);
     }
 }
 
@@ -477,49 +511,51 @@ section.s-red {
     gap: 20px;
 
     h1 {
-	flex: 4;
+        flex: 4;
 
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
 
-	color: var(--first-color);
-	background-color: var(--code-bg);
-	font-size: 550%;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-bottom: 15px;
-	text-align: left;
-	line-height: 1.1;
-	height: 97%;
-	margin: 0;
+        color: var(--first-color);
+        background-color: var(--code-bg);
+        font-size: 550%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        text-align: left;
+        line-height: 1.1;
+        height: 97%;
+        margin: 0;
     }
 
     h2 {
-	flex: 6;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
+        flex: 6;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
 
-	height: 90%;
-	line-height: 1.1;
-	text-align: right;
-	font-size: 300%;
-	font-variation-settings: 'wght' 400;
+        height: 90%;
+        line-height: 1.1;
+        text-align: right;
+        font-size: 300%;
+        font-variation-settings: 'wght' 400;
 
-	outline: solid;
-	margin: 0;
+        outline: solid;
+        margin: 0;
     }
 }
 
 section.s-red {
     background-color: var(--second-color);
+
     h1 {
-	color: var(--second-color);
-	text-align: right;
+        color: var(--second-color);
+        text-align: right;
     }
+
     h2 {
-	text-align: left;
+        text-align: left;
     }
 }
 
