@@ -1,0 +1,530 @@
+/*
+# bases
+yellow = fundo amarelo
+red = fundo vermelho
+
+# Padrão
+d-yellow = Fundo amarelo, borda e título
+d-red = Fundo vermelho, borda e título
+
+# Sem borda
+nb-yellow = d-yellow sem borda
+nb-red = d-red sem borda
+
+# Citação
+c-yellow = borda e título em baixo
+c-red = borda e título em baixo
+
+# Apoiadores
+apoia = Pagina dos apoiadores, borda e título em baixo
+
+# Título
+title =  borda e título em baixo, p customizado para o título
+
+# Sumário
+summary = d-red sem borda e com bordas internas
+
+# Ajude o projeto (qr codes)
+help = qrcodes
+
+# Sessões
+s-yellow
+s-red
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+
+:root {
+    /* Configurações gerais dos slides*/
+    width: 960px;
+    height: 720px; /* Proporção 4:3 */
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    font-variation-settings: 'wght' 300;
+
+    /* Cores dos slides */
+    --first-color: #fedd8e;
+    --second-color: #ff8e7b;
+    --font-color: #2a2a2a;
+
+    /* hljs - herdado de rose piné */
+    --muted: #6e6a86;
+    --subtle: #908caa;
+    --text: #e0def4;
+    --love: #eb6f92;
+    --rose: #ebbcba;
+    --foam: #9ccfd8;
+    --iris: #c4a7e7;
+
+    /* hljs do meu tema */
+    --strings: #fedd8e;
+    --title: #fd971f;
+    --number: #ae81ff;
+    --built-in: #66d9ef;
+    --meta: #66d9ef;
+    --keyword: #ff8e7b;
+    --code-bg: #272822;
+
+    --shadow: rgba(0, 0, 0, 0.35);
+
+    --snake-size: 50px;
+}
+
+h1 {
+    color: var(--font-color);
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 42px;
+    font-variation-settings: 'wght' 500;
+    margin: 18px;
+    margin-left: 55px;
+    margin-top: 65px;
+}
+
+h2, h3, h4, h5, h6 {
+    padding: 0.4em;
+    color: var(--font-color);
+    font-family: 'Big Shoulders Text', cursive;
+}
+
+p {
+    padding-left: 45px;
+    padding-right: 45px;
+    line-height: 1.5;
+    color: var(--font-color);
+}
+
+b, strong {
+    color: var(--font-color);
+    font-variation-settings: 'wght' 700;
+}
+
+ul, li, ol {
+    list-style-position: inside;
+    line-height: 1.2;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+pre {
+    margin-left: 45px;
+    margin-right: 45px;
+    line-height: 1.15;
+    background-color: var(--code-bg);
+    padding: 32px;
+    box-shadow: var(--shadow) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+code {
+    font-size: 22px;
+    line-height: 1.3;
+    color: var(--text);
+
+}
+
+figcaption {
+    font-family: 'Big Shoulders Text', cursive;
+    font-variation-settings: 'wght' 500;
+    font-size: 30px;
+    margin-top: 5px;
+    color: var(--code-bg);
+}
+
+.hljs-comment {
+    color: var(--muted);
+}
+.hljs-attr {
+    color: var(--foam);
+}
+.hljs-punctuation {
+    color: var(--subtle);
+}
+.hljs-string {
+    color: var(--strings);
+}
+.hljs-title {
+    color: var(--title);
+}
+.hljs-keyword {
+    color: var(--keyword);
+}
+.hljs-variable {
+    color: var(--text);
+}
+.hljs-literal {
+    color: var(--rose);
+}
+.hljs-type {
+    color: var(--love);
+}
+.hljs-number {
+    color: var(--number);
+}
+.hljs-built_in {
+    color: var(--built-in)
+}
+.hljs-params {
+    color: var(--iris);
+}
+.hljs-symbol {
+    color: var(--foam);
+}
+.hljs-meta {
+    color: var(--meta);
+}
+.hljs-tag{
+    color: var(--strings);
+}
+.hljs-name{
+    color: var(--keyword);
+}
+.hljs-section{
+    color: var(--keyword);
+}
+.hljs-attr{
+    color: var(--meta);
+}
+
+
+/* Slide base yellow */
+section {
+    color: var(--font-color);
+    background-color:  var(--first-color);
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+/* Slides red */
+section.red,
+section.d-red,
+section.nb-red,
+section.c-red,
+section.apoia,
+section.summary {
+    background-color:  var(--second-color);
+}
+
+/* Slides com cobra no H1 after */
+section.d-yellow,
+section.d-red,
+section.nb-yellow,
+section.nb-red,
+section.summary,
+section.c-yellow,
+section.c-red,
+section.help,
+section.apoia {
+    h1::after {
+	content: "🐍"; 
+	font-size: var(--snake-size);
+	margin-left: 10px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+    }
+    h1::after {
+	right: 60px;
+    }
+}
+
+/* título superior com contorno + icone */
+section.d-yellow,
+section.d-red,
+section.nb-yellow,
+section.nb-red,
+section.summary {
+    h1 {
+	position: absolute;
+	padding: 0.4em;
+	padding-left: 1em;
+	margin: 0;
+	top: 75px;
+	left: 34px;
+	right: 34px;
+	z-index: 10;
+    }
+
+    h1 + * {
+	padding-top: 150px;
+    }
+}
+
+section.d-yellow {
+    outline: solid;
+    outline-offset: -35px;
+    position: relative;
+
+    h1 {
+	color: var(--first-color);
+	background-color: var(--font-color);
+    }
+}
+
+section.d-red {
+    outline: solid;
+    outline-offset: -35px;
+    position: relative;
+
+    h1 {
+	color: var(--second-color);
+	background-color: var(--font-color);
+    }
+}
+
+section.nb-red {
+    h1 {
+	color: var(--second-color);
+	background-color: var(--font-color);
+    }
+}
+
+section.nb-yellow {
+    background-color:  var(--first-color);
+    h1 {
+	color: var(--first-color);
+	background-color: var(--font-color);
+    }
+}
+
+section.summary {
+    h1 {
+	color: var(--second-color);
+	background-color: var(--font-color);
+    }
+
+    .lados {
+	display: flex;
+	gap: 30px;
+	margin: 20px;
+    }
+
+    .lado-a, .lado-b {
+	flex: 1;
+	margin: 0px;
+	padding: 20px;
+	outline: solid;
+	ol {
+	    margin: 0px;
+	    margin-top: 50px;
+	    padding: 0px;
+	}
+	li {
+	    font-family: 'Big Shoulders Text', cursive;
+	    font-variation-settings: 'wght' 500;
+	    font-size: 35px;
+	    margin: 10px;
+	    margin-bottom: 3px;
+	    padding: 0px;
+	}
+	p {
+	    font-size: 20px;
+	    margin-top: 0px;
+	    margin-left: 10px;
+	    margin-bottom: 15%;
+	    padding: 0px;
+	}
+    }
+}
+
+section.title {
+    outline: solid;
+    outline-offset:-35px;
+    p {
+	font-family: 'Big Shoulders Text', cursive;
+	font-variation-settings: 'wght' 600;
+	font-size: 45px;
+	text-align: center;
+	margin: 35px;
+	bottom: 30%;
+	position: absolute;
+    }
+    h1 {
+	color: var(--first-color);
+	background-color: var(--font-color);
+	position: absolute;
+	padding: 0.4em;
+	padding-left: 1em;
+	margin: 0;
+	top: 75%;
+	left: 34px;
+	right: 34px;
+	z-index: 10;
+	text-align: center;
+    }
+}
+
+/* slides com a barra inferior e duas cobras */
+section.c-yellow,
+section.c-red,
+section.help,
+section.apoia {
+    h1::before {
+	content: "🐍";
+        font-size: var(--snake-size);
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+	left: 60px;
+    }
+}
+
+section.c-yellow,
+section.c-red,
+section.help,
+section.apoia {
+  outline: solid;
+  outline-offset: -35px;
+  position: relative;
+  h1 {
+    position: absolute;
+    padding: 0.4em;
+    padding-left: 1em;
+    margin: 0;
+    top: 77%;
+    left: 34px;
+    right: 34px;
+    z-index: 10;
+    text-align: center;
+  }
+}
+
+
+section.c-yellow,
+section.help {
+  p {
+    color: var(--font-color);
+  }
+
+  h1 {
+    color: var(--first-color);
+    background-color: var(--font-color);
+  }
+}
+
+section.c-red {
+  p {
+    color: var(--font-color);
+  }
+
+  h1 {
+    color: var(--second-color);
+    background-color: var(--font-color);
+  }
+}
+
+section.c-yellow,
+section.c-red {
+    p {
+	font-variation-settings: 'wght' 300;
+	font-size: 45px;
+	text-align: center;
+	margin: 35px;
+	top: 25%;
+	position: absolute;
+    }
+}
+
+section.apoia {
+    p {
+	font-variation-settings: 'wght' 300;
+	font-size: 13px;
+	text-align: justify;
+	margin-left: -15px;
+	margin-top: 25px;
+	position: absolute;
+	text-justify: inter-word;
+    }
+
+    h1 {
+	color: var(--second-color);
+	background-color: var(--font-color);
+    }
+}
+
+section.help {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 140px;
+    gap: 15px;
+
+    figure {
+	margin: 0; 
+	text-align: center;
+    }
+
+    img {
+	border-radius: 12px;
+	max-width: 280px;
+	display: block;
+	margin: 0 auto;
+	box-shadow: inset 0 0 0 12px var(--code-bg);
+    }
+}
+
+/* Sessões */
+section.s-yellow,
+section.s-red {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    h1 {
+	flex: 4;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+	color: var(--first-color);
+	background-color: var(--code-bg);
+	font-size: 550%;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	text-align: left;
+	line-height: 1.1;
+	height: 97%;
+	margin: 0;
+    }
+
+    h2 {
+	flex: 6;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+	height: 90%;
+	line-height: 1.1;
+	text-align: right;
+	font-size: 300%;
+	font-variation-settings: 'wght' 400;
+
+	outline: solid;
+	margin: 0;
+    }
+}
+
+section.s-red {
+    background-color: var(--second-color);
+    h1 {
+	color: var(--second-color);
+	text-align: right;
+    }
+    h2 {
+	text-align: left;
+    }
+}
+
+
+.mermaid svg {
+    transform: scale(0.9);
+}
+
