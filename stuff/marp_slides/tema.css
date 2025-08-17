@@ -106,6 +106,10 @@ strong {
     font-variation-settings: 'wght' 700;
 }
 
+a {
+    color: var(--font-color);
+}
+
 ul,
 li,
 ol {
@@ -579,8 +583,9 @@ div.mermaid {
 }
 
 .mermaid p {
-    font-size: 20px;
+    font-size: 24px;
     font-family: 'Big Shoulders Text', cursive;
     font-variation-settings: 'wght' 600;
+    text-align: center;
 }
 
