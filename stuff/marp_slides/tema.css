@@ -396,6 +396,19 @@ section.title {
 	margin-top: 40%;
     }
 
+    img {
+	width: 300px;
+	display: block;
+	margin-top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	filter: drop-shadow(0px 5px 15px var(--shadow));
+    }
+
+    img + p {
+	margin-top: 5%;
+    }
+
     h1 {
         color: var(--first-color);
         background-color: var(--font-color);
