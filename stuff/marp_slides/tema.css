@@ -41,7 +41,7 @@ s-red
     height: 720px;
     /* Proporção 4:3 */
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     padding: 20px;
     font-variation-settings: 'wght' 300;
 
@@ -55,18 +55,18 @@ s-red
     --subtle: #908caa;
     --text: #e0def4;
     --love: #eb6f92;
-    --rose: #ebbcba;
     --foam: #9ccfd8;
     --iris: #c4a7e7;
 
     /* hljs do meu tema */
-    --strings: #fedd8e;
+    --literal: var(--text);
+    --strings: var(--first-color);
     --title: #fd971f;
     --number: #ae81ff;
     --built-in: #66d9ef;
-    --meta: #66d9ef;
-    --keyword: #ff8e7b;
-    --code-bg: #272822;
+    --meta: #b16286;
+    --keyword: var(--second-color);
+    --code-bg: var(--font-color);
 
     --shadow: rgba(0, 0, 0, 0.35);
 
@@ -97,6 +97,7 @@ p {
     padding-left: 45px;
     padding-right: 45px;
     line-height: 1.5;
+    margin-top: 2px;
     color: var(--font-color);
 }
 
@@ -132,13 +133,14 @@ pre {
     margin-right: 45px;
     line-height: 1.15;
     background-color: var(--code-bg);
-    padding: 32px;
+    padding: 15px;
+    padding-left: 20px;
     box-shadow: var(--shadow) 0px 5px 15px;
     border-radius: 10px;
 }
 
 pre code {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.3;
     color: var(--text);
 }
@@ -158,6 +160,23 @@ figcaption {
     font-size: 30px;
     margin-top: 5px;
     color: var(--code-bg);
+}
+
+table {
+    margin: auto;
+    width: 50%;
+}
+
+th {
+    background-color: var(--font-color);
+}
+
+th,
+tr,
+td {
+    border: 1px solid;
+    text-align: center;
+    width: 25%;
 }
 
 .hljs-comment {
@@ -189,7 +208,7 @@ figcaption {
 }
 
 .hljs-literal {
-    color: var(--rose);
+    color: var(--literal);
 }
 
 .hljs-type {
@@ -244,6 +263,9 @@ section {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+    th {
+	color: var(--first-color);
+    }
 }
 
 /* Slides red */
@@ -254,6 +276,10 @@ section.c-red,
 section.apoia,
 section.summary {
     background-color: var(--second-color);
+
+    th {
+	color: var(--second-color);
+    }
 }
 
 /* Slides com cobra no H1 after */
@@ -488,10 +514,10 @@ section.c-yellow,
 section.c-red {
     p {
         font-variation-settings: 'wght' 300;
-        font-size: 45px;
+        font-size: 35px;
         text-align: center;
         margin: 35px;
-        top: 25%;
+        top: 40%;
         position: absolute;
     }
 }
