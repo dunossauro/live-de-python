@@ -163,20 +163,40 @@ figcaption {
 }
 
 table {
+    border-spacing: 0px;
     margin: auto;
     width: 50%;
 }
 
 th {
     background-color: var(--font-color);
+    font-family: 'Big Shoulders Text', cursive;
+    font-variation-settings: 'wght' 500;
+    padding: 10px;
+    font-size: 18px;
 }
 
 th,
 tr,
 td {
-    border: 1px solid;
+    font-size: 18px;
+    margin: 0px;
+    border: 1px solid var(--font-color);
+    border-top: 0px;
+    padding: 4px;
     text-align: center;
     width: 25%;
+}
+
+th:nth-child(even),
+td:nth-child(even) {
+    border-right: none;
+    border-left: none;
+}
+
+th:last-child,
+td:last-child {
+    border-right: 1px solid var(--font-color);;
 }
 
 .hljs-comment {
