@@ -1,0 +1,3 @@
+- Os códigos das lives 290 e 292 estão nessa pasta, o link deve apontar para cá.
+- Parte do código das duas aulas foi feito em um repositório exclusivo para demonstrar a tradução/localização contínua
+  - O repositório está nesse link: https://github.com/dunossauro/live_290

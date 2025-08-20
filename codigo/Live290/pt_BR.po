@@ -1,0 +1,55 @@
+# Portuguese translations for live package
+# Traduções em português brasileiro para o pacote live.
+# Copyright (C) 2025 THE live'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the live package.
+# dunossauro <mendesxeduardo@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: live 290\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-21 08:06-0300\n"
+"PO-Revision-Date: 2025-07-27 14:51-0300\n"
+"Last-Translator: dunossauro <mendesxeduardo@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-"
+"translation@lists.sourceforge.net>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.6\n"
+
+msgid "BRL currency"
+msgstr "Cotação do BRL"
+
+msgid "Basic example of l10n"
+msgstr "Exemplo básico de localização (l10n)"
+
+msgid "Reference currency for BRL comparison"
+msgstr "Moeda de referência para comparação com o BRL"
+
+#, python-brace-format
+msgid "Last trade: {trade_time}"
+msgstr "Última negociação: {trade_time}"
+
+#, python-brace-format
+msgid "Bid price: {price}"
+msgstr "Preço de compra (bid): {price}"
+
+#, python-brace-format
+msgid "Ask price: {price}"
+msgstr "Preço de venda (ask): {price}"
+
+#, python-brace-format
+msgid "Price variation: {price}"
+msgstr "Variação de preço: {price}"
+
+
+#, python-format
+msgid "Requested %(currencies)s currency for comparison against BRL"
+msgid_plural ""
+"Requested %(cl)s currencies for comparison against BRL: %(currencies)s"
+msgstr[0] "Solicitada a moeda %(currencies)s para comparação com o BRL"
+msgstr[1] ""
+"Solicitadas %(cl)s moedas para comparação com o BRL: %(currencies)s"
