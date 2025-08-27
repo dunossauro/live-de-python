@@ -1,0 +1,23 @@
+[project]
+name = "live-294"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "dunossauro",email = "mendesxeduardo@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faststream[cli,redis] (>=0.5.48,<0.6.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pyyaml = "^6.0.2"
+pytest = "^8.4.1"
+pytest-asyncio = "^1.1.0"
+

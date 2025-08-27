@@ -1,0 +1,50 @@
+services:
+  server:
+    build: "server/."
+    ports:
+      - 8000:8000
+    depends_on:
+      - handlers
+    environment:
+      DATABASE_URL: postgresql+psycopg://app_user:app_password@database:5432/app_db
+      REDIS_URL: redis
+
+  handlers:
+    build: "handlers/."
+    depends_on:
+      - database
+      - redis
+    entrypoint: ./entrypoint.sh
+    environment:
+      DATABASE_URL: postgresql+psycopg://app_user:app_password@database:5432/app_db
+      REDIS_URL: redis://redis:6379
+
+  docs:
+    build: "handlers/."
+    depends_on:
+      - redis
+      - database
+    command: faststream docs serve app:app --port 8001 --host 0.0.0.0
+    environment:
+      DATABASE_URL: postgresql+psycopg://app_user:app_password@database:5432/app_db
+      REDIS_URL: redis://redis:6379
+    ports:
+      - 8001:8001
+
+
+  redis:
+    image: docker.io/redis
+    ports:
+      - 6379:6379
+    healthcheck:
+        test: ["CMD-SHELL", "pg_isready"]
+        interval: 5s
+        timeout: 5s
+        retries: 10
+
+  database:
+    image: docker.io/postgres
+    environment:
+      POSTGRES_DB: app_db
+      POSTGRES_USER: app_user
+      POSTGRES_PASSWORD: app_password
