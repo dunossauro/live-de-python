@@ -1,0 +1,19 @@
+[project]
+name = "projetinho"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "dunossauro",email = "mendesxeduardo@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "sociopyta @ git+https://codeberg.org/dunossauro/sociopyta.git",
+    "sociopyta-http-post-plugin @ file:///home/dunossauro/live_297/sociopyta-http-post-plugin"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
