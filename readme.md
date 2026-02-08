@@ -8,7 +8,7 @@ Esse projeto é mantido por voluntários em uma campanha de [financiamento colet
 
 Nesse repositório se encontram slides e códigos debatidos durante as lives de Python.
 
-- Em [Código](./codigo), você pode acessar o código fonte dos projetos que foram criados durante as lives
+- Em [Código](./codigo/README.md), você pode acessar o código fonte dos projetos que foram criados durante as lives
 
 - Em [slides](./slides), você pode acessar os slides de explicação das lives passadas
 
