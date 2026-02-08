@@ -1,0 +1,23 @@
+[project]
+name = "live-http-client"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "dunossauro",email = "mendesxeduardo@gmail.com"}
+]
+requires-python = ">=3.14,<4"
+dependencies = [
+    "httpx (>=0.28.1,<0.29.0)",
+    "hishel (>=1.1.8,<2.0.0)",
+    "respx (>=0.22.0,<0.23.0)",
+    "pytest (>=9.0.2,<10.0.0)",
+    "httpx-retries (>=0.4.5,<0.5.0)",
+    "httpx-limiter[aiolimiter] (>=0.5.0,<0.6.0)",
+    "pyrate-limiter (>=4.0.2,<5.0.0)",
+    "loguru (>=0.7.3,<0.8.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
