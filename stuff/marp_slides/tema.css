@@ -187,7 +187,7 @@ td {
     border-top: 0px;
     padding: 4px;
     text-align: center;
-    width: 25%;
+    /* width: 25%; */
 }
 
 th:nth-child(even),
@@ -640,7 +640,8 @@ section.s-red {
 
 div.mermaid {
     margin: 0 auto;
-    width: 80%;
+    margin-left: 35px;
+    width: 100%;
 }
 
 .mermaid p {
