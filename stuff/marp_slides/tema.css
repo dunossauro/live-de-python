@@ -91,6 +91,7 @@ h6 {
     padding: 0.4em;
     color: var(--font-color);
     font-family: 'Big Shoulders Text', cursive;
+    padding-left: 45px;
 }
 
 p {
@@ -640,14 +641,14 @@ section.s-red {
 
 div.mermaid {
     margin: 0 auto;
-    margin-left: 35px;
+    /* margin-left: 35px; */
     width: 100%;
 }
 
 .mermaid p {
-    font-size: 24px;
+    /* font-size: 24px; */
     font-family: 'Big Shoulders Text', cursive;
     font-variation-settings: 'wght' 600;
-    text-align: center;
+    /* text-align: center; */
 }
 
